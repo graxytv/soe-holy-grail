@@ -260,6 +260,18 @@ function syncAutoFound(itemIds, source = "save-scan") {
   return added;
 }
 
+function resetGrailData() {
+  appState.found = {};
+  appState.recent = [];
+  persistState();
+  broadcastState();
+  broadcastSync({
+    state: "idle",
+    message: "Grail data reset.",
+    reason: "reset"
+  });
+}
+
 function broadcastState() {
   if (mainWindow && !mainWindow.isDestroyed()) {
     mainWindow.webContents.send("grail:state", publicState());
@@ -632,6 +644,24 @@ app.whenReady().then(() => {
     return publicState();
   });
   ipcMain.handle("grail:scanNow", () => runScan("manual"));
+  ipcMain.handle("grail:resetGrailData", async () => {
+    const result = await dialog.showMessageBox(mainWindow, {
+      type: "warning",
+      buttons: ["Cancel", "Reset Grail"],
+      defaultId: 0,
+      cancelId: 0,
+      title: "Reset grail data?",
+      message: "Reset all grail progress?",
+      detail: "This clears found items and recent finds. Your stash path, active character, overlay, sound, and update settings stay unchanged."
+    });
+
+    if (result.response !== 1) {
+      return { ...publicState(), resetCanceled: true };
+    }
+
+    resetGrailData();
+    return { ...publicState(), resetCompleted: true };
+  });
   ipcMain.handle("grail:chooseStashFile", async () => {
     const result = await dialog.showOpenDialog(mainWindow, {
       title: "Choose Sanctuary of Exile shared stash",

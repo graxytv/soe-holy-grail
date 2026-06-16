@@ -25,6 +25,7 @@ SoE Holy Grail is a desktop tracker for Sanctuary of Exile players who want auto
 - Fate Cards complete after one full required stack is found.
 - Automatic scans for `pd2_shared.stash`, `pd2_hc_shared.stash`, and the selected `.d2s` character.
 - Persistent grail history, so items stay completed even if you drop or trade them later.
+- Settings reset button for starting a fresh grail without changing app configuration.
 - Character tab with Diablo II class portraits.
 - Recent Finds panel for the latest 20 grail completions.
 - Optional always-on-top progress circle overlay with new-find popup.

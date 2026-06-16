@@ -4,6 +4,7 @@ contextBridge.exposeInMainWorld("soeGrail", {
   getInitialData: () => ipcRenderer.invoke("grail:getInitialData"),
   toggleItem: (itemId, found) => ipcRenderer.invoke("grail:toggleItem", itemId, found),
   scanNow: () => ipcRenderer.invoke("grail:scanNow"),
+  resetGrailData: () => ipcRenderer.invoke("grail:resetGrailData"),
   chooseStashFile: () => ipcRenderer.invoke("grail:chooseStashFile"),
   clearStashFile: () => ipcRenderer.invoke("grail:clearStashFile"),
   refreshCharacters: () => ipcRenderer.invoke("grail:refreshCharacters"),

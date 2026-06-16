@@ -385,6 +385,12 @@ h2 {
   align-items: start;
 }
 
+.reset-setting-row {
+  align-items: start;
+  border-top: 1px solid rgba(118, 35, 23, 0.65);
+  padding-top: 16px;
+}
+
 .toggle-setting {
   display: flex;
   align-items: center;
@@ -467,6 +473,21 @@ select:focus {
 
 .update-actions button {
   min-width: 120px;
+}
+
+.reset-actions {
+  min-width: 180px;
+}
+
+.danger-button {
+  border-color: rgba(194, 41, 23, 0.85);
+  background: linear-gradient(#4b120b, #190604);
+  color: #ffd9c8;
+}
+
+.danger-button:hover {
+  border-color: #ff5544;
+  color: #ffe8c8;
 }
 
 .update-version-list {

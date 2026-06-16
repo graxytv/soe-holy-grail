@@ -4,7 +4,7 @@ const state = {
   characters: [],
   found: {},
   recent: [],
-  update: { state: "idle", available: false, currentVersion: "0.1.0", latestVersion: "", message: "Update status unavailable." },
+  update: { state: "idle", available: false, currentVersion: "0.1.1", latestVersion: "", message: "Update status unavailable." },
   config: {
     stashPath: "",
     saveFolder: "",
@@ -69,6 +69,8 @@ const el = {
   settingsUpdateAsset: document.getElementById("settingsUpdateAsset"),
   settingsUpdateCheck: document.getElementById("settingsUpdateCheck"),
   settingsUpdateInstall: document.getElementById("settingsUpdateInstall"),
+  settingsResetStatus: document.getElementById("settingsResetStatus"),
+  settingsResetGrail: document.getElementById("settingsResetGrail"),
   viewButtons: [...document.querySelectorAll("[data-view]")],
   grailView: document.getElementById("grailView"),
   charactersView: document.getElementById("charactersView"),
@@ -353,7 +355,7 @@ function renderUpdateSettings() {
   el.updateNavButton.classList.toggle("hidden", !available || busy);
   el.updateNavButton.textContent = update.latestVersion ? `Update v${update.latestVersion}` : "Update";
   el.settingsUpdateStatus.textContent = `${update.message || "Ready to check for updates."}${progress}`;
-  el.settingsCurrentVersion.textContent = `Current: v${update.currentVersion || "0.1.0"}`;
+  el.settingsCurrentVersion.textContent = `Current: v${update.currentVersion || "0.1.1"}`;
   el.settingsLatestVersion.textContent = `Latest: ${latest}`;
   el.settingsUpdateAsset.textContent = update.assetName ? `Asset: ${update.assetName}` : "Asset: none";
   el.settingsUpdateCheck.disabled = busy;
@@ -365,6 +367,13 @@ function renderUpdateSettings() {
       : "Install Update";
 }
 
+function renderResetSettings() {
+  const count = Object.keys(state.found || {}).length;
+  el.settingsResetStatus.textContent = count === 0
+    ? "No grail progress is currently saved."
+    : `${count} found item${count === 1 ? "" : "s"} currently saved.`;
+}
+
 function render() {
   renderProgress();
   renderRecent();
@@ -374,6 +383,7 @@ function render() {
   renderOverlaySettings();
   renderSoundSettings();
   renderUpdateSettings();
+  renderResetSettings();
 }
 
 function setSync(payload) {
@@ -565,6 +575,21 @@ async function installAvailableUpdate() {
 
 el.settingsUpdateInstall.addEventListener("click", installAvailableUpdate);
 el.updateNavButton.addEventListener("click", installAvailableUpdate);
+
+el.settingsResetGrail.addEventListener("click", async () => {
+  try {
+    el.settingsResetGrail.disabled = true;
+    const next = await window.soeGrail.resetGrailData();
+    mergeState(next);
+    if (next.resetCompleted) {
+      setSync({ state: "idle", message: "Grail data reset.", reason: "reset" });
+    }
+  } catch (error) {
+    setSync({ state: "error", message: error.message || String(error) });
+  } finally {
+    el.settingsResetGrail.disabled = false;
+  }
+});
 
 el.characterList.addEventListener("click", async (event) => {
   const card = event.target.closest("[data-character-path]");
