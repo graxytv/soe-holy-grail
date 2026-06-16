@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en" data-theme="hellfire">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SoE Holy Grail</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <img src="../assets/soe-logo.png" alt="Sanctuary of Exile" />
+          <div>
+            <p class="eyebrow">Created by Graxy_TV</p>
+            <h1>Holy Grail</h1>
+          </div>
+        </div>
+
+        <section class="sync-panel">
+          <div class="sync-head">
+            <span id="syncDot" class="sync-dot idle"></span>
+            <span id="syncText">Waiting for save scan...</span>
+          </div>
+          <div id="syncMeta" class="sync-meta">No scan has completed yet.</div>
+          <div class="button-row">
+            <button id="scanNow" type="button">Scan Now</button>
+            <button id="chooseStash" type="button">Stash File</button>
+          </div>
+          <button id="clearStash" class="link-button" type="button">Use default stash</button>
+          <div id="stashPath" class="save-folder"></div>
+          <div id="activeCharacterPath" class="save-folder"></div>
+        </section>
+
+        <section class="progress-panel">
+          <div class="progress-ring">
+            <span id="percent">0%</span>
+          </div>
+          <div class="progress-stats">
+            <span id="totalFound">0</span>
+            <small>found</small>
+            <span id="totalMissing">0</span>
+            <small>missing</small>
+          </div>
+        </section>
+
+        <section class="recent-panel">
+          <h2>Recent Finds</h2>
+          <div id="recentList" class="recent-list"></div>
+        </section>
+      </aside>
+
+      <main class="main">
+        <nav class="view-tabs" aria-label="App views">
+          <button class="active" type="button" data-view="grail">Grail</button>
+          <button type="button" data-view="characters">Characters</button>
+          <button type="button" data-view="settings">Settings</button>
+          <button id="updateNavButton" class="update-nav-button hidden" type="button">Update</button>
+        </nav>
+
+        <section id="grailView" class="view active">
+          <header class="toolbar">
+            <div class="search-wrap">
+              <input id="search" type="search" placeholder="Search item name or code" />
+            </div>
+            <div class="segmented" role="tablist" aria-label="Item filters">
+              <button class="active" type="button" data-filter="all">All</button>
+              <button type="button" data-filter="Unique">Uniques</button>
+              <button type="button" data-filter="Set">Sets</button>
+              <button type="button" data-filter="Rune">Runes</button>
+              <button type="button" data-filter="FateCard">Fate Cards</button>
+              <button type="button" data-filter="missing">Missing</button>
+              <button type="button" data-filter="found">Found</button>
+            </div>
+          </header>
+
+          <section class="summary-grid">
+            <article class="stat-card unique">
+              <span>Unique Items</span>
+              <strong id="uniqueProgress">0/0</strong>
+            </article>
+            <article class="stat-card set">
+              <span>Set Items</span>
+              <strong id="setProgress">0/0</strong>
+            </article>
+            <article class="stat-card rune">
+              <span>Runes</span>
+              <strong id="runeProgress">0/0</strong>
+            </article>
+            <article class="stat-card fate">
+              <span>Fate Cards</span>
+              <strong id="fateProgress">0/0</strong>
+            </article>
+          </section>
+
+          <section id="itemGrid" class="item-grid" aria-live="polite"></section>
+        </section>
+
+        <section id="charactersView" class="view characters-view">
+          <header class="characters-toolbar">
+            <div>
+              <h2>Characters</h2>
+              <p id="characterSaveFolder" class="settings-note"></p>
+            </div>
+            <div class="settings-actions">
+              <button id="refreshCharacters" type="button">Refresh</button>
+              <button id="chooseSaveFolder" type="button">Save Folder</button>
+              <button id="clearCharacter" type="button">Clear Active</button>
+            </div>
+          </header>
+          <section id="characterList" class="character-list" aria-live="polite"></section>
+        </section>
+
+        <section id="settingsView" class="view settings-view">
+          <div class="settings-card">
+            <h2>Settings</h2>
+            <div class="setting-row">
+              <div>
+                <strong>Shared stash file</strong>
+                <p id="settingsStashPath">Auto-detecting default pd2_shared.stash.</p>
+              </div>
+              <div class="settings-actions">
+                <button id="settingsChooseStash" type="button">Select .stash</button>
+                <button id="settingsClearStash" type="button">Default</button>
+              </div>
+            </div>
+            <div class="setting-row">
+              <div>
+                <strong>Save folder</strong>
+                <p id="settingsSaveFolder">Using the shared stash folder.</p>
+              </div>
+              <div class="settings-actions">
+                <button id="settingsChooseSaveFolder" type="button">Select Folder</button>
+                <button id="settingsClearSaveFolder" type="button">Default</button>
+              </div>
+            </div>
+            <div class="setting-row overlay-setting-row">
+              <div>
+                <strong>Progress overlay</strong>
+                <p id="settingsOverlayStatus">Overlay disabled.</p>
+                <label class="toggle-setting">
+                  <input id="settingsOverlayEnabled" type="checkbox" />
+                  <span>Show circle overlay</span>
+                </label>
+                <label class="toggle-setting">
+                  <input id="settingsOverlayClickThrough" type="checkbox" />
+                  <span>Click-through lock</span>
+                </label>
+              </div>
+              <div class="range-setting">
+                <label for="settingsOverlaySize">Circle size <span id="settingsOverlaySizeValue">104px</span></label>
+                <input id="settingsOverlaySize" type="range" min="64" max="240" step="4" value="104" />
+              </div>
+            </div>
+            <div class="setting-row sound-setting-row">
+              <div>
+                <strong>New grail sound</strong>
+                <p id="settingsSoundStatus">No grail sound.</p>
+                <label class="sound-select-label" for="settingsSoundSelect">Sound</label>
+                <select id="settingsSoundSelect"></select>
+              </div>
+              <div class="sound-control">
+                <div class="range-setting">
+                  <label for="settingsSoundVolume">Volume <span id="settingsSoundVolumeValue">80%</span></label>
+                  <input id="settingsSoundVolume" type="range" min="0" max="100" step="1" value="80" />
+                </div>
+                <div class="settings-actions sound-actions">
+                  <button id="settingsSoundTest" type="button">Test</button>
+                  <button id="settingsSoundSave" type="button">Save Sound</button>
+                </div>
+              </div>
+            </div>
+            <div class="setting-row update-setting-row">
+              <div>
+                <strong>App updates</strong>
+                <p id="settingsUpdateStatus">Release feed: graxytv/soe-holy-grail</p>
+                <div class="update-version-list">
+                  <span id="settingsCurrentVersion">Current: v0.1.0</span>
+                  <span id="settingsLatestVersion">Latest: Not checked</span>
+                  <span id="settingsUpdateAsset">Asset: none</span>
+                </div>
+              </div>
+              <div class="settings-actions update-actions">
+                <button id="settingsUpdateCheck" type="button">Check Updates</button>
+                <button id="settingsUpdateInstall" type="button" disabled>Install Update</button>
+              </div>
+            </div>
+            <p class="settings-note">
+              The tracker reads unique items, set items, runes, and completed Fate Card stacks from the selected PD2 shared stash file and the active character file. Your current default is <code>C:\Program Files (x86)\Diablo II\Save\pd2_shared.stash</code>.
+            </p>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="./renderer.js"></script>
+  </body>
+</html>

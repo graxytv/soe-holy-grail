@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "Diablo";
+  src: url("../assets/diablo.ttf") format("truetype");
+  font-display: swap;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: transparent;
+}
+
+body {
+  -webkit-app-region: drag;
+  user-select: none;
+}
+
+.overlay-root {
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) 34px;
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: transparent;
+}
+
+.overlay-circle {
+  display: grid;
+  grid-template-rows: 32% minmax(0, 1fr) 20%;
+  place-items: center;
+  width: calc(min(100vw, calc(100vh - 38px)) - 2px);
+  height: calc(min(100vw, calc(100vh - 38px)) - 2px);
+  border: 1px solid rgba(178, 49, 34, 0.82);
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 50% 49%, rgba(255, 177, 59, 0.16), rgba(41, 12, 8, 0.48) 46%, rgba(8, 2, 2, 0.88) 72%, rgba(3, 0, 0, 0.94));
+  box-shadow:
+    inset 0 0 24px rgba(255, 177, 59, 0.08),
+    inset 0 0 34px rgba(194, 41, 23, 0.18),
+    0 0 16px rgba(194, 41, 23, 0.18);
+}
+
+#overlayLabel {
+  align-self: end;
+  max-width: 76%;
+  overflow: hidden;
+  color: rgba(255, 255, 255, 0.9);
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: var(--label-font-size, 8px);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1;
+  text-align: center;
+  text-overflow: ellipsis;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.35), 0 1px 1px #050000;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+#overlayPercent {
+  display: block;
+  align-self: center;
+  max-width: 78%;
+  overflow: visible;
+  color: #ffd77d;
+  font-family: "Diablo", Georgia, "Times New Roman", serif;
+  font-size: var(--percent-font-size, 24px);
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  text-shadow:
+    0 0 8px rgba(255, 177, 59, 0.45),
+    0 1px 1px #050000;
+}
+
+.overlay-circle.found-blink {
+  animation: findBlink 0.28s ease-in-out 6;
+}
+
+.find-toast {
+  display: grid;
+  grid-template-columns: auto minmax(0, auto);
+  gap: 6px;
+  align-items: center;
+  justify-self: center;
+  max-width: calc(100vw - 8px);
+  min-width: 0;
+  width: max-content;
+  height: 24px;
+  margin-top: 3px;
+  border: 1px solid rgba(178, 49, 34, 0.72);
+  background: linear-gradient(90deg, rgba(11, 3, 2, 0.9), rgba(43, 11, 7, 0.86), rgba(11, 3, 2, 0.9));
+  box-shadow: 0 0 12px rgba(194, 41, 23, 0.16);
+  color: #ffd77d;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 11px;
+  line-height: 1;
+  opacity: 0;
+  overflow: hidden;
+  padding: 0 8px;
+  text-align: center;
+  transform: translateY(-4px);
+  transition: opacity 160ms ease, transform 160ms ease;
+}
+
+.find-toast.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.toast-check {
+  color: #82d05d;
+  font-size: 12px;
+  text-shadow: 0 0 6px rgba(130, 208, 93, 0.45);
+}
+
+#overlayToastName {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@keyframes findBlink {
+  0%,
+  100% {
+    border-color: rgba(178, 49, 34, 0.82);
+    box-shadow:
+      inset 0 0 24px rgba(255, 177, 59, 0.08),
+      inset 0 0 34px rgba(194, 41, 23, 0.18),
+      0 0 16px rgba(194, 41, 23, 0.18);
+  }
+
+  50% {
+    border-color: rgba(130, 208, 93, 0.96);
+    box-shadow:
+      inset 0 0 30px rgba(255, 215, 125, 0.22),
+      inset 0 0 44px rgba(130, 208, 93, 0.26),
+      0 0 28px rgba(130, 208, 93, 0.44);
+  }
+}

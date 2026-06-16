@@ -1,0 +1,6 @@
+{
+  "name": "soe-holy-grail-screenshot-runner",
+  "version": "0.1.0",
+  "main": "../generate-github-screenshots.js",
+  "private": true
+}

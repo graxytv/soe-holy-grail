@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SoE Grail Overlay</title>
+    <link rel="stylesheet" href="./overlay.css" />
+  </head>
+  <body>
+    <main class="overlay-root" aria-label="Holy grail progress overlay">
+      <div class="overlay-circle">
+        <span id="overlayLabel">Holy Grail Progress</span>
+        <span id="overlayPercent">0%</span>
+      </div>
+      <div id="overlayToast" class="find-toast" aria-live="polite">
+        <span class="toast-check" aria-hidden="true">&#10003;</span>
+        <span id="overlayToastName"></span>
+      </div>
+    </main>
+    <script src="./overlay.js"></script>
+  </body>
+</html>

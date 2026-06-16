@@ -1,0 +1,9849 @@
+{
+	"grails": [
+		{
+			"name": "Sanctuary of Exile",
+			"filter": "soe"
+		}
+	],
+	"items": {
+		"ber": {
+			"name": "Ber",
+			"type": "Rune",
+			"group": "High Runes",
+			"rare": "Rune",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Ber.png",
+			"code": "r30",
+			"displayName": "Ber Rune"
+		},
+		"cham": {
+			"name": "Cham",
+			"type": "Rune",
+			"group": "High Runes",
+			"rare": "Rune",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Cham.png",
+			"code": "r32",
+			"displayName": "Cham Rune"
+		},
+		"gul": {
+			"name": "Gul",
+			"type": "Rune",
+			"group": "High Runes",
+			"rare": "Rune",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Gul.png",
+			"code": "r25",
+			"displayName": "Gul Rune"
+		},
+		"ist": {
+			"name": "Ist",
+			"type": "Rune",
+			"group": "High Runes",
+			"rare": "Rune",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Ist.png",
+			"code": "r24",
+			"displayName": "Ist Rune"
+		},
+		"jah": {
+			"name": "Jah",
+			"type": "Rune",
+			"group": "High Runes",
+			"rare": "Rune",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Jah.png",
+			"code": "r31",
+			"displayName": "Jah Rune"
+		},
+		"lo": {
+			"name": "Lo",
+			"type": "Rune",
+			"group": "High Runes",
+			"rare": "Rune",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Lo.png",
+			"code": "r28",
+			"displayName": "Lo Rune"
+		},
+		"ohm": {
+			"name": "Ohm",
+			"type": "Rune",
+			"group": "High Runes",
+			"rare": "Rune",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Ohm.png",
+			"code": "r27",
+			"displayName": "Ohm Rune"
+		},
+		"sur": {
+			"name": "Sur",
+			"type": "Rune",
+			"group": "High Runes",
+			"rare": "Rune",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Sur.png",
+			"code": "r29",
+			"displayName": "Sur Rune"
+		},
+		"vex": {
+			"name": "Vex",
+			"type": "Rune",
+			"group": "High Runes",
+			"rare": "Rune",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Vex.png",
+			"code": "r26",
+			"displayName": "Vex Rune"
+		},
+		"zod": {
+			"name": "Zod",
+			"type": "Rune",
+			"group": "High Runes",
+			"rare": "Rune",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Zod.png",
+			"code": "r33",
+			"displayName": "Zod Rune"
+		},
+		"amn": {
+			"name": "Amn",
+			"type": "Rune",
+			"group": "Low Runes",
+			"rare": "Rune",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Amn.png",
+			"code": "r11",
+			"displayName": "Amn Rune"
+		},
+		"dol": {
+			"name": "Dol",
+			"type": "Rune",
+			"group": "Low Runes",
+			"rare": "Rune",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Dol.png",
+			"code": "r14",
+			"displayName": "Dol Rune"
+		},
+		"el": {
+			"name": "El",
+			"type": "Rune",
+			"group": "Low Runes",
+			"rare": "Rune",
+			"filter": {
+				"soe": 1
+			},
+			"img": "El.png",
+			"code": "r01",
+			"displayName": "El Rune"
+		},
+		"eld": {
+			"name": "Eld",
+			"type": "Rune",
+			"group": "Low Runes",
+			"rare": "Rune",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Eld.png",
+			"code": "r02",
+			"displayName": "Eld Rune"
+		},
+		"eth": {
+			"name": "Eth",
+			"type": "Rune",
+			"group": "Low Runes",
+			"rare": "Rune",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Eth.png",
+			"code": "r05",
+			"displayName": "Eth Rune"
+		},
+		"ith": {
+			"name": "Ith",
+			"type": "Rune",
+			"group": "Low Runes",
+			"rare": "Rune",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Ith.png",
+			"code": "r06",
+			"displayName": "Ith Rune"
+		},
+		"nef": {
+			"name": "Nef",
+			"type": "Rune",
+			"group": "Low Runes",
+			"rare": "Rune",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Nef.png",
+			"code": "r04",
+			"displayName": "Nef Rune"
+		},
+		"ort": {
+			"name": "Ort",
+			"type": "Rune",
+			"group": "Low Runes",
+			"rare": "Rune",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Ort.png",
+			"code": "r09",
+			"displayName": "Ort Rune"
+		},
+		"ral": {
+			"name": "Ral",
+			"type": "Rune",
+			"group": "Low Runes",
+			"rare": "Rune",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Ral.png",
+			"code": "r08",
+			"displayName": "Ral Rune"
+		},
+		"shael": {
+			"name": "Shael",
+			"type": "Rune",
+			"group": "Low Runes",
+			"rare": "Rune",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Shael.png",
+			"code": "r13",
+			"displayName": "Shael Rune"
+		},
+		"sol": {
+			"name": "Sol",
+			"type": "Rune",
+			"group": "Low Runes",
+			"rare": "Rune",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Sol.png",
+			"code": "r12",
+			"displayName": "Sol Rune"
+		},
+		"tal": {
+			"name": "Tal",
+			"type": "Rune",
+			"group": "Low Runes",
+			"rare": "Rune",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Tal.png",
+			"code": "r07",
+			"displayName": "Tal Rune"
+		},
+		"thul": {
+			"name": "Thul",
+			"type": "Rune",
+			"group": "Low Runes",
+			"rare": "Rune",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Thul.png",
+			"code": "r10",
+			"displayName": "Thul Rune"
+		},
+		"tir": {
+			"name": "Tir",
+			"type": "Rune",
+			"group": "Low Runes",
+			"rare": "Rune",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Tir.png",
+			"code": "r03",
+			"displayName": "Tir Rune"
+		},
+		"fal": {
+			"name": "Fal",
+			"type": "Rune",
+			"group": "Middle Runes",
+			"rare": "Rune",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Fal.png",
+			"code": "r19",
+			"displayName": "Fal Rune"
+		},
+		"hel": {
+			"name": "Hel",
+			"type": "Rune",
+			"group": "Middle Runes",
+			"rare": "Rune",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Hel.png",
+			"code": "r15",
+			"displayName": "Hel Rune"
+		},
+		"io": {
+			"name": "Io",
+			"type": "Rune",
+			"group": "Middle Runes",
+			"rare": "Rune",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Io.png",
+			"code": "r16",
+			"displayName": "Io Rune"
+		},
+		"ko": {
+			"name": "Ko",
+			"type": "Rune",
+			"group": "Middle Runes",
+			"rare": "Rune",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Ko.png",
+			"code": "r18",
+			"displayName": "Ko Rune"
+		},
+		"lem": {
+			"name": "Lem",
+			"type": "Rune",
+			"group": "Middle Runes",
+			"rare": "Rune",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Lem.png",
+			"code": "r20",
+			"displayName": "Lem Rune"
+		},
+		"lum": {
+			"name": "Lum",
+			"type": "Rune",
+			"group": "Middle Runes",
+			"rare": "Rune",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Lum.png",
+			"code": "r17",
+			"displayName": "Lum Rune"
+		},
+		"mal": {
+			"name": "Mal",
+			"type": "Rune",
+			"group": "Middle Runes",
+			"rare": "Rune",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Mal.png",
+			"code": "r23",
+			"displayName": "Mal Rune"
+		},
+		"pul": {
+			"name": "Pul",
+			"type": "Rune",
+			"group": "Middle Runes",
+			"rare": "Rune",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Pul.png",
+			"code": "r21",
+			"displayName": "Pul Rune"
+		},
+		"um": {
+			"name": "Um",
+			"type": "Rune",
+			"group": "Middle Runes",
+			"rare": "Rune",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Um.png",
+			"code": "r22",
+			"displayName": "Um Rune"
+		},
+		"aldursadvance": {
+			"name": "Aldur's Advance",
+			"type": "Aldur's Watchtower",
+			"group": "Aldur's Watchtower",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xtb",
+			"saveId": 70,
+			"setId": 18
+		},
+		"aldursdeception": {
+			"name": "Aldur's Deception",
+			"type": "Aldur's Watchtower",
+			"group": "Aldur's Watchtower",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uul",
+			"saveId": 68,
+			"setId": 18
+		},
+		"aldursgauntlet": {
+			"name": "Aldur's Gauntlet",
+			"type": "Aldur's Watchtower",
+			"group": "Aldur's Watchtower",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9mt",
+			"saveId": 69,
+			"setId": 18
+		},
+		"aldursstonygaze": {
+			"name": "Aldur's Stony Gaze",
+			"type": "Aldur's Watchtower",
+			"group": "Aldur's Watchtower",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "dr8",
+			"saveId": 67,
+			"setId": 18
+		},
+		"angelichalo": {
+			"name": "Angelic Halo",
+			"type": "Angelical Raiment",
+			"group": "Angelical Raiment",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "rin",
+			"saveId": 52,
+			"setId": 13
+		},
+		"angelicmantle": {
+			"name": "Angelic Mantle",
+			"type": "Angelical Raiment",
+			"group": "Angelical Raiment",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "rng",
+			"saveId": 51,
+			"setId": 13
+		},
+		"angelicsickle": {
+			"name": "Angelic Sickle",
+			"type": "Angelical Raiment",
+			"group": "Angelical Raiment",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "sbr",
+			"saveId": 50,
+			"setId": 13
+		},
+		"angelicwings": {
+			"name": "Angelic Wings",
+			"type": "Angelical Raiment",
+			"group": "Angelical Raiment",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "amu",
+			"saveId": 53,
+			"setId": 13
+		},
+		"arcannasdeathwand": {
+			"name": "Arcanna's Deathwand",
+			"type": "Arcanna's Tricks",
+			"group": "Arcanna's Tricks",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "wst",
+			"saveId": 59,
+			"setId": 15
+		},
+		"arcannasflesh": {
+			"name": "Arcanna's Flesh",
+			"type": "Arcanna's Tricks",
+			"group": "Arcanna's Tricks",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ltp",
+			"saveId": 61,
+			"setId": 15
+		},
+		"arcannashead": {
+			"name": "Arcanna's Head",
+			"type": "Arcanna's Tricks",
+			"group": "Arcanna's Tricks",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "skp",
+			"saveId": 60,
+			"setId": 15
+		},
+		"arcannassign": {
+			"name": "Arcanna's Sign",
+			"type": "Arcanna's Tricks",
+			"group": "Arcanna's Tricks",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "amu",
+			"saveId": 58,
+			"setId": 15
+		},
+		"arcticbinding": {
+			"name": "Arctic Binding",
+			"type": "Arctic Gear",
+			"group": "Arctic Gear",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "vbl",
+			"saveId": 56,
+			"setId": 14
+		},
+		"arcticfurs": {
+			"name": "Arctic Furs",
+			"type": "Arctic Gear",
+			"group": "Arctic Gear",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "qui",
+			"saveId": 55,
+			"setId": 14
+		},
+		"arctichorn": {
+			"name": "Arctic Horn",
+			"type": "Arctic Gear",
+			"group": "Arctic Gear",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "swb",
+			"saveId": 54,
+			"setId": 14
+		},
+		"arcticmitts": {
+			"name": "Arctic Mitts",
+			"type": "Arctic Gear",
+			"group": "Arctic Gear",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "tgl",
+			"saveId": 57,
+			"setId": 14
+		},
+		"berserkershatchet": {
+			"name": "Berserker's Hatchet",
+			"type": "Berserker's Garb",
+			"group": "Berserker's Garb",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "2ax",
+			"saveId": 46,
+			"setId": 11
+		},
+		"berserkershauberk": {
+			"name": "Berserker's Hauberk",
+			"type": "Berserker's Garb",
+			"group": "Berserker's Garb",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "spl",
+			"saveId": 45,
+			"setId": 11
+		},
+		"berserkersheadgear": {
+			"name": "Berserker's Headgear",
+			"type": "Berserker's Garb",
+			"group": "Berserker's Garb",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "hlm",
+			"saveId": 44,
+			"setId": 11
+		},
+		"bulkathosdeathband": {
+			"name": "Bul-Kathos' Death Band",
+			"type": "Bul-Kathos' Children",
+			"group": "Bul-Kathos' Children",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "rin",
+			"saveId": 118,
+			"setId": 29
+		},
+		"bulkathossacredcharge": {
+			"name": "Bul-Kathos' Sacred Charge",
+			"type": "Bul-Kathos' Children",
+			"group": "Bul-Kathos' Children",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7gd",
+			"saveId": 116,
+			"setId": 29
+		},
+		"bulkathostribalguardian": {
+			"name": "Bul-Kathos' Tribal Guardian",
+			"type": "Bul-Kathos' Children",
+			"group": "Bul-Kathos' Children",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7fb",
+			"saveId": 117,
+			"setId": 29
+		},
+		"cathansmesh": {
+			"name": "Cathan's Mesh",
+			"type": "Cathan's Traps",
+			"group": "Cathan's Traps",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "chn",
+			"saveId": 26,
+			"setId": 7
+		},
+		"cathansrule": {
+			"name": "Cathan's Rule",
+			"type": "Cathan's Traps",
+			"group": "Cathan's Traps",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "bst",
+			"saveId": 25,
+			"setId": 7
+		},
+		"cathansseal": {
+			"name": "Cathan's Seal",
+			"type": "Cathan's Traps",
+			"group": "Cathan's Traps",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "rin",
+			"saveId": 29,
+			"setId": 7
+		},
+		"cathanssigil": {
+			"name": "Cathan's Sigil",
+			"type": "Cathan's Traps",
+			"group": "Cathan's Traps",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "amu",
+			"saveId": 28,
+			"setId": 7
+		},
+		"cathansvisage": {
+			"name": "Cathan's Visage",
+			"type": "Cathan's Traps",
+			"group": "Cathan's Traps",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "msk",
+			"saveId": 27,
+			"setId": 7
+		},
+		"civerbscudgel": {
+			"name": "Civerb's Cudgel",
+			"type": "Civerb's Vestments",
+			"group": "Civerb's Vestments",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "gsc",
+			"saveId": 2,
+			"setId": 0
+		},
+		"civerbsicon": {
+			"name": "Civerb's Icon",
+			"type": "Civerb's Vestments",
+			"group": "Civerb's Vestments",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "amu",
+			"saveId": 1,
+			"setId": 0
+		},
+		"civerbsward": {
+			"name": "Civerb's Ward",
+			"type": "Civerb's Vestments",
+			"group": "Civerb's Vestments",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "lrg",
+			"saveId": 0,
+			"setId": 0
+		},
+		"cleglawsclaw": {
+			"name": "Cleglaw's Claw",
+			"type": "Cleglaw's Brace",
+			"group": "Cleglaw's Brace",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "sml",
+			"saveId": 7,
+			"setId": 2
+		},
+		"cleglawspincers": {
+			"name": "Cleglaw's Pincers",
+			"type": "Cleglaw's Brace",
+			"group": "Cleglaw's Brace",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "mgl",
+			"saveId": 8,
+			"setId": 2
+		},
+		"cleglawstooth": {
+			"name": "Cleglaw's Tooth",
+			"type": "Cleglaw's Brace",
+			"group": "Cleglaw's Brace",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "lsd",
+			"saveId": 6,
+			"setId": 2
+		},
+		"cowkingshide": {
+			"name": "Cow King's Hide",
+			"type": "Cow King's Leathers",
+			"group": "Cow King's Leathers",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "stu",
+			"saveId": 120,
+			"setId": 30
+		},
+		"cowkingshoofs": {
+			"name": "Cow King's Hoofs",
+			"type": "Cow King's Leathers",
+			"group": "Cow King's Leathers",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "vbt",
+			"saveId": 121,
+			"setId": 30
+		},
+		"cowkingshorns": {
+			"name": "Cow King's Horns",
+			"type": "Cow King's Leathers",
+			"group": "Cow King's Leathers",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xap",
+			"saveId": 119,
+			"setId": 30
+		},
+		"deathsguard": {
+			"name": "Death's Guard",
+			"type": "Death's Disguise",
+			"group": "Death's Disguise",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "lbl",
+			"saveId": 48,
+			"setId": 12
+		},
+		"deathshand": {
+			"name": "Death's Hand",
+			"type": "Death's Disguise",
+			"group": "Death's Disguise",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "lgl",
+			"saveId": 47,
+			"setId": 12
+		},
+		"deathstouch": {
+			"name": "Death's Touch",
+			"type": "Death's Disguise",
+			"group": "Death's Disguise",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "wsd",
+			"saveId": 49,
+			"setId": 12
+		},
+		"griswoldsheart": {
+			"name": "Griswold's Heart",
+			"type": "Griswold's Legacy",
+			"group": "Griswold's Legacy",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xar",
+			"saveId": 83,
+			"setId": 21
+		},
+		"griswoldshonor": {
+			"name": "Griswold's Honor",
+			"type": "Griswold's Legacy",
+			"group": "Griswold's Legacy",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "paf",
+			"saveId": 85,
+			"setId": 21
+		},
+		"griswoldsvalor": {
+			"name": "Griswold's Valor",
+			"type": "Griswold's Legacy",
+			"group": "Griswold's Legacy",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "urn",
+			"saveId": 82,
+			"setId": 21
+		},
+		"griswoldssredemption": {
+			"name": "Griswolds's Redemption",
+			"type": "Griswold's Legacy",
+			"group": "Griswold's Legacy",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7ws",
+			"saveId": 84,
+			"setId": 21
+		},
+		"dangoonsteaching": {
+			"name": "Dangoon's Teaching",
+			"type": "Heaven's Brethren",
+			"group": "Heaven's Brethren",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7ma",
+			"saveId": 101,
+			"setId": 25
+		},
+		"haemosusadament": {
+			"name": "Haemosu's Adament",
+			"type": "Heaven's Brethren",
+			"group": "Heaven's Brethren",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xrs",
+			"saveId": 103,
+			"setId": 25
+		},
+		"heavenstaebaek": {
+			"name": "Heaven's Taebaek",
+			"type": "Heaven's Brethren",
+			"group": "Heaven's Brethren",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uts",
+			"saveId": 102,
+			"setId": 25
+		},
+		"ondalsalmighty": {
+			"name": "Ondal's Almighty",
+			"type": "Heaven's Brethren",
+			"group": "Heaven's Brethren",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uhm",
+			"saveId": 104,
+			"setId": 25
+		},
+		"hsarusironfist": {
+			"name": "Hsarus' Iron Fist",
+			"type": "Hsarus' Defense",
+			"group": "Hsarus' Defense",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "buc",
+			"saveId": 4,
+			"setId": 1
+		},
+		"hsarusironheel": {
+			"name": "Hsarus' Iron Heel",
+			"type": "Hsarus' Defense",
+			"group": "Hsarus' Defense",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "mbt",
+			"saveId": 3,
+			"setId": 1
+		},
+		"hsarusironstay": {
+			"name": "Hsarus' Iron Stay",
+			"type": "Hsarus' Defense",
+			"group": "Hsarus' Defense",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "mbl",
+			"saveId": 5,
+			"setId": 1
+		},
+		"hwaninsjustice": {
+			"name": "Hwanin's Justice",
+			"type": "Hwanin's Majesty",
+			"group": "Hwanin's Majesty",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9vo",
+			"saveId": 112,
+			"setId": 27
+		},
+		"hwaninsrefuge": {
+			"name": "Hwanin's Refuge",
+			"type": "Hwanin's Majesty",
+			"group": "Hwanin's Majesty",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xcl",
+			"saveId": 110,
+			"setId": 27
+		},
+		"hwaninsseal": {
+			"name": "Hwanin's Seal",
+			"type": "Hwanin's Majesty",
+			"group": "Hwanin's Majesty",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "mbl",
+			"saveId": 111,
+			"setId": 27
+		},
+		"hwaninssplendor": {
+			"name": "Hwanin's Splendor",
+			"type": "Hwanin's Majesty",
+			"group": "Hwanin's Majesty",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xrn",
+			"saveId": 109,
+			"setId": 27
+		},
+		"immortalkingsdetail": {
+			"name": "Immortal King's Detail",
+			"type": "Immortal King",
+			"group": "Immortal King",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "zhb",
+			"saveId": 73,
+			"setId": 19
+		},
+		"immortalkingsforge": {
+			"name": "Immortal King's Forge",
+			"type": "Immortal King",
+			"group": "Immortal King",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xhg",
+			"saveId": 74,
+			"setId": 19
+		},
+		"immortalkingspillar": {
+			"name": "Immortal King's Pillar",
+			"type": "Immortal King",
+			"group": "Immortal King",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xhb",
+			"saveId": 75,
+			"setId": 19
+		},
+		"immortalkingssoulcage": {
+			"name": "Immortal King's Soul Cage",
+			"type": "Immortal King",
+			"group": "Immortal King",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uar",
+			"saveId": 72,
+			"setId": 19
+		},
+		"immortalkingsstonecrusher": {
+			"name": "Immortal King's Stone Crusher",
+			"type": "Immortal King",
+			"group": "Immortal King",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7m7",
+			"saveId": 76,
+			"setId": 19
+		},
+		"immortalkingswill": {
+			"name": "Immortal King's Will",
+			"type": "Immortal King",
+			"group": "Immortal King",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ba5",
+			"saveId": 71,
+			"setId": 19
+		},
+		"infernalcranium": {
+			"name": "Infernal Cranium",
+			"type": "Infernal Tools",
+			"group": "Infernal Tools",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "cap",
+			"saveId": 41,
+			"setId": 10
+		},
+		"infernalsign": {
+			"name": "Infernal Sign",
+			"type": "Infernal Tools",
+			"group": "Infernal Tools",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "tbl",
+			"saveId": 43,
+			"setId": 10
+		},
+		"infernalspire": {
+			"name": "Infernal Spire",
+			"type": "Infernal Tools",
+			"group": "Infernal Tools",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "dgr",
+			"saveId": 42,
+			"setId": 10
+		},
+		"irathascoil": {
+			"name": "Iratha's Coil",
+			"type": "Iratha's Finery",
+			"group": "Iratha's Finery",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "crn",
+			"saveId": 11,
+			"setId": 3
+		},
+		"irathascollar": {
+			"name": "Iratha's Collar",
+			"type": "Iratha's Finery",
+			"group": "Iratha's Finery",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "amu",
+			"saveId": 9,
+			"setId": 3
+		},
+		"irathascord": {
+			"name": "Iratha's Cord",
+			"type": "Iratha's Finery",
+			"group": "Iratha's Finery",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "tbl",
+			"saveId": 12,
+			"setId": 3
+		},
+		"irathascuff": {
+			"name": "Iratha's Cuff",
+			"type": "Iratha's Finery",
+			"group": "Iratha's Finery",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "tgl",
+			"saveId": 10,
+			"setId": 3
+		},
+		"isenhartscase": {
+			"name": "Isenhart's Case",
+			"type": "Isenhart's Armory",
+			"group": "Isenhart's Armory",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "brs",
+			"saveId": 15,
+			"setId": 4
+		},
+		"isenhartshorns": {
+			"name": "Isenhart's Horns",
+			"type": "Isenhart's Armory",
+			"group": "Isenhart's Armory",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "fhl",
+			"saveId": 16,
+			"setId": 4
+		},
+		"isenhartslightbrand": {
+			"name": "Isenhart's Lightbrand",
+			"type": "Isenhart's Armory",
+			"group": "Isenhart's Armory",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "bsd",
+			"saveId": 13,
+			"setId": 4
+		},
+		"isenhartsparry": {
+			"name": "Isenhart's Parry",
+			"type": "Isenhart's Armory",
+			"group": "Isenhart's Armory",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "gts",
+			"saveId": 14,
+			"setId": 4
+		},
+		"mavinascaster": {
+			"name": "M'avina's Caster",
+			"type": "M'avina's Battle Hymn",
+			"group": "M'avina's Battle Hymn",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "amc",
+			"saveId": 95,
+			"setId": 23
+		},
+		"mavinasembrace": {
+			"name": "M'avina's Embrace",
+			"type": "M'avina's Battle Hymn",
+			"group": "M'avina's Battle Hymn",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uld",
+			"saveId": 92,
+			"setId": 23
+		},
+		"mavinasicyclutch": {
+			"name": "M'avina's Icy Clutch",
+			"type": "M'avina's Battle Hymn",
+			"group": "M'avina's Battle Hymn",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xtg",
+			"saveId": 93,
+			"setId": 23
+		},
+		"mavinastenet": {
+			"name": "M'avina's Tenet",
+			"type": "M'avina's Battle Hymn",
+			"group": "M'avina's Battle Hymn",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "zvb",
+			"saveId": 94,
+			"setId": 23
+		},
+		"mavinastruesight": {
+			"name": "M'avina's True Sight",
+			"type": "M'avina's Battle Hymn",
+			"group": "M'avina's Battle Hymn",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ci3",
+			"saveId": 91,
+			"setId": 23
+		},
+		"mcauleysparagon": {
+			"name": "Sander's Paragon",
+			"type": "Sander's Folly",
+			"group": "Sander's Folly",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "cap",
+			"saveId": 125,
+			"setId": 32
+		},
+		"mcauleysriprap": {
+			"name": "Sander's Riprap",
+			"type": "Sander's Folly",
+			"group": "Sander's Folly",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "vbt",
+			"saveId": 126,
+			"setId": 32
+		},
+		"mcauleyssuperstition": {
+			"name": "Sander's Superstition",
+			"type": "Sander's Folly",
+			"group": "Sander's Folly",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "bwn",
+			"saveId": 128,
+			"setId": 32
+		},
+		"mcauleystaboo": {
+			"name": "Sander's Taboo",
+			"type": "Sander's Folly",
+			"group": "Sander's Folly",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "vgl",
+			"saveId": 127,
+			"setId": 32
+		},
+		"milabregasdiadem": {
+			"name": "Milabrega's Diadem",
+			"type": "Milabrega's Regalia",
+			"group": "Milabrega's Regalia",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "crn",
+			"saveId": 23,
+			"setId": 6
+		},
+		"milabregasorb": {
+			"name": "Milabrega's Orb",
+			"type": "Milabrega's Regalia",
+			"group": "Milabrega's Regalia",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "kit",
+			"saveId": 21,
+			"setId": 6
+		},
+		"milabregasrobe": {
+			"name": "Milabrega's Robe",
+			"type": "Milabrega's Regalia",
+			"group": "Milabrega's Regalia",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "aar",
+			"saveId": 24,
+			"setId": 6
+		},
+		"milabregasrod": {
+			"name": "Milabrega's Rod",
+			"type": "Milabrega's Regalia",
+			"group": "Milabrega's Regalia",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "wsp",
+			"saveId": 22,
+			"setId": 6
+		},
+		"najscirclet": {
+			"name": "Naj's Circlet",
+			"type": "Naj's Ancient Set",
+			"group": "Naj's Ancient Set",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ci0",
+			"saveId": 124,
+			"setId": 31
+		},
+		"najslightplate": {
+			"name": "Naj's Light Plate",
+			"type": "Naj's Ancient Set",
+			"group": "Naj's Ancient Set",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ult",
+			"saveId": 123,
+			"setId": 31
+		},
+		"najspuzzler": {
+			"name": "Naj's Puzzler",
+			"type": "Naj's Ancient Set",
+			"group": "Naj's Ancient Set",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "6cs",
+			"saveId": 122,
+			"setId": 31
+		},
+		"natalyasmark": {
+			"name": "Natalya's Mark",
+			"type": "Natalya's Odium",
+			"group": "Natalya's Odium",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7qr",
+			"saveId": 64,
+			"setId": 17
+		},
+		"natalyasshadow": {
+			"name": "Natalya's Shadow",
+			"type": "Natalya's Odium",
+			"group": "Natalya's Odium",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ucl",
+			"saveId": 65,
+			"setId": 17
+		},
+		"natalyassoul": {
+			"name": "Natalya's Soul",
+			"type": "Natalya's Odium",
+			"group": "Natalya's Odium",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xmb",
+			"saveId": 66,
+			"setId": 17
+		},
+		"natalyastotem": {
+			"name": "Natalya's Totem",
+			"type": "Natalya's Odium",
+			"group": "Natalya's Odium",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xh9",
+			"saveId": 63,
+			"setId": 17
+		},
+		"guillaumesface": {
+			"name": "Guillaume's Face",
+			"type": "Orphan's Call",
+			"group": "Orphan's Call",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xhm",
+			"saveId": 105,
+			"setId": 26
+		},
+		"magnusskin": {
+			"name": "Magnus' Skin",
+			"type": "Orphan's Call",
+			"group": "Orphan's Call",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xvg",
+			"saveId": 107,
+			"setId": 26
+		},
+		"wihtstansguard": {
+			"name": "Wihtstan's Guard",
+			"type": "Orphan's Call",
+			"group": "Orphan's Call",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xml",
+			"saveId": 108,
+			"setId": 26
+		},
+		"wilhelmspride": {
+			"name": "Wilhelm's Pride",
+			"type": "Orphan's Call",
+			"group": "Orphan's Call",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ztb",
+			"saveId": 106,
+			"setId": 26
+		},
+		"sazabiscobaltredeemer": {
+			"name": "Sazabi's Cobalt Redeemer",
+			"type": "Sazabi's Grand Tribute",
+			"group": "Sazabi's Grand Tribute",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7ls",
+			"saveId": 113,
+			"setId": 28
+		},
+		"sazabisghostliberator": {
+			"name": "Sazabi's Ghost Liberator",
+			"type": "Sazabi's Grand Tribute",
+			"group": "Sazabi's Grand Tribute",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "upl",
+			"saveId": 114,
+			"setId": 28
+		},
+		"sazabismentalsheath": {
+			"name": "Sazabi's Mental Sheath",
+			"type": "Sazabi's Grand Tribute",
+			"group": "Sazabi's Grand Tribute",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xhl",
+			"saveId": 115,
+			"setId": 28
+		},
+		"sigonsgage": {
+			"name": "Sigon's Gage",
+			"type": "Sigon's Complete Steel",
+			"group": "Sigon's Complete Steel",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "hgl",
+			"saveId": 35,
+			"setId": 9
+		},
+		"sigonsguard": {
+			"name": "Sigon's Guard",
+			"type": "Sigon's Complete Steel",
+			"group": "Sigon's Complete Steel",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "tow",
+			"saveId": 40,
+			"setId": 9
+		},
+		"sigonssabot": {
+			"name": "Sigon's Sabot",
+			"type": "Sigon's Complete Steel",
+			"group": "Sigon's Complete Steel",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "hbt",
+			"saveId": 38,
+			"setId": 9
+		},
+		"sigonsshelter": {
+			"name": "Sigon's Shelter",
+			"type": "Sigon's Complete Steel",
+			"group": "Sigon's Complete Steel",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "gth",
+			"saveId": 37,
+			"setId": 9
+		},
+		"sigonsvisor": {
+			"name": "Sigon's Visor",
+			"type": "Sigon's Complete Steel",
+			"group": "Sigon's Complete Steel",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ghm",
+			"saveId": 36,
+			"setId": 9
+		},
+		"sigonswrap": {
+			"name": "Sigon's Wrap",
+			"type": "Sigon's Complete Steel",
+			"group": "Sigon's Complete Steel",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "hbl",
+			"saveId": 39,
+			"setId": 9
+		},
+		"talrashasadjudication": {
+			"name": "Tal Rasha's Adjudication",
+			"type": "Tal Rasha's Wrappings",
+			"group": "Tal Rasha's Wrappings",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "amu",
+			"saveId": 78,
+			"setId": 20
+		},
+		"talrashasfirespuncloth": {
+			"name": "Tal Rasha's Fire-Spun Cloth",
+			"type": "Tal Rasha's Wrappings",
+			"group": "Tal Rasha's Wrappings",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "zmb",
+			"saveId": 77,
+			"setId": 20
+		},
+		"talrashashoradriccrest": {
+			"name": "Tal Rasha's Horadric Crest",
+			"type": "Tal Rasha's Wrappings",
+			"group": "Tal Rasha's Wrappings",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xsk",
+			"saveId": 81,
+			"setId": 20
+		},
+		"talrashashowlingwind": {
+			"name": "Tal Rasha's Howling Wind",
+			"type": "Tal Rasha's Wrappings",
+			"group": "Tal Rasha's Wrappings",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uth",
+			"saveId": 80,
+			"setId": 20
+		},
+		"talrashaslidlesseye": {
+			"name": "Tal Rasha's Lidless Eye",
+			"type": "Tal Rasha's Wrappings",
+			"group": "Tal Rasha's Wrappings",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "oba",
+			"saveId": 79,
+			"setId": 20
+		},
+		"tancredscrowbill": {
+			"name": "Tancred's Crowbill",
+			"type": "Tancred's Battlegear",
+			"group": "Tancred's Battlegear",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "mpi",
+			"saveId": 30,
+			"setId": 8
+		},
+		"tancredshobnails": {
+			"name": "Tancred's Hobnails",
+			"type": "Tancred's Battlegear",
+			"group": "Tancred's Battlegear",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "lbt",
+			"saveId": 32,
+			"setId": 8
+		},
+		"tancredsskull": {
+			"name": "Tancred's Skull",
+			"type": "Tancred's Battlegear",
+			"group": "Tancred's Battlegear",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "bhm",
+			"saveId": 34,
+			"setId": 8
+		},
+		"tancredsspine": {
+			"name": "Tancred's Spine",
+			"type": "Tancred's Battlegear",
+			"group": "Tancred's Battlegear",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ful",
+			"saveId": 31,
+			"setId": 8
+		},
+		"tancredsweird": {
+			"name": "Tancred's Weird",
+			"type": "Tancred's Battlegear",
+			"group": "Tancred's Battlegear",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "amu",
+			"saveId": 33,
+			"setId": 8
+		},
+		"credendum": {
+			"name": "Credendum",
+			"type": "The Disciple",
+			"group": "The Disciple",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "umc",
+			"saveId": 100,
+			"setId": 24
+		},
+		"layingofhands": {
+			"name": "Laying of Hands",
+			"type": "The Disciple",
+			"group": "The Disciple",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ulg",
+			"saveId": 97,
+			"setId": 24
+		},
+		"riteofpassage": {
+			"name": "Rite of Passage",
+			"type": "The Disciple",
+			"group": "The Disciple",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xlb",
+			"saveId": 98,
+			"setId": 24
+		},
+		"spiritualcustodian": {
+			"name": "Spiritual Custodian",
+			"type": "The Disciple",
+			"group": "The Disciple",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uui",
+			"saveId": 99,
+			"setId": 24
+		},
+		"tellingofbeads": {
+			"name": "Telling of Beads",
+			"type": "The Disciple",
+			"group": "The Disciple",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "amu",
+			"saveId": 96,
+			"setId": 24
+		},
+		"trangoulsclaws": {
+			"name": "Trang-Oul's Claws",
+			"type": "Trang-Oul's Avatar",
+			"group": "Trang-Oul's Avatar",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xmg",
+			"saveId": 89,
+			"setId": 22
+		},
+		"trangoulsgirth": {
+			"name": "Trang-Oul's Girth",
+			"type": "Trang-Oul's Avatar",
+			"group": "Trang-Oul's Avatar",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "utc",
+			"saveId": 90,
+			"setId": 22
+		},
+		"trangoulsguise": {
+			"name": "Trang-Oul's Guise",
+			"type": "Trang-Oul's Avatar",
+			"group": "Trang-Oul's Avatar",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uh9",
+			"saveId": 86,
+			"setId": 22
+		},
+		"trangoulsscales": {
+			"name": "Trang-Oul's Scales",
+			"type": "Trang-Oul's Avatar",
+			"group": "Trang-Oul's Avatar",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xul",
+			"saveId": 87,
+			"setId": 22
+		},
+		"trangoulswing": {
+			"name": "Trang-Oul's Wing",
+			"type": "Trang-Oul's Avatar",
+			"group": "Trang-Oul's Avatar",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ne9",
+			"saveId": 88,
+			"setId": 22
+		},
+		"vidalasambush": {
+			"name": "Vidala's Ambush",
+			"type": "Vidala's Rig",
+			"group": "Vidala's Rig",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "lea",
+			"saveId": 19,
+			"setId": 5
+		},
+		"vidalasbarb": {
+			"name": "Vidala's Barb",
+			"type": "Vidala's Rig",
+			"group": "Vidala's Rig",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "lbb",
+			"saveId": 17,
+			"setId": 5
+		},
+		"vidalasfetlock": {
+			"name": "Vidala's Fetlock",
+			"type": "Vidala's Rig",
+			"group": "Vidala's Rig",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "tbt",
+			"saveId": 18,
+			"setId": 5
+		},
+		"vidalassnare": {
+			"name": "Vidala's Snare",
+			"type": "Vidala's Rig",
+			"group": "Vidala's Rig",
+			"rare": "Set",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "amu",
+			"saveId": 20,
+			"setId": 5
+		},
+		"shadowfang": {
+			"name": "Shadowfang",
+			"type": "2-Handed Sword",
+			"group": "2-Handed Sword",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "2hs",
+			"saveId": 33
+		},
+		"hellforgedmedusasgaze": {
+			"name": "Hellforged Medusa's Gaze",
+			"type": "aegis",
+			"group": "aegis",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uow",
+			"saveId": 568
+		},
+		"medusasgaze": {
+			"name": "Medusa's Gaze",
+			"type": "aegis",
+			"group": "aegis",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uow",
+			"saveId": 350
+		},
+		"hellforgedheraldofzakarum": {
+			"name": "Hellforged Herald of Zakarum",
+			"type": "Aerin Shield",
+			"group": "Aerin Shield",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "pa9",
+			"saveId": 588
+		},
+		"heraldofzakarum": {
+			"name": "Herald of Zakarum",
+			"type": "Aerin Shield",
+			"group": "Aerin Shield",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "pa9",
+			"saveId": 286
+		},
+		"fenris": {
+			"name": "Fenris",
+			"type": "Alpha Helm",
+			"group": "Alpha Helm",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "dr6",
+			"saveId": 451
+		},
+		"amalgamation": {
+			"name": "Amalgamation",
+			"type": "amulet",
+			"group": "amulet",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "amu",
+			"saveId": 561
+		},
+		"astramentis": {
+			"name": "Astramentis",
+			"type": "amulet",
+			"group": "amulet",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "amu",
+			"saveId": 526
+		},
+		"defianceofdestiny": {
+			"name": "Defiance of Destiny",
+			"type": "amulet",
+			"group": "amulet",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "amu",
+			"saveId": 524
+		},
+		"gazeoftheabyss": {
+			"name": "Gaze of the Abyss",
+			"type": "amulet",
+			"group": "amulet",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "amu",
+			"saveId": 554
+		},
+		"hellforgedmetalgrid": {
+			"name": "Hellforged Metalgrid",
+			"type": "amulet",
+			"group": "amulet",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "amu",
+			"saveId": 562
+		},
+		"hellforgedseraphshymn": {
+			"name": "Hellforged Seraph's Hymn",
+			"type": "amulet",
+			"group": "amulet",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "amu",
+			"saveId": 575
+		},
+		"metalgrid": {
+			"name": "Metalgrid",
+			"type": "amulet",
+			"group": "amulet",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "amu",
+			"saveId": 376
+		},
+		"seraphshymn": {
+			"name": "Seraph's Hymn",
+			"type": "amulet",
+			"group": "amulet",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "amu",
+			"saveId": 303
+		},
+		"amuletoftheviper": {
+			"name": "Amulet of the Viper",
+			"type": "Amulet",
+			"group": "Amulet",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "vip",
+			"saveId": 123
+		},
+		"atmasscarab": {
+			"name": "Atma's Scarab",
+			"type": "Amulet",
+			"group": "Amulet",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "amu",
+			"saveId": 274
+		},
+		"crescentmoon": {
+			"name": "Crescent Moon",
+			"type": "Amulet",
+			"group": "Amulet",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "amu",
+			"saveId": 272
+		},
+		"hellforgedatmasscarab": {
+			"name": "Hellforged Atma's Scarab",
+			"type": "Amulet",
+			"group": "Amulet",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "amu",
+			"saveId": 570
+		},
+		"hellforgedmaras": {
+			"name": "Hellforged Mara's",
+			"type": "Amulet",
+			"group": "Amulet",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "amu",
+			"saveId": 604,
+			"displayName": "Hellforged Mara's Kaleidoscope"
+		},
+		"hellforgedtherisingsun": {
+			"name": "Hellforged The Rising Sun",
+			"type": "Amulet",
+			"group": "Amulet",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "amu",
+			"saveId": 586
+		},
+		"highlordswrath": {
+			"name": "Highlord's Wrath",
+			"type": "Amulet",
+			"group": "Amulet",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "amu",
+			"saveId": 277
+		},
+		"maraskaleidoscope": {
+			"name": "Mara's Kaleidoscope",
+			"type": "Amulet",
+			"group": "Amulet",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "amu",
+			"saveId": 273
+		},
+		"nokozanrelic": {
+			"name": "Nokozan Relic",
+			"type": "Amulet",
+			"group": "Amulet",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "amu",
+			"saveId": 117
+		},
+		"saracenschance": {
+			"name": "Saracen's Chance",
+			"type": "Amulet",
+			"group": "Amulet",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "amu",
+			"saveId": 278
+		},
+		"thecatseye": {
+			"name": "The Cat's Eye",
+			"type": "Amulet",
+			"group": "Amulet",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "amu",
+			"saveId": 270
+		},
+		"theeyeofetlich": {
+			"name": "The Eye of Etlich",
+			"type": "Amulet",
+			"group": "Amulet",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "amu",
+			"saveId": 118
+		},
+		"themahimoakcurio": {
+			"name": "The Mahim-Oak Curio",
+			"type": "Amulet",
+			"group": "Amulet",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "amu",
+			"saveId": 119
+		},
+		"therisingsun": {
+			"name": "The Rising Sun",
+			"type": "Amulet",
+			"group": "Amulet",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "amu",
+			"saveId": 271
+		},
+		"thethirdeye": {
+			"name": "The Third Eye",
+			"type": "Amulet",
+			"group": "Amulet",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ram",
+			"saveId": 419
+		},
+		"theminataur": {
+			"name": "The Minataur",
+			"type": "Ancient Axe",
+			"group": "Ancient Axe",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9gi",
+			"saveId": 139,
+			"displayName": "The Minotaur"
+		},
+		"radimantssphere": {
+			"name": "Radimant's Sphere",
+			"type": "Ancient Shield",
+			"group": "Ancient Shield",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xts",
+			"saveId": 230,
+			"displayName": "Radament's Sphere"
+		},
+		"theatlantian": {
+			"name": "The Atlantian",
+			"type": "Ancient Sword",
+			"group": "Ancient Sword",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9wd",
+			"saveId": 162,
+			"displayName": "The Atlantean"
+		},
+		"victorssilk": {
+			"name": "Victors Silk",
+			"type": "AncientArmor",
+			"group": "AncientArmor",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "aar",
+			"saveId": 92,
+			"displayName": "Silks of the Victor"
+		},
+		"langerbriser": {
+			"name": "Langer Briser",
+			"type": "Arbalest",
+			"group": "Arbalest",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "8lx",
+			"saveId": 197
+		},
+		"purgatory": {
+			"name": "Purgatory",
+			"type": "Archon Plate",
+			"group": "Archon Plate",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "utp",
+			"saveId": 430
+		},
+		"mangsongslesson": {
+			"name": "Mang Song's Lesson",
+			"type": "archon staff",
+			"group": "archon staff",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "6ws",
+			"saveId": 323
+		},
+		"sanctuarysdemise": {
+			"name": "Sanctuarys Demise",
+			"type": "archon staff",
+			"group": "archon staff",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "6ws",
+			"saveId": 573,
+			"displayName": "Sanctuary's Demise"
+		},
+		"darkfear": {
+			"name": "Darkfear",
+			"type": "armet",
+			"group": "armet",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ulm",
+			"saveId": 347
+		},
+		"steelshade": {
+			"name": "Steelshade",
+			"type": "armet",
+			"group": "armet",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ulm",
+			"saveId": 298,
+			"displayName": "Steel Shade"
+		},
+		"aetherwing": {
+			"name": "Aetherwing",
+			"type": "Arrows",
+			"group": "Arrows",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "aqv3",
+			"saveId": 458
+		},
+		"balefire": {
+			"name": "Balefire",
+			"type": "Arrows",
+			"group": "Arrows",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "aqv",
+			"saveId": 455
+		},
+		"basilisksquill": {
+			"name": "Basilisk's Quill",
+			"type": "Arrows",
+			"group": "Arrows",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "aqv3",
+			"saveId": 459
+		},
+		"doomsfinger": {
+			"name": "Doom's Finger",
+			"type": "Arrows",
+			"group": "Arrows",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "aqv3",
+			"saveId": 460
+		},
+		"glacialtempest": {
+			"name": "Glacial Tempest",
+			"type": "Arrows",
+			"group": "Arrows",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "aqv3",
+			"saveId": 553
+		},
+		"swiftwindneedle": {
+			"name": "Swiftwind Needle",
+			"type": "Arrows",
+			"group": "Arrows",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "aqv2",
+			"saveId": 456
+		},
+		"tombsong": {
+			"name": "Tombsong",
+			"type": "Arrows",
+			"group": "Arrows",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "aqv2",
+			"saveId": 457
+		},
+		"djinnslayer": {
+			"name": "Djinnslayer",
+			"type": "ataghan",
+			"group": "ataghan",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7sm",
+			"saveId": 291,
+			"displayName": "Djinn Slayer"
+		},
+		"deathspade": {
+			"name": "Deathspade",
+			"type": "Axe",
+			"group": "Axe",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "axe",
+			"saveId": 1
+		},
+		"burizadokyanon": {
+			"name": "Buriza-Do Kyanon",
+			"type": "Balista",
+			"group": "Balista",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "8hx",
+			"saveId": 199
+		},
+		"flamebellow": {
+			"name": "Flamebellow",
+			"type": "balrog blade",
+			"group": "balrog blade",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7gs",
+			"saveId": 354
+		},
+		"arkainesvalor": {
+			"name": "Arkaine's Valor",
+			"type": "Balrog Skin",
+			"group": "Balrog Skin",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "upl",
+			"saveId": 252
+		},
+		"demonsarch": {
+			"name": "Demon's Arch",
+			"type": "balrog spear",
+			"group": "balrog spear",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7s7",
+			"saveId": 341
+		},
+		"fleshrender": {
+			"name": "Fleshrender",
+			"type": "Barbed Club",
+			"group": "Barbed Club",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9sp",
+			"saveId": 148
+		},
+		"lanceguard": {
+			"name": "Lance Guard",
+			"type": "Barbed Shield",
+			"group": "Barbed Shield",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xpk",
+			"saveId": 232
+		},
+		"dimoakshew": {
+			"name": "Dimoaks Hew",
+			"type": "Bardiche",
+			"group": "Bardiche",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "bar",
+			"saveId": 48,
+			"displayName": "Dimoak's Hew"
+		},
+		"manastorm": {
+			"name": "Manastorm",
+			"type": "baroque round shield",
+			"group": "baroque round shield",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "bqs",
+			"saveId": 558
+		},
+		"darksighthelm": {
+			"name": "Darksight Helm",
+			"type": "Basinet",
+			"group": "Basinet",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xhl",
+			"saveId": 205
+		},
+		"blacktongue": {
+			"name": "Blacktongue",
+			"type": "Bastard Sword",
+			"group": "Bastard Sword",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "bsw",
+			"saveId": 36
+		},
+		"thechieftan": {
+			"name": "The Chieftan",
+			"type": "Battle Axe",
+			"group": "Battle Axe",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "btx",
+			"saveId": 7,
+			"displayName": "The Chieftain"
+		},
+		"snowclash": {
+			"name": "Snowclash",
+			"type": "Battle Belt",
+			"group": "Battle Belt",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ztb",
+			"saveId": 246
+		},
+		"wartraveler": {
+			"name": "Wartraveler",
+			"type": "Battle Boots",
+			"group": "Battle Boots",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xtb",
+			"saveId": 241,
+			"displayName": "War Traveler"
+		},
+		"shadowkiller": {
+			"name": "Shadowkiller",
+			"type": "battle cestus",
+			"group": "battle cestus",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7cs",
+			"saveId": 335,
+			"displayName": "Shadow Killer"
+		},
+		"deathbit": {
+			"name": "Deathbit",
+			"type": "battle dart",
+			"group": "battle dart",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9tk",
+			"saveId": 292
+		},
+		"lavagout": {
+			"name": "Lavagout",
+			"type": "Battle Guantlets",
+			"group": "Battle Guantlets",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xtg",
+			"saveId": 236,
+			"displayName": "Lava Gout"
+		},
+		"earthshaker": {
+			"name": "Earthshaker",
+			"type": "Battle Hammer",
+			"group": "Battle Hammer",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9wh",
+			"saveId": 152
+		},
+		"athenaswrath": {
+			"name": "Athena's Wrath",
+			"type": "Battle Scythe",
+			"group": "Battle Scythe",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9s8",
+			"saveId": 180
+		},
+		"thesalamander": {
+			"name": "The Salamander",
+			"type": "Battle Staff",
+			"group": "Battle Staff",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "bst",
+			"saveId": 57
+		},
+		"headstriker": {
+			"name": "Headstriker",
+			"type": "Battle Sword",
+			"group": "Battle Sword",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9bs",
+			"saveId": 160
+		},
+		"spellsteel": {
+			"name": "Spellsteel",
+			"type": "Bearded Axe",
+			"group": "Bearded Axe",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9ba",
+			"saveId": 136
+		},
+		"husoldalevo": {
+			"name": "Husoldal Evo",
+			"type": "Bec-de-Corbin",
+			"group": "Bec-de-Corbin",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9h9",
+			"saveId": 182
+		},
+		"nightsmoke": {
+			"name": "Nightsmoke",
+			"type": "Belt",
+			"group": "Belt",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "mbl",
+			"saveId": 114
+		},
+		"deathcleaver": {
+			"name": "Deathcleaver",
+			"type": "berserker axe",
+			"group": "berserker axe",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7wa",
+			"saveId": 315,
+			"displayName": "Death Cleaver"
+		},
+		"blackleachblade": {
+			"name": "Blackleach Blade",
+			"type": "Bill",
+			"group": "Bill",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9vo",
+			"saveId": 179
+		},
+		"iricesshard": {
+			"name": "Irices Shard",
+			"type": "Blade",
+			"group": "Blade",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "bld",
+			"saveId": 42,
+			"displayName": "Spectral Shard"
+		},
+		"spikethorn": {
+			"name": "Spike Thorn",
+			"type": "blade barrier",
+			"group": "blade barrier",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "upk",
+			"saveId": 364
+		},
+		"crackleshot": {
+			"name": "Crackleshot",
+			"type": "Blade Bow",
+			"group": "Blade Bow",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "6hb",
+			"saveId": 472
+		},
+		"hellforgedcrackleshot": {
+			"name": "Hellforged Crackleshot",
+			"type": "Blade Bow",
+			"group": "Blade Bow",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "6hb",
+			"saveId": 583
+		},
+		"cerebus": {
+			"name": "Cerebus",
+			"type": "blood spirit",
+			"group": "blood spirit",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "drb",
+			"saveId": 311,
+			"displayName": "Cerebus' Bite"
+		},
+		"darkforgespawn": {
+			"name": "Darkforge Spawn",
+			"type": "bloodlord skull",
+			"group": "bloodlord skull",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "nef",
+			"saveId": 331,
+			"displayName": "Darkforce Spawn"
+		},
+		"hellforgeddarkforcespawn": {
+			"name": "Hellforged Darkforce Spawn",
+			"type": "bloodlord skull",
+			"group": "bloodlord skull",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "nef",
+			"saveId": 567
+		},
+		"whisperingskull": {
+			"name": "Whispering Skull",
+			"type": "bloodlord skull",
+			"group": "bloodlord skull",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "nef",
+			"saveId": 537
+		},
+		"abyssalward": {
+			"name": "Abyssal Ward",
+			"type": "Bolts",
+			"group": "Bolts",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "cqv3",
+			"saveId": 464
+		},
+		"anvilguardstrap": {
+			"name": "Anvilguard Strap",
+			"type": "Bolts",
+			"group": "Bolts",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "cqv2",
+			"saveId": 462
+		},
+		"bannerlordscall": {
+			"name": "Bannerlord's Call",
+			"type": "Bolts",
+			"group": "Bolts",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "cqv3",
+			"saveId": 465
+		},
+		"frozensorrow": {
+			"name": "Frozen Sorrow",
+			"type": "Bolts",
+			"group": "Bolts",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "cqv3",
+			"saveId": 466
+		},
+		"ramfodder": {
+			"name": "Ramfodder",
+			"type": "Bolts",
+			"group": "Bolts",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "cqv",
+			"saveId": 461
+		},
+		"shatterhead": {
+			"name": "Shatterhead",
+			"type": "Bolts",
+			"group": "Bolts",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "cqv2",
+			"saveId": 463
+		},
+		"venomousspindle": {
+			"name": "Venomous Spindle",
+			"type": "Bolts",
+			"group": "Bolts",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "cqv3",
+			"saveId": 552
+		},
+		"wormskull": {
+			"name": "Wormskull",
+			"type": "Bone Helm",
+			"group": "Bone Helm",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "bhm",
+			"saveId": 75
+		},
+		"wizardspike": {
+			"name": "Wizardspike",
+			"type": "Bone Knife",
+			"group": "Bone Knife",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7dg",
+			"saveId": 263
+		},
+		"walloftheeyeless": {
+			"name": "Wall of the Eyeless",
+			"type": "Bone Shield",
+			"group": "Bone Shield",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "bsh",
+			"saveId": 97
+		},
+		"giantskull": {
+			"name": "Giantskull",
+			"type": "bone visage",
+			"group": "bone visage",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uh9",
+			"saveId": 380,
+			"displayName": "Giant Skull"
+		},
+		"gravenspine": {
+			"name": "Gravenspine",
+			"type": "Bone Wand",
+			"group": "Bone Wand",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "bwn",
+			"saveId": 12
+		},
+		"cageoftheunsullied": {
+			"name": "Cage of the Unsullied",
+			"type": "Boneweave",
+			"group": "Boneweave",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "rar",
+			"saveId": 418
+		},
+		"marrowwalk": {
+			"name": "Marrowwalk",
+			"type": "boneweave boots",
+			"group": "boneweave boots",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "umb",
+			"saveId": 371
+		},
+		"chanceguards": {
+			"name": "Chance Guards",
+			"type": "Bracers",
+			"group": "Bracers",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "mgl",
+			"saveId": 104
+		},
+		"titangrip": {
+			"name": "Titangrip",
+			"type": "Bramble Mitts",
+			"group": "Bramble Mitts",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ulg",
+			"saveId": 442,
+			"displayName": "Titan's Grip"
+		},
+		"bloodthief": {
+			"name": "Bloodthief",
+			"type": "Brandistock",
+			"group": "Brandistock",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "brn",
+			"saveId": 45
+		},
+		"venomsward": {
+			"name": "Venomsward",
+			"type": "Breast Plate",
+			"group": "Breast Plate",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "brs",
+			"saveId": 86,
+			"displayName": "Venom Ward"
+		},
+		"goreshovel": {
+			"name": "Goreshovel",
+			"type": "Broad Axe",
+			"group": "Broad Axe",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "bax",
+			"saveId": 6
+		},
+		"griswoldsedge": {
+			"name": "Griswolds Edge",
+			"type": "Broad Sword",
+			"group": "Broad Sword",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "bsd",
+			"saveId": 30,
+			"displayName": "Griswold's Edge"
+		},
+		"peltalunata": {
+			"name": "Pelta Lunata",
+			"type": "Buckler",
+			"group": "Buckler",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "buc",
+			"saveId": 94
+		},
+		"suicidebranch": {
+			"name": "Suicide Branch",
+			"type": "Burnt Wand",
+			"group": "Burnt Wand",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9wn",
+			"saveId": 140
+		},
+		"ironward": {
+			"name": "Ironward",
+			"type": "caduceus",
+			"group": "caduceus",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7ws",
+			"saveId": 381,
+			"displayName": "Astreon's Iron Ward"
+		},
+		"palmcold": {
+			"name": "Palm Cold",
+			"type": "caduceus",
+			"group": "caduceus",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7ws",
+			"saveId": 580,
+			"displayName": "Fara's Remorse"
+		},
+		"palmfire": {
+			"name": "Palm Fire",
+			"type": "caduceus",
+			"group": "caduceus",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7ws",
+			"saveId": 579,
+			"displayName": "Fara's Resentment"
+		},
+		"palmltng": {
+			"name": "Palm Ltng",
+			"type": "caduceus",
+			"group": "caduceus",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7ws",
+			"saveId": 581,
+			"displayName": "Fara's Reminiscence"
+		},
+		"warbonnet": {
+			"name": "War Bonnet",
+			"type": "Cap",
+			"group": "Cap",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "cap",
+			"saveId": 71,
+			"displayName": "Biggin's Bonnet"
+		},
+		"stealskull": {
+			"name": "Stealskull",
+			"type": "Casque",
+			"group": "Casque",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xlm",
+			"saveId": 204
+		},
+		"chromaticire": {
+			"name": "Chromatic Ire",
+			"type": "Cedar Staff",
+			"group": "Cedar Staff",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "8cs",
+			"saveId": 186
+		},
+		"kukoshakaku": {
+			"name": "Kuko Shakaku",
+			"type": "CedarBow",
+			"group": "CedarBow",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "8lb",
+			"saveId": 191
+		},
+		"lycandersaim": {
+			"name": "Lycander's Aim",
+			"type": "Ceremonial Bow",
+			"group": "Ceremonial Bow",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "am7",
+			"saveId": 283
+		},
+		"titansrevenge": {
+			"name": "Titan's Revenge",
+			"type": "Ceremonial Javelin",
+			"group": "Ceremonial Javelin",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ama",
+			"saveId": 282
+		},
+		"lycandersflank": {
+			"name": "Lycander's Flank",
+			"type": "Ceremonial Pike",
+			"group": "Ceremonial Pike",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "am9",
+			"saveId": 284
+		},
+		"treadsofcthon": {
+			"name": "Treads of Cthon",
+			"type": "Chain Boots",
+			"group": "Chain Boots",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "mbt",
+			"saveId": 109
+		},
+		"sparkingmail": {
+			"name": "Sparking Mail",
+			"type": "Chain Mail",
+			"group": "Chain Mail",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "chn",
+			"saveId": 85
+		},
+		"messerschmidtsreaver": {
+			"name": "Messerschmidt's Reaver",
+			"type": "Champion Axe",
+			"group": "Champion Axe",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7ga",
+			"saveId": 256
+		},
+		"doombringer": {
+			"name": "Doombringer",
+			"type": "Champion Sword",
+			"group": "Champion Sword",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7b7",
+			"saveId": 261
+		},
+		"blackhades": {
+			"name": "Black Hades",
+			"type": "Chaos Armor",
+			"group": "Chaos Armor",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xul",
+			"saveId": 222
+		},
+		"annihilus": {
+			"name": "Annihilus",
+			"type": "charm",
+			"group": "charm",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "cm1",
+			"saveId": 382
+		},
+		"cains": {
+			"name": "Cains",
+			"type": "charm",
+			"group": "charm",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "cm1",
+			"saveId": 518,
+			"displayName": "Cain's Wisdom"
+		},
+		"gheedsfortune": {
+			"name": "Gheed's Fortune",
+			"type": "charm",
+			"group": "charm",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "cm3",
+			"saveId": 360
+		},
+		"hellfiretorch": {
+			"name": "Hellfire Torch",
+			"type": "charm",
+			"group": "charm",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "cm2",
+			"saveId": 401
+		},
+		"voices": {
+			"name": "Voices",
+			"type": "charm",
+			"group": "charm",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "cm1",
+			"saveId": 534
+		},
+		"demonmachine": {
+			"name": "Demon Machine",
+			"type": "Chu-Ko-Nu",
+			"group": "Chu-Ko-Nu",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "8rx",
+			"saveId": 200
+		},
+		"blackbogssharp": {
+			"name": "Blackbog's Sharp",
+			"type": "Cinquedeas",
+			"group": "Cinquedeas",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9kr",
+			"saveId": 171
+		},
+		"soulflay": {
+			"name": "Soulflay",
+			"type": "Claymore",
+			"group": "Claymore",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "clm",
+			"saveId": 34
+		},
+		"butcherspupil": {
+			"name": "Butcher's Pupil",
+			"type": "Cleaver",
+			"group": "Cleaver",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9ax",
+			"saveId": 131
+		},
+		"felloak": {
+			"name": "Felloak",
+			"type": "Club",
+			"group": "Club",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "clb",
+			"saveId": 14
+		},
+		"odium": {
+			"name": "Odium",
+			"type": "Colossal Sword",
+			"group": "Colossal Sword",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7fb",
+			"saveId": 306
+		},
+		"thegrandfather": {
+			"name": "The Grandfather",
+			"type": "Colossus Blade",
+			"group": "Colossus Blade",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7gd",
+			"saveId": 262
+		},
+		"hellrack": {
+			"name": "Hellrack",
+			"type": "colossus crossbow",
+			"group": "colossus crossbow",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "6hx",
+			"saveId": 329
+		},
+		"headhunter": {
+			"name": "Headhunter",
+			"type": "Colossus Girdle",
+			"group": "Colossus Girdle",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uhc",
+			"saveId": 545
+		},
+		"hellforgedheadhunter": {
+			"name": "Hellforged Headhunter",
+			"type": "Colossus Girdle",
+			"group": "Colossus Girdle",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uhc",
+			"saveId": 603
+		},
+		"sigurdsstaunch": {
+			"name": "Sigurd's Staunch",
+			"type": "Colossus Girdle",
+			"group": "Colossus Girdle",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uhc",
+			"saveId": 378,
+			"displayName": "Siggard's Staunch"
+		},
+		"giantmaimer": {
+			"name": "Giant Maimer",
+			"type": "Colossus Voulge",
+			"group": "Colossus Voulge",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7vo",
+			"saveId": 480
+		},
+		"piercerib": {
+			"name": "Piercerib",
+			"type": "Composite Bow",
+			"group": "Composite Bow",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "cbw",
+			"saveId": 62,
+			"displayName": "Rogue's Bow"
+		},
+		"halaberdsreign": {
+			"name": "Halaberd's Reign",
+			"type": "conqueror crown",
+			"group": "conqueror crown",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "bae",
+			"saveId": 362
+		},
+		"hadrielshand": {
+			"name": "Hadriels Hand",
+			"type": "Conquest Sword",
+			"group": "Conquest Sword",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7bs",
+			"saveId": 406,
+			"displayName": "Hadriel's Hand"
+		},
+		"crownofages": {
+			"name": "Crown of Ages",
+			"type": "corona",
+			"group": "corona",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "urn",
+			"saveId": 345
+		},
+		"ichorsting": {
+			"name": "Ichorsting",
+			"type": "Crossbow",
+			"group": "Crossbow",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "mxb",
+			"saveId": 68
+		},
+		"pompeswrath": {
+			"name": "Pompe's Wrath",
+			"type": "Crowbill",
+			"group": "Crowbill",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9mp",
+			"saveId": 133,
+			"displayName": "Pompeii's Wrath"
+		},
+		"undeadcrown": {
+			"name": "Undead Crown",
+			"type": "Crown",
+			"group": "Crown",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "crn",
+			"saveId": 77
+		},
+		"eaglehorn": {
+			"name": "Eaglehorn",
+			"type": "Crusader Bow",
+			"group": "Crusader Bow",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "6l7",
+			"saveId": 266
+		},
+		"hellforgedoccultist": {
+			"name": "Hellforged Occultist",
+			"type": "Crusader Guantlets",
+			"group": "Crusader Guantlets",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "utg",
+			"saveId": 599
+		},
+		"occultist": {
+			"name": "Occultist",
+			"type": "Crusader Guantlets",
+			"group": "Crusader Guantlets",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "utg",
+			"saveId": 425
+		},
+		"tombreaver": {
+			"name": "Tomb Reaver",
+			"type": "cryptic axe",
+			"group": "cryptic axe",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7pa",
+			"saveId": 299
+		},
+		"frostwind": {
+			"name": "Frostwind",
+			"type": "cryptic sword",
+			"group": "cryptic sword",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7ls",
+			"saveId": 366
+		},
+		"skorn": {
+			"name": "Skorn",
+			"type": "Crystalline Globe",
+			"group": "Crystalline Globe",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ob7",
+			"saveId": 448
+		},
+		"darkclancrusher": {
+			"name": "Dark Clan Crusher",
+			"type": "Cudgel",
+			"group": "Cudgel",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9cl",
+			"saveId": 144
+		},
+		"durielsshell": {
+			"name": "Duriel's Shell",
+			"type": "Cuirass",
+			"group": "Cuirass",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xrs",
+			"saveId": 217
+		},
+		"coldsteeleye": {
+			"name": "Coldsteel Eye",
+			"type": "Cutlass",
+			"group": "Cutlass",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9sm",
+			"saveId": 156
+		},
+		"bingszwang": {
+			"name": "Bing Sz Wang",
+			"type": "Dacian Falx",
+			"group": "Dacian Falx",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9cm",
+			"saveId": 164
+		},
+		"gull": {
+			"name": "Gull",
+			"type": "Dagger",
+			"group": "Dagger",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "dgr",
+			"saveId": 39
+		},
+		"blackhornsface": {
+			"name": "Blackhorn's Face",
+			"type": "Death Mask",
+			"group": "Death Mask",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xsk",
+			"saveId": 208
+		},
+		"hellforgedhellslayer": {
+			"name": "Hellforged Hellslayer",
+			"type": "Decapitator",
+			"group": "Decapitator",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7bt",
+			"saveId": 569
+		},
+		"hellslayer": {
+			"name": "Hellslayer",
+			"type": "Decapitator",
+			"group": "Decapitator",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7bt",
+			"saveId": 255
+		},
+		"visceratuant": {
+			"name": "Visceratuant",
+			"type": "Defender",
+			"group": "Defender",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xuc",
+			"saveId": 225
+		},
+		"gutsiphon": {
+			"name": "Gutsiphon",
+			"type": "demon crossbow",
+			"group": "demon crossbow",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "6rx",
+			"saveId": 294,
+			"displayName": "Gut Siphon"
+		},
+		"embersworn": {
+			"name": "Embersworn",
+			"type": "Demon Heart",
+			"group": "Demon Heart",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "obd",
+			"saveId": 476
+		},
+		"andarielsvisage": {
+			"name": "Andariel's Visage",
+			"type": "demonhead",
+			"group": "demonhead",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "usk",
+			"saveId": 346
+		},
+		"hellforgedandarielsvisage": {
+			"name": "Hellforged Andariels Visage",
+			"type": "demonhead",
+			"group": "demonhead",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "usk",
+			"saveId": 600,
+			"displayName": "Hellforged Andariel's Visage"
+		},
+		"skinoftheflayerdone": {
+			"name": "Skin of the Flayerd One",
+			"type": "Demonhide Armor",
+			"group": "Demonhide Armor",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xla",
+			"saveId": 212,
+			"displayName": "Skin of the Flayed One"
+		},
+		"infernostride": {
+			"name": "Infernostride",
+			"type": "Demonhide Boots",
+			"group": "Demonhide Boots",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xlb",
+			"saveId": 238
+		},
+		"venomgrip": {
+			"name": "Venom Grip",
+			"type": "Demonhide Gloves",
+			"group": "Demonhide Gloves",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xlg",
+			"saveId": 233
+		},
+		"stringofears": {
+			"name": "String of Ears",
+			"type": "Demonhide Sash",
+			"group": "Demonhide Sash",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "zlb",
+			"saveId": 243
+		},
+		"demonhornsedge": {
+			"name": "Demonhorn's Edge",
+			"type": "destroyer helm",
+			"group": "destroyer helm",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "bad",
+			"saveId": 326
+		},
+		"baranarsstar": {
+			"name": "Baranar's Star",
+			"type": "Devil Star",
+			"group": "Devil Star",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7mt",
+			"saveId": 257
+		},
+		"griffonseye": {
+			"name": "Griffon's Eye",
+			"type": "diadem",
+			"group": "diadem",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ci3",
+			"saveId": 337
+		},
+		"hellforgedgriffonseye": {
+			"name": "Hellforged Griffon's Eye",
+			"type": "diadem",
+			"group": "diadem",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ci3",
+			"saveId": 597
+		},
+		"indigon": {
+			"name": "Indigon",
+			"type": "diadem",
+			"group": "diadem",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ci3",
+			"saveId": 577
+		},
+		"wraithskin": {
+			"name": "Wraithskin",
+			"type": "Diamond Mail",
+			"group": "Diamond Mail",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ung",
+			"saveId": 441
+		},
+		"ginthersrift": {
+			"name": "Ginther's Rift",
+			"type": "Dimensional Blade",
+			"group": "Dimensional Blade",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9cr",
+			"saveId": 159
+		},
+		"fathom": {
+			"name": "Fathom",
+			"type": "dimensional shard",
+			"group": "dimensional shard",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "obf",
+			"saveId": 355,
+			"displayName": "Death's Fathom"
+		},
+		"thediggler": {
+			"name": "The Diggler",
+			"type": "Dirk",
+			"group": "Dirk",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "dir",
+			"saveId": 40
+		},
+		"handofblessedlight": {
+			"name": "Hand of Blessed Light",
+			"type": "Divine Scepter",
+			"group": "Divine Scepter",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9ws",
+			"saveId": 147
+		},
+		"bladebone": {
+			"name": "Bladebone",
+			"type": "Double Axe",
+			"group": "Double Axe",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "2ax",
+			"saveId": 2
+		},
+		"endlesshail": {
+			"name": "Endlesshail",
+			"type": "Double Bow",
+			"group": "Double Bow",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "8cb",
+			"saveId": 192
+		},
+		"tiamatsrebuke": {
+			"name": "Tiamat's Rebuke",
+			"type": "Dragon Shield",
+			"group": "Dragon Shield",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xit",
+			"saveId": 228
+		},
+		"jalalsmane": {
+			"name": "Jalal's Mane",
+			"type": "Dream Spirit",
+			"group": "Dream Spirit",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "dra",
+			"saveId": 288
+		},
+		"nightmaresfeast": {
+			"name": "Nightmares Feast",
+			"type": "Dream Spirit",
+			"group": "Dream Spirit",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "drf",
+			"saveId": 432,
+			"displayName": "Ursa's Nightmare"
+		},
+		"ormusrobes": {
+			"name": "Ormus' Robes",
+			"type": "dusk shroud",
+			"group": "dusk shroud",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uui",
+			"saveId": 359
+		},
+		"spiritkeeper": {
+			"name": "Spiritkeeper",
+			"type": "earth spirit",
+			"group": "earth spirit",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "drd",
+			"saveId": 328,
+			"displayName": "Spirit Keeper"
+		},
+		"skystrike": {
+			"name": "Skystrike",
+			"type": "Edge Bow",
+			"group": "Edge Bow",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "8sb",
+			"saveId": 189
+		},
+		"ondalswisdom": {
+			"name": "Ondal's Wisdom",
+			"type": "elder staff",
+			"group": "elder staff",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "6cs",
+			"saveId": 389
+		},
+		"eschutastemper": {
+			"name": "Eschuta's temper",
+			"type": "eldritch orb",
+			"group": "eldritch orb",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "obc",
+			"saveId": 368,
+			"displayName": "Eschuta's Temper"
+		},
+		"bloodmoon": {
+			"name": "Bloodmoon",
+			"type": "elegant blade",
+			"group": "elegant blade",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7sb",
+			"saveId": 290
+		},
+		"theoppressor": {
+			"name": "The Oppressor",
+			"type": "elegant round shield",
+			"group": "elegant round shield",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ers",
+			"saveId": 529
+		},
+		"thesquire": {
+			"name": "The Squire",
+			"type": "elegant round shield",
+			"group": "elegant round shield",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ers",
+			"saveId": 528
+		},
+		"atmaswail": {
+			"name": "Atma's Wail",
+			"type": "Embossed Plate",
+			"group": "Embossed Plate",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xth",
+			"saveId": 221
+		},
+		"temporalis": {
+			"name": "Temporalis",
+			"type": "enlightened robe",
+			"group": "enlightened robe",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "tro3",
+			"saveId": 560
+		},
+		"craintevomir": {
+			"name": "Crainte Vomir",
+			"type": "Espadon",
+			"group": "Espadon",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "92h",
+			"saveId": 163
+		},
+		"runemaster": {
+			"name": "Runemaster",
+			"type": "ettin axe",
+			"group": "ettin axe",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "72a",
+			"saveId": 314,
+			"displayName": "Rune Master"
+		},
+		"swordguard": {
+			"name": "Swordguard",
+			"type": "Executioner Sword",
+			"group": "Executioner Sword",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9gd",
+			"saveId": 168
+		},
+		"gleamscythe": {
+			"name": "Gleamscythe",
+			"type": "Falchion",
+			"group": "Falchion",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "flc",
+			"saveId": 28
+		},
+		"fleshripper": {
+			"name": "Fleshripper",
+			"type": "fanged knife",
+			"group": "fanged knife",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7kr",
+			"saveId": 305
+		},
+		"firelizardstalons": {
+			"name": "Firelizard's Talons",
+			"type": "feral claws",
+			"group": "feral claws",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7lw",
+			"saveId": 369
+		},
+		"rockfleece": {
+			"name": "Rockfleece",
+			"type": "Field Plate",
+			"group": "Field Plate",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "fld",
+			"saveId": 89
+		},
+		"khalimflail": {
+			"name": "KhalimFlail",
+			"type": "Flail",
+			"group": "Flail",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "qf1",
+			"saveId": 127
+		},
+		"superkhalimflail": {
+			"name": "SuperKhalimFlail",
+			"type": "Flail",
+			"group": "Flail",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "qf2",
+			"saveId": 128
+		},
+		"thegeneralstandoliga": {
+			"name": "The Generals Tan Do Li Ga",
+			"type": "Flail",
+			"group": "Flail",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "fla",
+			"saveId": 21,
+			"displayName": "The General's Tan Do Li Ga"
+		},
+		"ripsaw": {
+			"name": "Ripsaw",
+			"type": "Flamberge",
+			"group": "Flamberge",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "flb",
+			"saveId": 37
+		},
+		"sureshrillfrost": {
+			"name": "Sureshrill Frost",
+			"type": "Flanged Mace",
+			"group": "Flanged Mace",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9ma",
+			"saveId": 149
+		},
+		"gimmershred": {
+			"name": "Gimmershred",
+			"type": "flying axe",
+			"group": "flying axe",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7ta",
+			"saveId": 336
+		},
+		"thescalper": {
+			"name": "The Scalper",
+			"type": "Francisca",
+			"group": "Francisca",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9ta",
+			"saveId": 289
+		},
+		"duskdeep": {
+			"name": "Duskdeep",
+			"type": "Full Helm",
+			"group": "Full Helm",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "fhl",
+			"saveId": 74
+		},
+		"goldskin": {
+			"name": "Goldskin",
+			"type": "Full Plate Mail",
+			"group": "Full Plate Mail",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ful",
+			"saveId": 91
+		},
+		"wolfhowl": {
+			"name": "Wolfhowl",
+			"type": "fury visor",
+			"group": "fury visor",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "bac",
+			"saveId": 356
+		},
+		"kelpiesnare": {
+			"name": "Kelpie Snare",
+			"type": "Fuscina",
+			"group": "Fuscina",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9tr",
+			"saveId": 174
+		},
+		"frostburn": {
+			"name": "Frostburn",
+			"type": "Gauntlets",
+			"group": "Gauntlets",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "hgl",
+			"saveId": 106
+		},
+		"thespiritshroud": {
+			"name": "The Spirit Shroud",
+			"type": "Ghost Armor",
+			"group": "Ghost Armor",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xui",
+			"saveId": 210
+		},
+		"wraithflight": {
+			"name": "Wraithflight",
+			"type": "ghost glaive",
+			"group": "ghost glaive",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7gl",
+			"saveId": 387,
+			"displayName": "Wraith Flight"
+		},
+		"uldyssiansawakening": {
+			"name": "Uldyssian's Awakening",
+			"type": "Ghost Spear",
+			"group": "Ghost Spear",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7st",
+			"saveId": 438
+		},
+		"nethercrux": {
+			"name": "Nethercrux",
+			"type": "Ghost Wand",
+			"group": "Ghost Wand",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7yw",
+			"saveId": 475
+		},
+		"thehumongous": {
+			"name": "The Humongous",
+			"type": "Giant Axe",
+			"group": "Giant Axe",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "gix",
+			"saveId": 9,
+			"displayName": "Humongous"
+		},
+		"overlordshelm": {
+			"name": "Overlords Helm",
+			"type": "Giant Conch",
+			"group": "Giant Conch",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uhl",
+			"saveId": 403,
+			"displayName": "Overlord's Helm"
+		},
+		"sagesdefiance": {
+			"name": "Sage's Defiance",
+			"type": "Giant Conch",
+			"group": "Giant Conch",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uhl",
+			"saveId": 478
+		},
+		"kinemilsawl": {
+			"name": "Kinemils Awl",
+			"type": "Giant Sword",
+			"group": "Giant Sword",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "gis",
+			"saveId": 35,
+			"displayName": "Kinemil's Awl"
+		},
+		"stormspire": {
+			"name": "Stormspire",
+			"type": "Giant Thresher",
+			"group": "Giant Thresher",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7wc",
+			"saveId": 265
+		},
+		"bladebuckle": {
+			"name": "Bladebuckle",
+			"type": "Girdle",
+			"group": "Girdle",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "hbl",
+			"saveId": 116
+		},
+		"bloodletter": {
+			"name": "Bloodletter",
+			"type": "Gladius",
+			"group": "Gladius",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9ss",
+			"saveId": 155
+		},
+		"executionersjustice": {
+			"name": "Executioner's Justice",
+			"type": "glorious axe",
+			"group": "glorious axe",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7gi",
+			"saveId": 316
+		},
+		"thehandofbroc": {
+			"name": "The Hand of Broc",
+			"type": "Gloves",
+			"group": "Gloves",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "lgl",
+			"saveId": 102
+		},
+		"tempest": {
+			"name": "Tempest",
+			"type": "Glowing Orb",
+			"group": "Glowing Orb",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ob6",
+			"saveId": 413
+		},
+		"lazarusspire": {
+			"name": "Lazarus Spire",
+			"type": "Gnarled Staff",
+			"group": "Gnarled Staff",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "cst",
+			"saveId": 56,
+			"displayName": "Spire of Lazarus"
+		},
+		"boneslayerblade": {
+			"name": "Boneslayer Blade",
+			"type": "Gothic Axe",
+			"group": "Gothic Axe",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9ga",
+			"saveId": 138
+		},
+		"godstrikearch": {
+			"name": "Godstrike Arch",
+			"type": "Gothic Bow",
+			"group": "Gothic Bow",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "8lw",
+			"saveId": 196,
+			"displayName": "Goldstrike Arch"
+		},
+		"rattlecage": {
+			"name": "Rattlecage",
+			"type": "Gothic Plate",
+			"group": "Gothic Plate",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "gth",
+			"saveId": 90
+		},
+		"theward": {
+			"name": "The Ward",
+			"type": "Gothic Shield",
+			"group": "Gothic Shield",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "gts",
+			"saveId": 101
+		},
+		"warpspear": {
+			"name": "Warpspear",
+			"type": "Gothic Staff",
+			"group": "Gothic Staff",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "8bs",
+			"saveId": 187
+		},
+		"cloudcrack": {
+			"name": "Cloudcrack",
+			"type": "Gothic Sword",
+			"group": "Gothic Sword",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9b9",
+			"saveId": 166
+		},
+		"crownofthieves": {
+			"name": "Crown of Thieves",
+			"type": "Grand Crown",
+			"group": "Grand Crown",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xrn",
+			"saveId": 207
+		},
+		"ebonbane": {
+			"name": "Ebonbane",
+			"type": "Grand Matron Bow",
+			"group": "Grand Matron Bow",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "amc",
+			"saveId": 445
+		},
+		"rusthandle": {
+			"name": "Rusthandle",
+			"type": "Grand Scepter",
+			"group": "Grand Scepter",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "gsc",
+			"saveId": 16
+		},
+		"blackhandkey": {
+			"name": "Blackhand Key",
+			"type": "Grave Wand",
+			"group": "Grave Wand",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9gw",
+			"saveId": 143
+		},
+		"brainhew": {
+			"name": "Brainhew",
+			"type": "Great Axe",
+			"group": "Great Axe",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "gax",
+			"saveId": 8
+		},
+		"howltusk": {
+			"name": "Howltusk",
+			"type": "Great Helm",
+			"group": "Great Helm",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ghm",
+			"saveId": 76
+		},
+		"steeldriver": {
+			"name": "Steeldriver",
+			"type": "Great Maul",
+			"group": "Great Maul",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "gma",
+			"saveId": 24
+		},
+		"thepatriarch": {
+			"name": "The Patriarch",
+			"type": "Great Sword",
+			"group": "Great Sword",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "gsd",
+			"saveId": 38
+		},
+		"vampiregaze": {
+			"name": "Vampiregaze",
+			"type": "Grim Helm",
+			"group": "Grim Helm",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xh9",
+			"saveId": 209,
+			"displayName": "Vampire Gaze"
+		},
+		"grimsburningdead": {
+			"name": "Grim's Burning Dead",
+			"type": "Grim Scythe",
+			"group": "Grim Scythe",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9wc",
+			"saveId": 183
+		},
+		"lidlesswall": {
+			"name": "Lidless Wall",
+			"type": "Grim Shield",
+			"group": "Grim Shield",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xsh",
+			"saveId": 231
+		},
+		"umeslament": {
+			"name": "Umes Lament",
+			"type": "Grim Wand",
+			"group": "Grim Wand",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "gwn",
+			"saveId": 13,
+			"displayName": "Ume's Lament"
+		},
+		"raekorsvirtue": {
+			"name": "Raekors Virtue",
+			"type": "Guardian Crown",
+			"group": "Guardian Crown",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "baf",
+			"saveId": 431,
+			"displayName": "Raekor's Virtue"
+		},
+		"theveinpiercer": {
+			"name": "The Veinpiercer",
+			"type": "Guardian Crown",
+			"group": "Guardian Crown",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "baf",
+			"saveId": 539
+		},
+		"woestave": {
+			"name": "Woestave",
+			"type": "Halberd",
+			"group": "Halberd",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "hal",
+			"saveId": 52
+		},
+		"hellforgehammer": {
+			"name": "Hell Forge Hammer",
+			"type": "Hammer",
+			"group": "Hammer",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "hfh",
+			"saveId": 126
+		},
+		"thegnasher": {
+			"name": "The Gnasher",
+			"type": "Hand Axe",
+			"group": "Hand Axe",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "hax",
+			"saveId": 0
+		},
+		"thecenturion": {
+			"name": "The Centurion",
+			"type": "Hard Leather",
+			"group": "Hard Leather",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "hla",
+			"saveId": 81
+		},
+		"coldkill": {
+			"name": "Coldkill",
+			"type": "Hatchet",
+			"group": "Hatchet",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9ha",
+			"saveId": 130
+		},
+		"quetzalcoatl": {
+			"name": "Quetzalcoatl",
+			"type": "Hawk Helm",
+			"group": "Hawk Helm",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "dr2",
+			"saveId": 408
+		},
+		"rathpithglobe": {
+			"name": "Rathpith Globe",
+			"type": "Heater",
+			"group": "Heater",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uuc",
+			"saveId": 658
+		},
+		"goldwrap": {
+			"name": "Goldwrap",
+			"type": "Heavy Belt",
+			"group": "Heavy Belt",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "tbl",
+			"saveId": 115
+		},
+		"gorefoot": {
+			"name": "Gorefoot",
+			"type": "Heavy Boots",
+			"group": "Heavy Boots",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "vbt",
+			"saveId": 108
+		},
+		"ghoulhide": {
+			"name": "Ghoulhide",
+			"type": "Heavy Bracers",
+			"group": "Heavy Bracers",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xmg",
+			"saveId": 235
+		},
+		"hellcast": {
+			"name": "Hellcast",
+			"type": "Heavy Crossbow",
+			"group": "Heavy Crossbow",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "hxb",
+			"saveId": 69
+		},
+		"bloodfist": {
+			"name": "Bloodfist",
+			"type": "Heavy Gloves",
+			"group": "Heavy Gloves",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "vgl",
+			"saveId": 103
+		},
+		"homunculus": {
+			"name": "Homunculus",
+			"type": "Heirophant Trophy",
+			"group": "Heirophant Trophy",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "nea",
+			"saveId": 281
+		},
+		"sacredtotem": {
+			"name": "Sacred Totem",
+			"type": "Hellspawn Skull",
+			"group": "Hellspawn Skull",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "neg",
+			"saveId": 452
+		},
+		"coifofglory": {
+			"name": "Coif of Glory",
+			"type": "Helm",
+			"group": "Helm",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "hlm",
+			"saveId": 73
+		},
+		"sankekursfall": {
+			"name": "Sankekur's Fall",
+			"type": "Heraldic Shield",
+			"group": "Heraldic Shield",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "pa3",
+			"saveId": 410
+		},
+		"leoricsmithrilblade": {
+			"name": "Leoric's Mithril Blade",
+			"type": "Highland Blade",
+			"group": "Highland Blade",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7cm",
+			"saveId": 439,
+			"displayName": "Leoric's Mithril Bane"
+		},
+		"thefetidsprinkler": {
+			"name": "The Fetid Sprinkler",
+			"type": "Holy Water Sprinkler",
+			"group": "Holy Water Sprinkler",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9qs",
+			"saveId": 146
+		},
+		"kashyassorrow": {
+			"name": "Kashyas Sorrow",
+			"type": "hunter hood",
+			"group": "hunter hood",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "sh3",
+			"saveId": 549
+		},
+		"witherstring": {
+			"name": "Witherstring",
+			"type": "Hunter�s Bow",
+			"group": "Hunter�s Bow",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "hbw",
+			"saveId": 60
+		},
+		"achillesstrike": {
+			"name": "Achilles Strike",
+			"type": "hurlbat",
+			"group": "hurlbat",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9b8",
+			"saveId": 449
+		},
+		"hailstorm": {
+			"name": "Hailstorm",
+			"type": "Hydra Bow",
+			"group": "Hydra Bow",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "6lw",
+			"saveId": 532
+		},
+		"windforce": {
+			"name": "Windforce",
+			"type": "Hydra Bow",
+			"group": "Hydra Bow",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "6lw",
+			"saveId": 267
+		},
+		"mirrorshield": {
+			"name": "Mirror Shield",
+			"type": "Hyperion",
+			"group": "Hyperion",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "urg",
+			"saveId": 440,
+			"displayName": "Twilight's Reflection"
+		},
+		"ariocsneedle": {
+			"name": "Arioc's Needle",
+			"type": "hyperion spear",
+			"group": "hyperion spear",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7sr",
+			"saveId": 383
+		},
+		"moonfall": {
+			"name": "Moonfall",
+			"type": "Jagged Star",
+			"group": "Jagged Star",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9mt",
+			"saveId": 150
+		},
+		"cyclopeanroar": {
+			"name": "Cyclopean Roar",
+			"type": "Jawbone Visor",
+			"group": "Jawbone Visor",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ba6",
+			"saveId": 409
+		},
+		"cyclopeanroarba6": {
+			"name": "Cyclopean Roar",
+			"type": "Jawbone Visor",
+			"group": "Jawbone Visor",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ba6",
+			"saveId": 436
+		},
+		"rainbowfacet": {
+			"name": "Rainbow Facet",
+			"type": "jewel",
+			"group": "jewel",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "jew",
+			"saveId": 397
+		},
+		"rainbowfacetjew": {
+			"name": "Rainbow Facet",
+			"type": "jewel",
+			"group": "jewel",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "jew",
+			"saveId": 398
+		},
+		"rainbowfacetjew2": {
+			"name": "Rainbow Facet",
+			"type": "jewel",
+			"group": "jewel",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "jew",
+			"saveId": 399
+		},
+		"rainbowfacetjew3": {
+			"name": "Rainbow Facet",
+			"type": "jewel",
+			"group": "jewel",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "jew",
+			"saveId": 400
+		},
+		"rainbowfacetcold": {
+			"name": "Rainbow Facet Cold",
+			"type": "jewel",
+			"group": "jewel",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "jew",
+			"saveId": 394
+		},
+		"rainbowfacetfire": {
+			"name": "Rainbow Facet Fire",
+			"type": "jewel",
+			"group": "jewel",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "jew",
+			"saveId": 395
+		},
+		"rainbowfacetltng": {
+			"name": "Rainbow Facet Ltng",
+			"type": "jewel",
+			"group": "jewel",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "jew",
+			"saveId": 393
+		},
+		"rainbowfacetmag": {
+			"name": "Rainbow Facet Mag",
+			"type": "jewel",
+			"group": "jewel",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "jew",
+			"saveId": 540
+		},
+		"rainbowfacetpois": {
+			"name": "Rainbow Facet Pois",
+			"type": "jewel",
+			"group": "jewel",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "jew",
+			"saveId": 396
+		},
+		"razorswitch": {
+			"name": "Razorswitch",
+			"type": "Jo Stalf",
+			"group": "Jo Stalf",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "8ss",
+			"saveId": 184
+		},
+		"steelclash": {
+			"name": "Steelclash",
+			"type": "Kite Shield",
+			"group": "Kite Shield",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "kit",
+			"saveId": 99
+		},
+		"baezilsvortex": {
+			"name": "Baezil's Vortex",
+			"type": "Knout",
+			"group": "Knout",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9fl",
+			"saveId": 151
+		},
+		"leviathan": {
+			"name": "Leviathan",
+			"type": "kraken shell",
+			"group": "kraken shell",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uld",
+			"saveId": 318
+		},
+		"thejadetando": {
+			"name": "The Jade Tan Do",
+			"type": "Kris",
+			"group": "Kris",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "kri",
+			"saveId": 41
+		},
+		"darkabyss": {
+			"name": "Dark Abyss",
+			"type": "Lacquered Plate",
+			"group": "Lacquered Plate",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uth",
+			"saveId": 404
+		},
+		"spireofhonor": {
+			"name": "Spire of Honor",
+			"type": "Lance",
+			"group": "Lance",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9p9",
+			"saveId": 177
+		},
+		"fechmarsaxe": {
+			"name": "Fechmars Axe",
+			"type": "Large Axe",
+			"group": "Large Axe",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "lax",
+			"saveId": 5,
+			"displayName": "Axe of Fechmar"
+		},
+		"progenesis": {
+			"name": "Progenesis",
+			"type": "large charm",
+			"group": "large charm",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "cm2",
+			"saveId": 551
+		},
+		"stormguild": {
+			"name": "Stormguild",
+			"type": "Large Shield",
+			"group": "Large Shield",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "lrg",
+			"saveId": 96
+		},
+		"blinkbatsform": {
+			"name": "Blinkbats Form",
+			"type": "Leather Armor",
+			"group": "Leather Armor",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "lea",
+			"saveId": 80,
+			"displayName": "Blinkbat's Form"
+		},
+		"hotspur": {
+			"name": "Hotspur",
+			"type": "Leather Boots",
+			"group": "Leather Boots",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "lbt",
+			"saveId": 107
+		},
+		"sevenleaguestep": {
+			"name": "Seven-League Step",
+			"type": "Leather Boots",
+			"group": "Leather Boots",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "lbt",
+			"saveId": 556
+		},
+		"ghostflame": {
+			"name": "Ghostflame",
+			"type": "legend spike",
+			"group": "legend spike",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7bl",
+			"saveId": 334
+		},
+		"stonecrusher": {
+			"name": "Stone Crusher",
+			"type": "legendary mallet",
+			"group": "legendary mallet",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7wh",
+			"saveId": 308
+		},
+		"schaefershammer": {
+			"name": "Schaefer's Hammer",
+			"type": "Legendary Mallet",
+			"group": "Legendary Mallet",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7wh",
+			"saveId": 258
+		},
+		"boneshade": {
+			"name": "Boneshade",
+			"type": "lich wand",
+			"group": "lich wand",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7bw",
+			"saveId": 352
+		},
+		"snakecord": {
+			"name": "Snakecord",
+			"type": "Light Belt",
+			"group": "Light Belt",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "vbl",
+			"saveId": 113
+		},
+		"leadcrow": {
+			"name": "Leadcrow",
+			"type": "Light Crossbow",
+			"group": "Light Crossbow",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "lxb",
+			"saveId": 67
+		},
+		"magefist": {
+			"name": "Magefist",
+			"type": "Light Gauntlets",
+			"group": "Light Gauntlets",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "tgl",
+			"saveId": 105
+		},
+		"magefisttgl": {
+			"name": "Magefist",
+			"type": "Light Gauntlets",
+			"group": "Light Gauntlets",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "tgl",
+			"saveId": 420
+		},
+		"magefisttgl2": {
+			"name": "Magefist",
+			"type": "Light Gauntlets",
+			"group": "Light Gauntlets",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "tgl",
+			"saveId": 421
+		},
+		"magefisttgl3": {
+			"name": "Magefist",
+			"type": "Light Gauntlets",
+			"group": "Light Gauntlets",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "tgl",
+			"saveId": 422
+		},
+		"magefisttgl4": {
+			"name": "Magefist",
+			"type": "Light Gauntlets",
+			"group": "Light Gauntlets",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "tgl",
+			"saveId": 541
+		},
+		"heavenlygarb": {
+			"name": "Heavenly Garb",
+			"type": "Light Plate",
+			"group": "Light Plate",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ltp",
+			"saveId": 93
+		},
+		"goblintoe": {
+			"name": "Goblin Toe",
+			"type": "Light Plate Boots",
+			"group": "Light Plate Boots",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "tbt",
+			"saveId": 110
+		},
+		"spiritforge": {
+			"name": "Spiritforge",
+			"type": "Linked Mail",
+			"group": "Linked Mail",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xng",
+			"saveId": 214,
+			"displayName": "Spirit Forge"
+		},
+		"wildspeaker": {
+			"name": "Wildspeaker",
+			"type": "Lion Helm",
+			"group": "Lion Helm",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ba7",
+			"saveId": 450
+		},
+		"themeatscraper": {
+			"name": "The Meat Scraper",
+			"type": "Lochaber Axe",
+			"group": "Lochaber Axe",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9b7",
+			"saveId": 178
+		},
+		"wizendraw": {
+			"name": "Wizendraw",
+			"type": "Long Battle Bow",
+			"group": "Long Battle Bow",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "lbb",
+			"saveId": 64
+		},
+		"rimeraven": {
+			"name": "Rimeraven",
+			"type": "Long Bow",
+			"group": "Long Bow",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "lbw",
+			"saveId": 61,
+			"displayName": "Raven Claw"
+		},
+		"cliffkiller": {
+			"name": "Cliffkiller",
+			"type": "Long Siege Bow",
+			"group": "Long Siege Bow",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "8l8",
+			"saveId": 194
+		},
+		"serpentlord": {
+			"name": "Serpent Lord",
+			"type": "Long Staff",
+			"group": "Long Staff",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "lst",
+			"saveId": 55
+		},
+		"hellplague": {
+			"name": "Hellplague",
+			"type": "Long Sword",
+			"group": "Long Sword",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "lsd",
+			"saveId": 31
+		},
+		"blastbark": {
+			"name": "Blastbark",
+			"type": "Long War Bow",
+			"group": "Long War Bow",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "lwb",
+			"saveId": 66
+		},
+		"blackoakshield": {
+			"name": "Blackoak Shield",
+			"type": "Luna",
+			"group": "Luna",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uml",
+			"saveId": 253
+		},
+		"hellforgedblackoakshield": {
+			"name": "Hellforged Blackoak Shield",
+			"type": "Luna",
+			"group": "Luna",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uml",
+			"saveId": 590
+		},
+		"crushflange": {
+			"name": "Crushflange",
+			"type": "Mace",
+			"group": "Mace",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "mac",
+			"saveId": 19
+		},
+		"queheganswisdon": {
+			"name": "Que-Hegan's Wisdon",
+			"type": "Mage Plate",
+			"group": "Mage Plate",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xtp",
+			"saveId": 224,
+			"displayName": "Que-Hegan's Wisdom"
+		},
+		"truesilver": {
+			"name": "True Silver",
+			"type": "Maiden Javelin",
+			"group": "Maiden Javelin",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "am5",
+			"saveId": 407
+		},
+		"thegavelofpain": {
+			"name": "The Gavel of Pain",
+			"type": "Martel de Fer",
+			"group": "Martel de Fer",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9gm",
+			"saveId": 154
+		},
+		"thefaceofhorror": {
+			"name": "The Face of Horror",
+			"type": "Mask",
+			"group": "Mask",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "msk",
+			"saveId": 78
+		},
+		"bloodravenscharge": {
+			"name": "Bloodraven's Charge",
+			"type": "matriarchal bow",
+			"group": "matriarchal bow",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "amb",
+			"saveId": 333,
+			"displayName": "Blood Raven's Charge"
+		},
+		"thunderstroke": {
+			"name": "Thunderstroke",
+			"type": "matriarchal javelin",
+			"group": "matriarchal javelin",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "amf",
+			"saveId": 339
+		},
+		"hellforgedzeraesresolve": {
+			"name": "Hellforged Zeraes Resolve",
+			"type": "Matriarchal Pike",
+			"group": "Matriarchal Pike",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ame",
+			"saveId": 585,
+			"displayName": "Hellforged Zerae's Resolve"
+		},
+		"zeraesresolve": {
+			"name": "Zeraes Resolve",
+			"type": "Matriarchal Pike",
+			"group": "Matriarchal Pike",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ame",
+			"saveId": 424,
+			"displayName": "Zerae's Resolve"
+		},
+		"stoneraven": {
+			"name": "Stoneraven",
+			"type": "matriarchal spear",
+			"group": "matriarchal spear",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "amd",
+			"saveId": 317
+		},
+		"bonesob": {
+			"name": "Bonesob",
+			"type": "Maul",
+			"group": "Maul",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "mau",
+			"saveId": 23,
+			"displayName": "Bonesnap"
+		},
+		"shaftstop": {
+			"name": "Shaftstop",
+			"type": "Mesh Armor",
+			"group": "Mesh Armor",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xhn",
+			"saveId": 216
+		},
+		"gloomstrap": {
+			"name": "Gloomstrap",
+			"type": "Mesh Belt",
+			"group": "Mesh Belt",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "zmb",
+			"saveId": 245,
+			"displayName": "Gloom's Trap"
+		},
+		"silkweave": {
+			"name": "Silkweave",
+			"type": "Mesh Boots",
+			"group": "Mesh Boots",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xmb",
+			"saveId": 240
+		},
+		"heavenslight": {
+			"name": "Heaven's Light",
+			"type": "mighty scepter",
+			"group": "mighty scepter",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7sc",
+			"saveId": 372
+		},
+		"thereedeemer": {
+			"name": "The Reedeemer",
+			"type": "mighty scepter",
+			"group": "mighty scepter",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7sc",
+			"saveId": 390,
+			"displayName": "The Redeemer"
+		},
+		"warlordstrust": {
+			"name": "Warlord's Trust",
+			"type": "Military Axe",
+			"group": "Military Axe",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9la",
+			"saveId": 135
+		},
+		"mindrend": {
+			"name": "Mindrend",
+			"type": "Military Pick",
+			"group": "Military Pick",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "mpi",
+			"saveId": 3,
+			"displayName": "Skull Splitter"
+		},
+		"itheraelspath": {
+			"name": "Itheraels Path",
+			"type": "mirrored boots",
+			"group": "mirrored boots",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "utb",
+			"saveId": 402,
+			"displayName": "Itherael's Path"
+		},
+		"wakeofdestruction": {
+			"name": "Wake of Destruction",
+			"type": "mirrored boots",
+			"group": "mirrored boots",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "utb",
+			"saveId": 576
+		},
+		"shatterblade": {
+			"name": "Shatterblade",
+			"type": "Mithral Point",
+			"group": "Mithral Point",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7di",
+			"saveId": 443
+		},
+		"verdugosheartycord": {
+			"name": "Verdugo's Hearty Cord",
+			"type": "mithril coil",
+			"group": "mithril coil",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "umc",
+			"saveId": 377,
+			"displayName": "Verdungo's Hearty Cord"
+		},
+		"stormshield": {
+			"name": "Stormshield",
+			"type": "Monarch",
+			"group": "Monarch",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uit",
+			"saveId": 254
+		},
+		"bloodrise": {
+			"name": "Bloodrise",
+			"type": "Morning Star",
+			"group": "Morning Star",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "mst",
+			"saveId": 20
+		},
+		"kalanslegacy": {
+			"name": "Kalans Legacy",
+			"type": "Mummified Trophy",
+			"group": "Mummified Trophy",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ne6",
+			"saveId": 412,
+			"displayName": "Kalan's Legacy"
+		},
+		"shadowdancer": {
+			"name": "Shadowdancer",
+			"type": "myrmidon greaves",
+			"group": "myrmidon greaves",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uhb",
+			"saveId": 310,
+			"displayName": "Shadow Dancer"
+		},
+		"kratosfury": {
+			"name": "Kratos Fury",
+			"type": "Mythic Belt",
+			"group": "Mythic Belt",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "mgb",
+			"saveId": 520
+		},
+		"mageblood3": {
+			"name": "Mageblood 3",
+			"type": "Mythic Belt",
+			"group": "Mythic Belt",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "mgb",
+			"saveId": 522,
+			"displayName": "Mageblood"
+		},
+		"mageblood4": {
+			"name": "Mageblood 4",
+			"type": "Mythic Belt",
+			"group": "Mythic Belt",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "mgb",
+			"saveId": 523,
+			"displayName": "Mageblood"
+		},
+		"magebloodbase": {
+			"name": "Mageblood Base",
+			"type": "Mythic Belt",
+			"group": "Mythic Belt",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "mgb",
+			"saveId": 521,
+			"displayName": "Mageblood"
+		},
+		"akaratsrage": {
+			"name": "Akarats Rage",
+			"type": "mythic jewel",
+			"group": "mythic jewel",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "mjw",
+			"saveId": 527,
+			"displayName": "Akarat's Rage"
+		},
+		"fluidmotion": {
+			"name": "Fluid Motion",
+			"type": "mythic jewel",
+			"group": "mythic jewel",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "mjw",
+			"saveId": 531
+		},
+		"hellforgedwidespread": {
+			"name": "Hellforged Widespread",
+			"type": "mythic jewel",
+			"group": "mythic jewel",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "mjw",
+			"saveId": 563,
+			"displayName": "Hellforged Widespread Destruction"
+		},
+		"widespreaddestruction": {
+			"name": "Widespread Destruction",
+			"type": "mythic jewel",
+			"group": "mythic jewel",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "mjw",
+			"saveId": 536
+		},
+		"nihlathaksmalice": {
+			"name": "Nihlathaks Malice",
+			"type": "mythical sword",
+			"group": "mythical sword",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7wd",
+			"saveId": 525,
+			"displayName": "Nihlathak's Malice"
+		},
+		"guardiannaga": {
+			"name": "Guardian Naga",
+			"type": "Naga",
+			"group": "Naga",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9wa",
+			"saveId": 134
+		},
+		"bonehew": {
+			"name": "Bonehew",
+			"type": "ogre axe",
+			"group": "ogre axe",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7o7",
+			"saveId": 388
+		},
+		"hellforgedbonehew": {
+			"name": "Hellforged Bonehew",
+			"type": "ogre axe",
+			"group": "ogre axe",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7o7",
+			"saveId": 601
+		},
+		"hellforgedsteelrend": {
+			"name": "Hellforged Steelrend",
+			"type": "ogre gauntlets",
+			"group": "ogre gauntlets",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uhg",
+			"saveId": 571
+		},
+		"steelrend": {
+			"name": "Steelrend",
+			"type": "ogre gauntlets",
+			"group": "ogre gauntlets",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uhg",
+			"saveId": 392
+		},
+		"windhammer": {
+			"name": "Windhammer",
+			"type": "ogre maul",
+			"group": "ogre maul",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7m7",
+			"saveId": 338
+		},
+		"corpsemourn": {
+			"name": "Corpsemourn",
+			"type": "Ornate Armor",
+			"group": "Ornate Armor",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xar",
+			"saveId": 223
+		},
+		"empoweredspiritcharm": {
+			"name": "Empowered Spirit Charm",
+			"type": "ornate charm",
+			"group": "ornate charm",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "cm4",
+			"saveId": 544,
+			"displayName": "Empowered Spirit"
+		},
+		"meldingoftheflesh": {
+			"name": "Melding of the flesh",
+			"type": "ornate charm",
+			"group": "ornate charm",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "cm4",
+			"saveId": 550,
+			"displayName": "Melding of the Flesh"
+		},
+		"onewithnothingcharm": {
+			"name": "One With Nothing Charm",
+			"type": "ornate charm",
+			"group": "ornate charm",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "cm4",
+			"saveId": 543,
+			"displayName": "One With Nothing"
+		},
+		"temperedfleshcharm": {
+			"name": "Tempered Flesh Charm",
+			"type": "ornate charm",
+			"group": "ornate charm",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "cm4",
+			"saveId": 542,
+			"displayName": "Tempered Flesh"
+		},
+		"timedilationcharm": {
+			"name": "Time Dilation Charm",
+			"type": "ornate charm",
+			"group": "ornate charm",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "cm4",
+			"saveId": 574,
+			"displayName": "Time Dilation"
+		},
+		"transcendentmindcharm": {
+			"name": "Transcendent Mind Charm",
+			"type": "ornate charm",
+			"group": "ornate charm",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "cm4",
+			"saveId": 559,
+			"displayName": "Transcendent Mind"
+		},
+		"transcendentmindmagcharm": {
+			"name": "Transcendent Mind Mag Charm",
+			"type": "ornate charm",
+			"group": "ornate charm",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "cm4",
+			"saveId": 578,
+			"displayName": "Transcendent Mind"
+		},
+		"martyr": {
+			"name": "Martyr",
+			"type": "Overseer Skull",
+			"group": "Overseer Skull",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ned",
+			"saveId": 428,
+			"displayName": "Martyrdom"
+		},
+		"pierretombalecouant": {
+			"name": "Pierre Tombale Couant",
+			"type": "Partizan",
+			"group": "Partizan",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9pa",
+			"saveId": 181
+		},
+		"kerkessanctuary": {
+			"name": "Kerke's Sanctuary",
+			"type": "Pavise",
+			"group": "Pavise",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xow",
+			"saveId": 229,
+			"displayName": "Gerke's Sanctuary"
+		},
+		"carinshard": {
+			"name": "Carin Shard",
+			"type": "Petrified Wand",
+			"group": "Petrified Wand",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9yw",
+			"saveId": 141
+		},
+		"azurewrath": {
+			"name": "Azurewrath",
+			"type": "phase blade",
+			"group": "phase blade",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7cr",
+			"saveId": 302
+		},
+		"hellforgedazurewrath": {
+			"name": "Hellforged Azurewrath",
+			"type": "phase blade",
+			"group": "phase blade",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7cr",
+			"saveId": 589
+		},
+		"lightsabre": {
+			"name": "Lightsabre",
+			"type": "Phase Blade",
+			"group": "Phase Blade",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7cr",
+			"saveId": 260
+		},
+		"thetannrgorerod": {
+			"name": "The Tannr Gorerod",
+			"type": "Pike",
+			"group": "Pike",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "pik",
+			"saveId": 47
+		},
+		"haloofthejusticar": {
+			"name": "Halo of the Justicar",
+			"type": "Pious Helmet",
+			"group": "Pious Helmet",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ph3",
+			"saveId": 546
+		},
+		"haloofthejusticarph3": {
+			"name": "Halo of the Justicar",
+			"type": "Pious Helmet",
+			"group": "Pious Helmet",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ph3",
+			"saveId": 547
+		},
+		"tearhaunch": {
+			"name": "Tearhaunch",
+			"type": "Plate Boots",
+			"group": "Plate Boots",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "hbt",
+			"saveId": 111
+		},
+		"boneflesh": {
+			"name": "Boneflesh",
+			"type": "Plate Mail",
+			"group": "Plate Mail",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "plt",
+			"saveId": 88
+		},
+		"spineripper": {
+			"name": "Spineripper",
+			"type": "Poignard",
+			"group": "Poignard",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9dg",
+			"saveId": 169
+		},
+		"thebattlebranch": {
+			"name": "The Battlebranch",
+			"type": "Poleaxe",
+			"group": "Poleaxe",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "pax",
+			"saveId": 51
+		},
+		"ribcracker": {
+			"name": "Ribcracker",
+			"type": "Quarterstaff",
+			"group": "Quarterstaff",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "8ls",
+			"saveId": 185
+		},
+		"mageslayer": {
+			"name": "Mage Slayer",
+			"type": "Quhab",
+			"group": "Quhab",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9ar",
+			"saveId": 411
+		},
+		"greyform": {
+			"name": "Greyform",
+			"type": "Quilted Armor",
+			"group": "Quilted Armor",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "qui",
+			"saveId": 79
+		},
+		"riphook": {
+			"name": "Riphook",
+			"type": "Razor Bow",
+			"group": "Razor Bow",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "8hb",
+			"saveId": 190
+		},
+		"doomspittle": {
+			"name": "Doomspittle",
+			"type": "Repeating Crossbow",
+			"group": "Repeating Crossbow",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "rxb",
+			"saveId": 70,
+			"displayName": "Doomslinger"
+		},
+		"carrionwind": {
+			"name": "Carrion Wind",
+			"type": "ring",
+			"group": "ring",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "rin",
+			"saveId": 379
+		},
+		"naturespeace": {
+			"name": "Nature's Peace",
+			"type": "ring",
+			"group": "ring",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "rin",
+			"saveId": 301
+		},
+		"wisp": {
+			"name": "Wisp",
+			"type": "ring",
+			"group": "ring",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "rin",
+			"saveId": 320,
+			"displayName": "Wisp Projector"
+		},
+		"bulkathosweddingband": {
+			"name": "Bul Katho's Wedding Band",
+			"type": "Ring",
+			"group": "Ring",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "rin",
+			"saveId": 269,
+			"displayName": "Bul-Kathos' Wedding Band"
+		},
+		"callofthebrotherhood": {
+			"name": "Call of the Brotherhood",
+			"type": "Ring",
+			"group": "Ring",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "rin",
+			"saveId": 572
+		},
+		"constrictingring": {
+			"name": "Constricting Ring",
+			"type": "Ring",
+			"group": "Ring",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "rin",
+			"saveId": 264,
+			"displayName": "Constricting Loop"
+		},
+		"deathspoise": {
+			"name": "Deaths Poise",
+			"type": "Ring",
+			"group": "Ring",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "rin",
+			"saveId": 538,
+			"displayName": "Death's Poise"
+		},
+		"dwarfstar": {
+			"name": "Dwarf Star",
+			"type": "Ring",
+			"group": "Ring",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "rin",
+			"saveId": 275
+		},
+		"hellforgedbulkathosband": {
+			"name": "Hellforged Bul Kathos Band",
+			"type": "Ring",
+			"group": "Ring",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "rin",
+			"saveId": 602,
+			"displayName": "Hellforged Bul-Katho's Wedding Band"
+		},
+		"hellforgedstoneofjordan": {
+			"name": "Hellforged Stone of Jordan",
+			"type": "Ring",
+			"group": "Ring",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "rin",
+			"saveId": 564
+		},
+		"manaldheal": {
+			"name": "Manald Heal",
+			"type": "Ring",
+			"group": "Ring",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "rin",
+			"saveId": 121
+		},
+		"nagelring": {
+			"name": "Nagelring",
+			"type": "Ring",
+			"group": "Ring",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "rin",
+			"saveId": 120
+		},
+		"originalsin": {
+			"name": "Original Sin",
+			"type": "Ring",
+			"group": "Ring",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "rin",
+			"saveId": 519
+		},
+		"ravenfrost": {
+			"name": "Raven Frost",
+			"type": "Ring",
+			"group": "Ring",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "rin",
+			"saveId": 276
+		},
+		"thestoneofjordan": {
+			"name": "The Stone of Jordan",
+			"type": "Ring",
+			"group": "Ring",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "rin",
+			"saveId": 122
+		},
+		"darkglow": {
+			"name": "Darkglow",
+			"type": "Ring Mail",
+			"group": "Ring Mail",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "rng",
+			"saveId": 83
+		},
+		"heartcarver": {
+			"name": "Heart Carver",
+			"type": "Rondel",
+			"group": "Rondel",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9di",
+			"saveId": 170
+		},
+		"mosersblessedcircle": {
+			"name": "Mosers Blessed Circle",
+			"type": "Round Shield",
+			"group": "Round Shield",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xml",
+			"saveId": 226,
+			"displayName": "Moser's Blessed Circle"
+		},
+		"magewrath": {
+			"name": "Magewrath",
+			"type": "Rune Bow",
+			"group": "Rune Bow",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "8sw",
+			"saveId": 195
+		},
+		"zakarumshand": {
+			"name": "Zakarum's Hand",
+			"type": "Rune Scepter",
+			"group": "Rune Scepter",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9sc",
+			"saveId": 145
+		},
+		"skullcollector": {
+			"name": "Skullcollector",
+			"type": "Rune Staff",
+			"group": "Rune Staff",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "8ws",
+			"saveId": 188,
+			"displayName": "Skull Collector"
+		},
+		"plaguebearer": {
+			"name": "Plague Bearer",
+			"type": "Rune Sword",
+			"group": "Rune Sword",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9ls",
+			"saveId": 161
+		},
+		"cutthroat1": {
+			"name": "Cutthroat1",
+			"type": "Runic Talons",
+			"group": "Runic Talons",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9tw",
+			"saveId": 287,
+			"displayName": "Bartuc's Cut-Throat"
+		},
+		"stalkerscull": {
+			"name": "Stalkers Cull",
+			"type": "Runic Talons",
+			"group": "Runic Talons",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7tw",
+			"saveId": 429,
+			"displayName": "Stalker's Cull"
+		},
+		"skulldersire": {
+			"name": "Skullder's Ire",
+			"type": "Russet Armor",
+			"group": "Russet Armor",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xpl",
+			"saveId": 218
+		},
+		"krintizsskewer": {
+			"name": "Krintizs Skewer",
+			"type": "Saber",
+			"group": "Saber",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "sbr",
+			"saveId": 27,
+			"displayName": "Skewer of Krintiz"
+		},
+		"hellforgedtyraelsmight": {
+			"name": "Hellforged Tyrael's Might",
+			"type": "sacred armor",
+			"group": "sacred armor",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uar",
+			"saveId": 596
+		},
+		"templarsmight": {
+			"name": "Templar's Might",
+			"type": "sacred armor",
+			"group": "sacred armor",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uar",
+			"saveId": 367
+		},
+		"tyraelsmight": {
+			"name": "Tyrael's Might",
+			"type": "sacred armor",
+			"group": "sacred armor",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uar",
+			"saveId": 312
+		},
+		"almanegra": {
+			"name": "Alma Negra",
+			"type": "sacred rondache",
+			"group": "sacred rondache",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "pac",
+			"saveId": 330
+		},
+		"ephemeral": {
+			"name": "Ephemeral",
+			"type": "sacred targe",
+			"group": "sacred targe",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "pab",
+			"saveId": 481
+		},
+		"rockstopper": {
+			"name": "Rockstopper",
+			"type": "Sallet",
+			"group": "Sallet",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xkp",
+			"saveId": 203
+		},
+		"lenymscord": {
+			"name": "Lenyms Cord",
+			"type": "Sash",
+			"group": "Sash",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "lbl",
+			"saveId": 112,
+			"displayName": "Lenymo"
+		},
+		"hawkmail": {
+			"name": "Hawkmail",
+			"type": "Scale Mail",
+			"group": "Scale Mail",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "scl",
+			"saveId": 84
+		},
+		"sandstormtrek": {
+			"name": "Sandstorm Trek",
+			"type": "scarabshell boots",
+			"group": "scarabshell boots",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uvb",
+			"saveId": 370
+		},
+		"knellstriker": {
+			"name": "Knell Striker",
+			"type": "Scepter",
+			"group": "Scepter",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "scp",
+			"saveId": 15
+		},
+		"bloodcrescent": {
+			"name": "Blood Crescent",
+			"type": "Scimitar",
+			"group": "Scimitar",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "scm",
+			"saveId": 26
+		},
+		"aidansscar": {
+			"name": "Aidans Scar",
+			"type": "Scissors Suwayyah",
+			"group": "Scissors Suwayyah",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7qr",
+			"saveId": 405,
+			"displayName": "Aidan's Scar"
+		},
+		"horizonstornado": {
+			"name": "Horizon's Tornado",
+			"type": "scourge",
+			"group": "scourge",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7fl",
+			"saveId": 307
+		},
+		"stormlash": {
+			"name": "Stormlash",
+			"type": "scourge",
+			"group": "scourge",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7fl",
+			"saveId": 361
+		},
+		"stormchaser": {
+			"name": "Stormchaser",
+			"type": "Scutum",
+			"group": "Scutum",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xrg",
+			"saveId": 227
+		},
+		"soulharvest": {
+			"name": "Soul Harvest",
+			"type": "Scythe",
+			"group": "Scythe",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "scy",
+			"saveId": 50
+		},
+		"akaratsdevotion": {
+			"name": "Akarats Devotion",
+			"type": "Seraph Rod",
+			"group": "Seraph Rod",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7qs",
+			"saveId": 427,
+			"displayName": "Akarat's Devotion"
+		},
+		"akaratsdevotion7qs": {
+			"name": "Akarats Devotion",
+			"type": "Seraph Rod",
+			"group": "Seraph Rod",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7qs",
+			"saveId": 435,
+			"displayName": "Akarat's Devotion"
+		},
+		"skinofthevipermagi": {
+			"name": "Skin of the Vipermagi",
+			"type": "SerpentSkin Armor",
+			"group": "SerpentSkin Armor",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xea",
+			"saveId": 211
+		},
+		"goldrim": {
+			"name": "Goldrim",
+			"type": "shabby hood",
+			"group": "shabby hood",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "sh1",
+			"saveId": 557
+		},
+		"hellforgedsteelcarapace": {
+			"name": "Hellforged Steel Carapace",
+			"type": "shadow plate",
+			"group": "shadow plate",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uul",
+			"saveId": 598
+		},
+		"steelcarapice": {
+			"name": "Steel Carapice",
+			"type": "shadow plate",
+			"group": "shadow plate",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uul",
+			"saveId": 349,
+			"displayName": "Steel Carapace"
+		},
+		"harlequincrest": {
+			"name": "Harlequin Crest",
+			"type": "Shako",
+			"group": "Shako",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uap",
+			"saveId": 249
+		},
+		"hellforgedharlequincrest": {
+			"name": "Hellforged Harlequin Crest",
+			"type": "Shako",
+			"group": "Shako",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uap",
+			"saveId": 582
+		},
+		"hexfire": {
+			"name": "Hexfire",
+			"type": "Shamshir",
+			"group": "Shamshir",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9sb",
+			"saveId": 157
+		},
+		"razortail": {
+			"name": "Razortail",
+			"type": "Sharkskin Belt",
+			"group": "Sharkskin Belt",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "zvb",
+			"saveId": 244
+		},
+		"waterwalk": {
+			"name": "Waterwalk",
+			"type": "Sharkskin Boots",
+			"group": "Sharkskin Boots",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xvb",
+			"saveId": 239
+		},
+		"gravepalm": {
+			"name": "Gravepalm",
+			"type": "Sharkskin Gloves",
+			"group": "Sharkskin Gloves",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xvg",
+			"saveId": 234
+		},
+		"toothrow": {
+			"name": "Toothrow",
+			"type": "Sharktooth Armor",
+			"group": "Sharktooth Armor",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xld",
+			"saveId": 220
+		},
+		"brimstonerain": {
+			"name": "Brimstone Rain",
+			"type": "Shillelah",
+			"group": "Shillelah",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "6bs",
+			"saveId": 426
+		},
+		"pullspite": {
+			"name": "Pullspite",
+			"type": "Short Battle Bow",
+			"group": "Short Battle Bow",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "sbb",
+			"saveId": 63,
+			"displayName": "Stormstrike"
+		},
+		"pluckeye": {
+			"name": "Pluckeye",
+			"type": "Short Bow",
+			"group": "Short Bow",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "sbw",
+			"saveId": 59
+		},
+		"whichwildstring": {
+			"name": "Whichwild String",
+			"type": "Short Siege Bow",
+			"group": "Short Siege Bow",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "8s8",
+			"saveId": 193,
+			"displayName": "Witchwild String"
+		},
+		"baneash": {
+			"name": "Bane Ash",
+			"type": "Short Staff",
+			"group": "Short Staff",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "sst",
+			"saveId": 54
+		},
+		"rixotskeen": {
+			"name": "Rixots Keen",
+			"type": "Short Sword",
+			"group": "Short Sword",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ssd",
+			"saveId": 25,
+			"displayName": "Rixot's Keen"
+		},
+		"hellclap": {
+			"name": "Hellclap",
+			"type": "Short War Bow",
+			"group": "Short War Bow",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "swb",
+			"saveId": 65
+		},
+		"pusspiter": {
+			"name": "Pus Spiter",
+			"type": "Siege Crossbow",
+			"group": "Siege Crossbow",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "8mx",
+			"saveId": 198,
+			"displayName": "Pus Spitter"
+		},
+		"etherealedge": {
+			"name": "Ethereal Edge",
+			"type": "silver-edged axe",
+			"group": "silver-edged axe",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7ba",
+			"saveId": 325
+		},
+		"tabularasa": {
+			"name": "Tabula Rasa",
+			"type": "Simple Robe",
+			"group": "Simple Robe",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "smer",
+			"saveId": 622
+		},
+		"tarnhelm": {
+			"name": "Tarnhelm",
+			"type": "Skull Cap",
+			"group": "Skull Cap",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "skp",
+			"saveId": 72
+		},
+		"ravenlore": {
+			"name": "Ravenlore",
+			"type": "sky spirit",
+			"group": "sky spirit",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "dre",
+			"saveId": 351
+		},
+		"arreatsface": {
+			"name": "Arreat's Face",
+			"type": "Slayer Guard",
+			"group": "Slayer Guard",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "baa",
+			"saveId": 280
+		},
+		"umbraldisk": {
+			"name": "Umbral Disk",
+			"type": "Small Shield",
+			"group": "Small Shield",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "sml",
+			"saveId": 95
+		},
+		"thedragonchang": {
+			"name": "The Dragon Chang",
+			"type": "Spear",
+			"group": "Spear",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "spr",
+			"saveId": 43
+		},
+		"lanceofyaggai": {
+			"name": "Lance of Yaggai",
+			"type": "Spetum",
+			"group": "Spetum",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "spt",
+			"saveId": 46
+		},
+		"arachnidmesh": {
+			"name": "Arachnid Mesh",
+			"type": "spiderweb sash",
+			"group": "spiderweb sash",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ulc",
+			"saveId": 374
+		},
+		"hellforgedarachnidmesh": {
+			"name": "Hellforged Arachnid Mesh",
+			"type": "spiderweb sash",
+			"group": "spiderweb sash",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ulc",
+			"saveId": 565
+		},
+		"stoutnail": {
+			"name": "Stoutnail",
+			"type": "Spiked Club",
+			"group": "Spiked Club",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "spc",
+			"saveId": 18
+		},
+		"swordbackhold": {
+			"name": "Swordback Hold",
+			"type": "Spiked Shield",
+			"group": "Spiked Shield",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "spk",
+			"saveId": 98
+		},
+		"nightwingsveil": {
+			"name": "Nightwing's Veil",
+			"type": "spired helm",
+			"group": "spired helm",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uhm",
+			"saveId": 344
+		},
+		"veilofsteel": {
+			"name": "Veil of Steel",
+			"type": "Spired Helm",
+			"group": "Spired Helm",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uhm",
+			"saveId": 250
+		},
+		"iceblink": {
+			"name": "Iceblink",
+			"type": "Splint Mail",
+			"group": "Splint Mail",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "spl",
+			"saveId": 87
+		},
+		"horadricstaff": {
+			"name": "Horadric Staff",
+			"type": "Staff",
+			"group": "Staff",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "hst",
+			"saveId": 125
+		},
+		"staffofkings": {
+			"name": "Staff of Kings",
+			"type": "Staff",
+			"group": "Staff",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "msf",
+			"saveId": 124
+		},
+		"stormspike": {
+			"name": "Stormspike",
+			"type": "Stilleto",
+			"group": "Stilleto",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9bl",
+			"saveId": 172
+		},
+		"twitchthroe": {
+			"name": "Twitchthroe",
+			"type": "Studded Leather",
+			"group": "Studded Leather",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "stu",
+			"saveId": 82
+		},
+		"boneflame": {
+			"name": "Boneflame",
+			"type": "succubae skull",
+			"group": "succubae skull",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "nee",
+			"saveId": 342
+		},
+		"denmother": {
+			"name": "Denmother",
+			"type": "Sun Spirit",
+			"group": "Sun Spirit",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "drc",
+			"saveId": 444
+		},
+		"theoculus": {
+			"name": "The Oculus",
+			"type": "Swirling Crystal",
+			"group": "Swirling Crystal",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "oba",
+			"saveId": 285
+		},
+		"zharthemadmap": {
+			"name": "Zhar the Mad Map",
+			"type": "t51",
+			"group": "t51",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "t51",
+			"saveId": 433,
+			"displayName": "Zhar's Sanctum"
+		},
+		"warlordofbloodmap": {
+			"name": "Warlord of Blood Map",
+			"type": "t52",
+			"group": "t52",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "t52",
+			"saveId": 434,
+			"displayName": "Warlord of Blood"
+		},
+		"fallengardensmap": {
+			"name": "Fallen Gardens Map",
+			"type": "t53",
+			"group": "t53",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "t53",
+			"saveId": 437,
+			"displayName": "Fallen Gardens"
+		},
+		"imperialpalacemap": {
+			"name": "Imperial Palace Map",
+			"type": "t54",
+			"group": "t54",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "t54",
+			"saveId": 453,
+			"displayName": "Imperial Palace"
+		},
+		"outervoidmap": {
+			"name": "Outer Void Map",
+			"type": "t55",
+			"group": "t55",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "t55",
+			"saveId": 454,
+			"displayName": "Outer Void"
+		},
+		"urehcitymap": {
+			"name": "Ureh City Map",
+			"type": "t56",
+			"group": "t56",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "t56",
+			"saveId": 473
+		},
+		"djinnsdomainmap": {
+			"name": "Djinns Domain Map",
+			"type": "t57",
+			"group": "t57",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "t57",
+			"saveId": 479
+		},
+		"nakrulsabyssmap": {
+			"name": "Na-Krul's Abyss Map",
+			"type": "t58",
+			"group": "t58",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "t58",
+			"saveId": 483
+		},
+		"stormrider": {
+			"name": "Stormrider",
+			"type": "Tabar",
+			"group": "Tabar",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9bt",
+			"saveId": 137
+		},
+		"guardianangel": {
+			"name": "Guardian Angel",
+			"type": "Templar Coat",
+			"group": "Templar Coat",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xlt",
+			"saveId": 219
+		},
+		"thereaperstoll": {
+			"name": "The Reaper's Toll",
+			"type": "thresher",
+			"group": "thresher",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7s8",
+			"saveId": 327
+		},
+		"earthshifter": {
+			"name": "Earthshifter",
+			"type": "thunder maul",
+			"group": "thunder maul",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7gm",
+			"saveId": 386,
+			"displayName": "Earth Shifter"
+		},
+		"mjolner": {
+			"name": "Mjolner",
+			"type": "Thunder Maul",
+			"group": "Thunder Maul",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7gm",
+			"saveId": 533,
+			"displayName": "Mjölner"
+		},
+		"thecraniumbasher": {
+			"name": "The Cranium Basher",
+			"type": "Thunder Maul",
+			"group": "Thunder Maul",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7gm",
+			"saveId": 259
+		},
+		"kirasguardian": {
+			"name": "Kira's Guardian",
+			"type": "tiara",
+			"group": "tiara",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ci2",
+			"saveId": 358
+		},
+		"crowcaw": {
+			"name": "Crow Caw",
+			"type": "Tigulated Mail",
+			"group": "Tigulated Mail",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xcl",
+			"saveId": 215
+		},
+		"razoredge": {
+			"name": "Razoredge",
+			"type": "tomahawk",
+			"group": "tomahawk",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7ha",
+			"saveId": 295,
+			"displayName": "Razor's Edge"
+		},
+		"armofkingleoric": {
+			"name": "Arm of King Leoric",
+			"type": "Tomb Wand",
+			"group": "Tomb Wand",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9bw",
+			"saveId": 142
+		},
+		"armofkingleoric9bw": {
+			"name": "Arm of King Leoric",
+			"type": "Tomb Wand",
+			"group": "Tomb Wand",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9bw",
+			"saveId": 474
+		},
+		"bverritkeep": {
+			"name": "Bverrit Keep",
+			"type": "Tower Shield",
+			"group": "Tower Shield",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "tow",
+			"saveId": 100
+		},
+		"ironpelt": {
+			"name": "Ironpelt",
+			"type": "Tresllised Armor",
+			"group": "Tresllised Armor",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xtu",
+			"saveId": 213,
+			"displayName": "Iron Pelt"
+		},
+		"razortine": {
+			"name": "Razortine",
+			"type": "Trident",
+			"group": "Trident",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "tri",
+			"saveId": 44
+		},
+		"tides": {
+			"name": "Tides",
+			"type": "troll belt",
+			"group": "troll belt",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "utc",
+			"saveId": 566,
+			"displayName": "Tides of Time"
+		},
+		"bandofskulls": {
+			"name": "Band of Skulls",
+			"type": "Troll Belt",
+			"group": "Troll Belt",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "rbe",
+			"saveId": 417
+		},
+		"headhuntersglory": {
+			"name": "Headhunter's Glory",
+			"type": "troll nest",
+			"group": "troll nest",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ush",
+			"saveId": 391,
+			"displayName": "Head Hunter's Glory"
+		},
+		"nordstenderizer": {
+			"name": "Nord's Tenderizer",
+			"type": "truncheon",
+			"group": "truncheon",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7cl",
+			"saveId": 385
+		},
+		"bladeofalibaba": {
+			"name": "Blade of Ali Baba",
+			"type": "Tulwar",
+			"group": "Tulwar",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9fc",
+			"saveId": 158
+		},
+		"thevilehusk": {
+			"name": "The Vile Husk",
+			"type": "Tusk Sword",
+			"group": "Tusk Sword",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9gs",
+			"saveId": 165
+		},
+		"islestrike": {
+			"name": "Islestrike",
+			"type": "Twin Axe",
+			"group": "Twin Axe",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "92a",
+			"saveId": 132
+		},
+		"armabladereplica": {
+			"name": "Arma Blade Replica",
+			"type": "Two Hand Phase Blade",
+			"group": "Two Hand Phase Blade",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7cr2",
+			"saveId": 535,
+			"displayName": "Armageddon's Blade"
+		},
+		"demonlimb": {
+			"name": "Demonlimb",
+			"type": "tyrant club",
+			"group": "tyrant club",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7sp",
+			"saveId": 297,
+			"displayName": "Demon Limb"
+		},
+		"deathssweb": {
+			"name": "Deaths's Web",
+			"type": "unearthed wand",
+			"group": "unearthed wand",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7gw",
+			"saveId": 300,
+			"displayName": "Death's Web"
+		},
+		"hellforgeddeathsweb": {
+			"name": "Hellforged Death's Web",
+			"type": "unearthed wand",
+			"group": "unearthed wand",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7gw",
+			"saveId": 593
+		},
+		"hellforgedrathmashand": {
+			"name": "Hellforged Rathmas Hand",
+			"type": "Unearthed Wand",
+			"group": "Unearthed Wand",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7gw",
+			"saveId": 592,
+			"displayName": "Hellforged Rathma's Stygian Hand"
+		},
+		"rathmashand": {
+			"name": "Rathmas Hand",
+			"type": "Unearthed Wand",
+			"group": "Unearthed Wand",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7gw",
+			"saveId": 530,
+			"displayName": "Rathma's Stygian Hand"
+		},
+		"screamsofthedesiccated": {
+			"name": "Screams of the Desiccated",
+			"type": "Utility Belt",
+			"group": "Utility Belt",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "utbe",
+			"saveId": 623,
+			"aliasSaveIds": [
+				624,
+				625,
+				626,
+				627,
+				628,
+				629,
+				630,
+				631,
+				632,
+				633,
+				634,
+				635,
+				636,
+				637,
+				638,
+				639,
+				640,
+				641,
+				642,
+				643,
+				644,
+				645,
+				646,
+				647,
+				648,
+				649,
+				650,
+				651,
+				652,
+				653,
+				654,
+				655,
+				656,
+				657,
+				660,
+				661,
+				662,
+				663,
+				664
+			],
+			"variantCount": 40
+		},
+		"souldrain": {
+			"name": "Souldrain",
+			"type": "vambraces",
+			"group": "vambraces",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "umg",
+			"saveId": 313,
+			"displayName": "Soul Drainer"
+		},
+		"draculsgrasp": {
+			"name": "Dracul's Grasp",
+			"type": "vampirebone gloves",
+			"group": "vampirebone gloves",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uvg",
+			"saveId": 365
+		},
+		"nosferatuscoil": {
+			"name": "Nosferatu's Coil",
+			"type": "vampirefang belt",
+			"group": "vampirefang belt",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uvc",
+			"saveId": 375
+		},
+		"skyfall": {
+			"name": "Skyfall",
+			"type": "Vortex Orb",
+			"group": "Vortex Orb",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "obe",
+			"saveId": 477
+		},
+		"skywarden": {
+			"name": "Skywarden",
+			"type": "vortex shield",
+			"group": "vortex shield",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "paf",
+			"saveId": 447
+		},
+		"steelgoad": {
+			"name": "Steelgoad",
+			"type": "Voulge",
+			"group": "Voulge",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "vou",
+			"saveId": 49
+		},
+		"irostorch": {
+			"name": "Iros Torch",
+			"type": "Wand",
+			"group": "Wand",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "wnd",
+			"saveId": 10,
+			"displayName": "Torch of Iro"
+		},
+		"rakescar": {
+			"name": "Rakescar",
+			"type": "War Axe",
+			"group": "War Axe",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "wax",
+			"saveId": 4
+		},
+		"thudergodsvigor": {
+			"name": "Thudergod's Vigor",
+			"type": "War Belt",
+			"group": "War Belt",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "zhb",
+			"saveId": 247,
+			"displayName": "Thundergod's Vigor"
+		},
+		"gorerider": {
+			"name": "Gorerider",
+			"type": "War Boots",
+			"group": "War Boots",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xhb",
+			"saveId": 242,
+			"displayName": "Gore Rider"
+		},
+		"bloodtreestump": {
+			"name": "Bloodtree Stump",
+			"type": "War Club",
+			"group": "War Club",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9m9",
+			"saveId": 153
+		},
+		"whisperingmirage": {
+			"name": "Whispering Mirage",
+			"type": "war fist",
+			"group": "war fist",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7xf",
+			"saveId": 446
+		},
+		"viperfork": {
+			"name": "Viperfork",
+			"type": "war fork",
+			"group": "war fork",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7br",
+			"saveId": 324
+		},
+		"soulfeasttine": {
+			"name": "Soulfeast Tine",
+			"type": "War Fork",
+			"group": "War Fork",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9br",
+			"saveId": 175
+		},
+		"hellmouth": {
+			"name": "Hellmouth",
+			"type": "War Gauntlets",
+			"group": "War Gauntlets",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xhg",
+			"saveId": 237
+		},
+		"ironstone": {
+			"name": "Ironstone",
+			"type": "War Hammer",
+			"group": "War Hammer",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "whm",
+			"saveId": 22
+		},
+		"peasentcrown": {
+			"name": "Peasent Crown",
+			"type": "War Hat",
+			"group": "War Hat",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xap",
+			"saveId": 202,
+			"displayName": "Peasant Crown"
+		},
+		"askariszephyr": {
+			"name": "Askaris Zephyr",
+			"type": "war pike",
+			"group": "war pike",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7p7",
+			"saveId": 548
+		},
+		"steelpillar": {
+			"name": "Steelpillar",
+			"type": "war pike",
+			"group": "war pike",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7p7",
+			"saveId": 343,
+			"displayName": "Steel Pillar"
+		},
+		"stormeye": {
+			"name": "Stormeye",
+			"type": "War Scepter",
+			"group": "War Scepter",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "wsp",
+			"saveId": 17
+		},
+		"thegrimreaper": {
+			"name": "The Grim Reaper",
+			"type": "War Scythe",
+			"group": "War Scythe",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "wsc",
+			"saveId": 53
+		},
+		"theimpaler": {
+			"name": "The Impaler",
+			"type": "War Spear",
+			"group": "War Spear",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9sr",
+			"saveId": 173
+		},
+		"cranebeak": {
+			"name": "Cranebeak",
+			"type": "war spike",
+			"group": "war spike",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7mp",
+			"saveId": 384
+		},
+		"theironjangbong": {
+			"name": "The Iron Jang Bong",
+			"type": "War Staff",
+			"group": "War Staff",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "wst",
+			"saveId": 58
+		},
+		"culwenspoint": {
+			"name": "Culwens Point",
+			"type": "War Sword",
+			"group": "War Sword",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "wsd",
+			"saveId": 32,
+			"displayName": "Culwen's Point"
+		},
+		"hellforgedspiritward": {
+			"name": "Hellforged Spirit Ward",
+			"type": "ward",
+			"group": "ward",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uts",
+			"saveId": 594
+		},
+		"spiritward": {
+			"name": "Spirit Ward",
+			"type": "ward",
+			"group": "ward",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uts",
+			"saveId": 357
+		},
+		"svalinn": {
+			"name": "Svalinn",
+			"type": "Ward",
+			"group": "Ward",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "uts",
+			"saveId": 659
+		},
+		"hellforgedwidowmaker": {
+			"name": "Hellforged Widowmaker",
+			"type": "ward bow",
+			"group": "ward bow",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "6sw",
+			"saveId": 584
+		},
+		"widowmaker": {
+			"name": "Widowmaker",
+			"type": "ward bow",
+			"group": "ward bow",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "6sw",
+			"saveId": 332
+		},
+		"lacerator": {
+			"name": "Lacerator",
+			"type": "winged axe",
+			"group": "winged axe",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7b8",
+			"saveId": 322
+		},
+		"gargoylesbite": {
+			"name": "Gargoyle's Bite",
+			"type": "winged harpoon",
+			"group": "winged harpoon",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7ts",
+			"saveId": 321
+		},
+		"valkirywing": {
+			"name": "Valkiry Wing",
+			"type": "Winged Helm",
+			"group": "Winged Helm",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "xhm",
+			"saveId": 206,
+			"displayName": "Valkyrie Wing"
+		},
+		"warshrike": {
+			"name": "Warshrike",
+			"type": "winged knife",
+			"group": "winged knife",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7bk",
+			"saveId": 293
+		},
+		"thegladiatorsbane": {
+			"name": "The Gladiator's Bane",
+			"type": "Wire Fleece",
+			"group": "Wire Fleece",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "utu",
+			"saveId": 251
+		},
+		"hellforgedjadetalon": {
+			"name": "Hellforged Jade Talon",
+			"type": "wrist sword",
+			"group": "wrist sword",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7wb",
+			"saveId": 595
+		},
+		"jadetalon": {
+			"name": "Jadetalon",
+			"type": "wrist sword",
+			"group": "wrist sword",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "7wb",
+			"saveId": 309,
+			"displayName": "Jade Talon"
+		},
+		"mermansspeed": {
+			"name": "Merman's Speed",
+			"type": "wyrrnhide boots",
+			"group": "wyrrnhide boots",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ulb",
+			"saveId": 373,
+			"displayName": "Merman's Sprocket"
+		},
+		"honesundan": {
+			"name": "Hone Sundan",
+			"type": "Yari",
+			"group": "Yari",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9st",
+			"saveId": 176
+		},
+		"maelstromwrath": {
+			"name": "Maelstromwrath",
+			"type": "Yew Wand",
+			"group": "Yew Wand",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "ywn",
+			"saveId": 11,
+			"displayName": "Maelstrom"
+		},
+		"dragonscale": {
+			"name": "Dragonscale",
+			"type": "zakarum shield",
+			"group": "zakarum shield",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "pae",
+			"saveId": 348
+		},
+		"todesfaelleflamme": {
+			"name": "Todesfaelle Flamme",
+			"type": "Zweihander",
+			"group": "Zweihander",
+			"rare": "Unique",
+			"filter": {
+				"soe": 1
+			},
+			"img": "Default.png",
+			"code": "9fb",
+			"saveId": 167
+		},
+		"fatecard-fa01": {
+			"name": "The Apothecary",
+			"displayName": "The Apothecary",
+			"type": "Fate Card",
+			"group": "Tier 0 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa01",
+			"stackSize": 5,
+			"tier": 0,
+			"reward": "4 Flask Mageblood",
+			"dropLocation": "T3 and T4 Map drop"
+		},
+		"fatecard-fa02": {
+			"name": "The Eye of Terror",
+			"displayName": "The Eye of Terror",
+			"type": "Fate Card",
+			"group": "Tier 0 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa02",
+			"stackSize": 8,
+			"tier": 0,
+			"reward": "3 Flask Mageblood",
+			"dropLocation": "Diablo Clone"
+		},
+		"fatecard-fa03": {
+			"name": "The Doctor",
+			"displayName": "The Doctor",
+			"type": "Fate Card",
+			"group": "Tier 0 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa03",
+			"stackSize": 6,
+			"tier": 0,
+			"reward": "Headhunter",
+			"dropLocation": "T3 and T4 Map drop"
+		},
+		"fatecard-fa04": {
+			"name": "The Sephiroth",
+			"displayName": "The Sephiroth",
+			"type": "Fate Card",
+			"group": "Tier 0 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa04",
+			"stackSize": 8,
+			"tier": 0,
+			"reward": "10x Divine Orb",
+			"dropLocation": "T3 and T4 Map drop"
+		},
+		"fatecard-fa05": {
+			"name": "The Immortal",
+			"displayName": "The Immortal",
+			"type": "Fate Card",
+			"group": "Tier 0 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa05",
+			"stackSize": 2,
+			"tier": 0,
+			"reward": "Zod Rune",
+			"dropLocation": "Lucion"
+		},
+		"fatecard-fa06": {
+			"name": "Wealth and Power",
+			"displayName": "Wealth and Power",
+			"type": "Fate Card",
+			"group": "Tier 0 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa06",
+			"stackSize": 4,
+			"tier": 0,
+			"reward": "Vial of Lightsong",
+			"dropLocation": "T3 and T4 Map drop"
+		},
+		"fatecard-fa07": {
+			"name": "House of Mirrors",
+			"displayName": "House of Mirrors",
+			"type": "Fate Card",
+			"group": "Tier 0 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa07",
+			"stackSize": 6,
+			"tier": 0,
+			"reward": "Lilith's Mirror",
+			"dropLocation": "T3 and T4 Map drop"
+		},
+		"fatecard-fa08": {
+			"name": "Unrequited Love",
+			"displayName": "Unrequited Love",
+			"type": "Fate Card",
+			"group": "Tier 0 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa08",
+			"stackSize": 5,
+			"tier": 0,
+			"reward": "Cham Rune",
+			"dropLocation": "T3 and T4 Map drop"
+		},
+		"fatecard-fa09": {
+			"name": "Seraphic Favor",
+			"displayName": "Seraphic Favor",
+			"type": "Fate Card",
+			"group": "Tier 0 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa09",
+			"stackSize": 5,
+			"tier": 0,
+			"reward": "Tyrael's Might",
+			"dropLocation": "T3 and T4 Map drop"
+		},
+		"fatecard-fa10": {
+			"name": "Alluring Bounty",
+			"displayName": "Alluring Bounty",
+			"type": "Fate Card",
+			"group": "Tier 0 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa10",
+			"stackSize": 8,
+			"tier": 0,
+			"reward": "2x Ber Rune",
+			"dropLocation": "T3 and T4 Map drop"
+		},
+		"fatecard-fa11": {
+			"name": "A Fate Worse Than Death",
+			"displayName": "A Fate Worse Than Death",
+			"type": "Fate Card",
+			"group": "Tier 0 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa11",
+			"stackSize": 3,
+			"tier": 0,
+			"reward": "Jah Rune",
+			"dropLocation": "Lazarus"
+		},
+		"fatecard-fa12": {
+			"name": "A Stone Perfected",
+			"displayName": "A Stone Perfected",
+			"type": "Fate Card",
+			"group": "Tier 0 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa12",
+			"stackSize": 5,
+			"tier": 0,
+			"reward": "The Stone of Jordan with +1 All Skills Corruption",
+			"dropLocation": "T3 and T4 Map drop"
+		},
+		"fatecard-fa13": {
+			"name": "Lonely Warrior",
+			"displayName": "Lonely Warrior",
+			"type": "Fate Card",
+			"group": "Tier 1 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa13",
+			"stackSize": 5,
+			"tier": 1,
+			"reward": "Defiance of Destiny",
+			"dropLocation": "T3 and T4 Map drop"
+		},
+		"fatecard-fa14": {
+			"name": "The Polymath",
+			"displayName": "The Polymath",
+			"type": "Fate Card",
+			"group": "Tier 1 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa14",
+			"stackSize": 5,
+			"tier": 1,
+			"reward": "Astramentis",
+			"dropLocation": "T3 and T4 Map drop"
+		},
+		"fatecard-fa15": {
+			"name": "Iridescent Dream",
+			"displayName": "Iridescent Dream",
+			"type": "Fate Card",
+			"group": "Tier 1 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa15",
+			"stackSize": 3,
+			"tier": 1,
+			"reward": "Rainbow Facet",
+			"dropLocation": "T3 and T4 Map drop"
+		},
+		"fatecard-fa16": {
+			"name": "The Web",
+			"displayName": "The Web",
+			"type": "Fate Card",
+			"group": "Tier 1 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa16",
+			"stackSize": 5,
+			"tier": 1,
+			"reward": "Arachnid Mesh",
+			"dropLocation": "T3 and T4 Map drop"
+		},
+		"fatecard-fa17": {
+			"name": "I see Brothers",
+			"displayName": "I see Brothers",
+			"type": "Fate Card",
+			"group": "Tier 1 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa17",
+			"stackSize": 4,
+			"tier": 1,
+			"reward": "Call of the Brotherhood",
+			"dropLocation": "T3 and T4 Map drop"
+		},
+		"fatecard-fa18": {
+			"name": "The Reaper",
+			"displayName": "The Reaper",
+			"type": "Fate Card",
+			"group": "Tier 1 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa18",
+			"stackSize": 4,
+			"tier": 1,
+			"reward": "Death's Poise",
+			"dropLocation": "T3 and T4 Map drop"
+		},
+		"fatecard-fa19": {
+			"name": "The Shieldbearer",
+			"displayName": "The Shieldbearer",
+			"type": "Fate Card",
+			"group": "Tier 1 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa19",
+			"stackSize": 6,
+			"tier": 1,
+			"reward": "The Squire",
+			"dropLocation": "T3 and T4 Map drop"
+		},
+		"fatecard-fa20": {
+			"name": "The Avenger",
+			"displayName": "The Avenger",
+			"type": "Fate Card",
+			"group": "Tier 1 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa20",
+			"stackSize": 4,
+			"tier": 1,
+			"reward": "Mjolner",
+			"dropLocation": "T3 and T4 Map drop"
+		},
+		"fatecard-fa21": {
+			"name": "Gemcutter's Promise",
+			"displayName": "Gemcutter's Promise",
+			"type": "Fate Card",
+			"group": "Tier 1 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa21",
+			"stackSize": 3,
+			"tier": 1,
+			"reward": "Unique Mythical Jewel",
+			"dropLocation": "T3 and T4 Map drop"
+		},
+		"fatecard-fa22": {
+			"name": "Chaotic Disposition",
+			"displayName": "Chaotic Disposition",
+			"type": "Fate Card",
+			"group": "Tier 2 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa22",
+			"stackSize": 1,
+			"tier": 2,
+			"reward": "5x Chaos Orb",
+			"dropLocation": "T3 and T4 Map drop"
+		},
+		"fatecard-fa23": {
+			"name": "The Unexpected Prize",
+			"displayName": "The Unexpected Prize",
+			"type": "Fate Card",
+			"group": "Tier 2 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa23",
+			"stackSize": 1,
+			"tier": 2,
+			"reward": "75x Crystallised Cindersoul",
+			"dropLocation": "T3 and T4 Map drop"
+		},
+		"fatecard-fa24": {
+			"name": "Further Invention",
+			"displayName": "Further Invention",
+			"type": "Fate Card",
+			"group": "Tier 2 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa24",
+			"stackSize": 6,
+			"tier": 2,
+			"reward": "Item Level 91 Ornate Charm",
+			"dropLocation": "T3 and T4 Map drop"
+		},
+		"fatecard-fa25": {
+			"name": "Gemcutter's Mercy",
+			"displayName": "Gemcutter's Mercy",
+			"type": "Fate Card",
+			"group": "Tier 2 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa25",
+			"stackSize": 6,
+			"tier": 2,
+			"reward": "Item Level 91 Rare Mythic Jewel",
+			"dropLocation": "T3 and T4 Map drop"
+		},
+		"fatecard-fa26": {
+			"name": "Lost Worlds",
+			"displayName": "Lost Worlds",
+			"type": "Fate Card",
+			"group": "Tier 2 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa26",
+			"stackSize": 5,
+			"tier": 2,
+			"reward": "Rare T4 Dungeon - Sanctuary of Sin",
+			"dropLocation": "T3 and T4 Map drop"
+		},
+		"fatecard-fa27": {
+			"name": "Boundless Realms",
+			"displayName": "Boundless Realms",
+			"type": "Fate Card",
+			"group": "Tier 2 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa27",
+			"stackSize": 5,
+			"tier": 2,
+			"reward": "Rare T4 Dungeon - Plains of Torment",
+			"dropLocation": "T3 and T4 Map drop"
+		},
+		"fatecard-fa28": {
+			"name": "The Journey",
+			"displayName": "The Journey",
+			"type": "Fate Card",
+			"group": "Tier 2 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa28",
+			"stackSize": 5,
+			"tier": 2,
+			"reward": "Rare T4 Dungeon - Steppes of Daken-Shar",
+			"dropLocation": "T3 and T4 Map drop"
+		},
+		"fatecard-fa29": {
+			"name": "Cartographer's Delight",
+			"displayName": "Cartographer's Delight",
+			"type": "Fate Card",
+			"group": "Tier 2 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa29",
+			"stackSize": 4,
+			"tier": 2,
+			"reward": "5x Chisel of Procurement",
+			"dropLocation": "Map Drop"
+		},
+		"fatecard-fa30": {
+			"name": "The Cartographer",
+			"displayName": "The Cartographer",
+			"type": "Fate Card",
+			"group": "Tier 2 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa30",
+			"stackSize": 4,
+			"tier": 2,
+			"reward": "5x Chisel of Avarice",
+			"dropLocation": "Map Drop"
+		},
+		"fatecard-fa31": {
+			"name": "More is Never Enough",
+			"displayName": "More is Never Enough",
+			"type": "Fate Card",
+			"group": "Tier 2 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa31",
+			"stackSize": 2,
+			"tier": 2,
+			"reward": "3x Glyph of Nemeses",
+			"dropLocation": "Map Drop"
+		},
+		"fatecard-fa32": {
+			"name": "Ambush",
+			"displayName": "Ambush",
+			"type": "Fate Card",
+			"group": "Tier 3 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa32",
+			"stackSize": 2,
+			"tier": 3,
+			"reward": "Item level 85 Assassin Trap skiller",
+			"dropLocation": "Hell Act 4-5 drop + Map drop"
+		},
+		"fatecard-fa33": {
+			"name": "The Artist",
+			"displayName": "The Artist",
+			"type": "Fate Card",
+			"group": "Tier 3 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa33",
+			"stackSize": 2,
+			"tier": 3,
+			"reward": "Item level 85 Assassin Martial Arts skiller",
+			"dropLocation": "Hell Act 4-5 drop + Map drop"
+		},
+		"fatecard-fa34": {
+			"name": "Misery in Darkness",
+			"displayName": "Misery in Darkness",
+			"type": "Fate Card",
+			"group": "Tier 3 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa34",
+			"stackSize": 2,
+			"tier": 3,
+			"reward": "Item level 85 Assassin Shadow Disciplines skiller",
+			"dropLocation": "Hell Act 4-5 drop + Map drop"
+		},
+		"fatecard-fa35": {
+			"name": "Bowyer's Dream",
+			"displayName": "Bowyer's Dream",
+			"type": "Fate Card",
+			"group": "Tier 3 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa35",
+			"stackSize": 2,
+			"tier": 3,
+			"reward": "Item level 85 Amazon Bow and Crossbow skiller",
+			"dropLocation": "Hell Act 4-5 drop + Map drop"
+		},
+		"fatecard-fa36": {
+			"name": "Dormant Allure",
+			"displayName": "Dormant Allure",
+			"type": "Fate Card",
+			"group": "Tier 3 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa36",
+			"stackSize": 2,
+			"tier": 3,
+			"reward": "Item level 85 Amazon Passive and Magic skiller",
+			"dropLocation": "Hell Act 4-5 drop + Map drop"
+		},
+		"fatecard-fa37": {
+			"name": "The Assegai",
+			"displayName": "The Assegai",
+			"type": "Fate Card",
+			"group": "Tier 3 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa37",
+			"stackSize": 2,
+			"tier": 3,
+			"reward": "Item level 85 Amazon Javelin and Spear skiller",
+			"dropLocation": "Hell Act 4-5 drop + Map drop"
+		},
+		"fatecard-fa38": {
+			"name": "The Rite of Elements",
+			"displayName": "The Rite of Elements",
+			"type": "Fate Card",
+			"group": "Tier 3 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa38",
+			"stackSize": 2,
+			"tier": 3,
+			"reward": "Item level 85 Druid Elemental skiller",
+			"dropLocation": "Hell Act 4-5 drop + Map drop"
+		},
+		"fatecard-fa39": {
+			"name": "Call of the First Ones",
+			"displayName": "Call of the First Ones",
+			"type": "Fate Card",
+			"group": "Tier 3 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa39",
+			"stackSize": 2,
+			"tier": 3,
+			"reward": "Item level 85 Druid Shape Summoning skiller",
+			"dropLocation": "Hell Act 4-5 drop + Map drop"
+		},
+		"fatecard-fa40": {
+			"name": "Therianthropy",
+			"displayName": "Therianthropy",
+			"type": "Fate Card",
+			"group": "Tier 3 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa40",
+			"stackSize": 2,
+			"tier": 3,
+			"reward": "Item level 85 Druid Shape Shifting skiller",
+			"dropLocation": "Hell Act 4-5 drop + Map drop"
+		},
+		"fatecard-fa41": {
+			"name": "Cursed Words",
+			"displayName": "Cursed Words",
+			"type": "Fate Card",
+			"group": "Tier 3 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa41",
+			"stackSize": 2,
+			"tier": 3,
+			"reward": "Item level 85 Necromancer Curses skiller",
+			"dropLocation": "Hell Act 4-5 drop + Map drop"
+		},
+		"fatecard-fa42": {
+			"name": "The Dark Mage",
+			"displayName": "The Dark Mage",
+			"type": "Fate Card",
+			"group": "Tier 3 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa42",
+			"stackSize": 2,
+			"tier": 3,
+			"reward": "Item level 85 Necromancer Poison and Bone skiller",
+			"dropLocation": "Hell Act 4-5 drop + Map drop"
+		},
+		"fatecard-fa43": {
+			"name": "The Lich",
+			"displayName": "The Lich",
+			"type": "Fate Card",
+			"group": "Tier 3 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa43",
+			"stackSize": 2,
+			"tier": 3,
+			"reward": "Item level 85 Necromancer Summoning skiller",
+			"dropLocation": "Hell Act 4-5 drop + Map drop"
+		},
+		"fatecard-fa44": {
+			"name": "The Celestial Justicar",
+			"displayName": "The Celestial Justicar",
+			"type": "Fate Card",
+			"group": "Tier 3 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa44",
+			"stackSize": 2,
+			"tier": 3,
+			"reward": "Item level 85 Paladin Combat skiller",
+			"dropLocation": "Hell Act 4-5 drop + Map drop"
+		},
+		"fatecard-fa45": {
+			"name": "The Crusader",
+			"displayName": "The Crusader",
+			"type": "Fate Card",
+			"group": "Tier 3 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa45",
+			"stackSize": 2,
+			"tier": 3,
+			"reward": "Item level 85 Paladin Offensive Auras skiller",
+			"dropLocation": "Hell Act 4-5 drop + Map drop"
+		},
+		"fatecard-fa46": {
+			"name": "The Bulwark",
+			"displayName": "The Bulwark",
+			"type": "Fate Card",
+			"group": "Tier 3 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa46",
+			"stackSize": 2,
+			"tier": 3,
+			"reward": "Item level 85 Paladin Defensive Auras skiller",
+			"dropLocation": "Hell Act 4-5 drop + Map drop"
+		},
+		"fatecard-fa47": {
+			"name": "A Chilling Wind",
+			"displayName": "A Chilling Wind",
+			"type": "Fate Card",
+			"group": "Tier 3 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa47",
+			"stackSize": 2,
+			"tier": 3,
+			"reward": "Item level 85 Sorceress Cold Spells skiller",
+			"dropLocation": "Hell Act 4-5 drop + Map drop"
+		},
+		"fatecard-fa48": {
+			"name": "The Blazing Fire",
+			"displayName": "The Blazing Fire",
+			"type": "Fate Card",
+			"group": "Tier 3 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa48",
+			"stackSize": 2,
+			"tier": 3,
+			"reward": "Item level 85 Sorceress Fire Spells skiller",
+			"dropLocation": "Hell Act 4-5 drop + Map drop"
+		},
+		"fatecard-fa49": {
+			"name": "The Coming Storm",
+			"displayName": "The Coming Storm",
+			"type": "Fate Card",
+			"group": "Tier 3 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa49",
+			"stackSize": 2,
+			"tier": 3,
+			"reward": "Item level 85 Sorceress Lightning Spells skiller",
+			"dropLocation": "Hell Act 4-5 drop + Map drop"
+		},
+		"fatecard-fa50": {
+			"name": "The Warlord",
+			"displayName": "The Warlord",
+			"type": "Fate Card",
+			"group": "Tier 3 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa50",
+			"stackSize": 2,
+			"tier": 3,
+			"reward": "Item level 85 Barbarian Warcries skiller",
+			"dropLocation": "Hell Act 4-5 drop + Map drop"
+		},
+		"fatecard-fa51": {
+			"name": "The Battle Born",
+			"displayName": "The Battle Born",
+			"type": "Fate Card",
+			"group": "Tier 3 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa51",
+			"stackSize": 2,
+			"tier": 3,
+			"reward": "Item level 85 Barbarian Combat skiller",
+			"dropLocation": "Hell Act 4-5 drop + Map drop"
+		},
+		"fatecard-fa52": {
+			"name": "The Skirmisher",
+			"displayName": "The Skirmisher",
+			"type": "Fate Card",
+			"group": "Tier 3 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa52",
+			"stackSize": 2,
+			"tier": 3,
+			"reward": "Item level 85 Barbarian Combat Masteries skiller",
+			"dropLocation": "Hell Act 4-5 drop + Map drop"
+		},
+		"fatecard-fa53": {
+			"name": "The Undaunted",
+			"displayName": "The Undaunted",
+			"type": "Fate Card",
+			"group": "Tier 3 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa53",
+			"stackSize": 4,
+			"tier": 3,
+			"reward": "Item level 87 Rare or Unique Belt",
+			"dropLocation": "Hell drop + Map drop"
+		},
+		"fatecard-fa54": {
+			"name": "Gemcutter's Gift",
+			"displayName": "Gemcutter's Gift",
+			"type": "Fate Card",
+			"group": "Tier 3 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa54",
+			"stackSize": 4,
+			"tier": 3,
+			"reward": "Item Level 88 Rare Jewel",
+			"dropLocation": "Hell Act 4-5 drop + Map Drop"
+		},
+		"fatecard-fa55": {
+			"name": "The Archmage's Right Hand",
+			"displayName": "The Archmage's Right Hand",
+			"type": "Fate Card",
+			"group": "Tier 4 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa55",
+			"stackSize": 6,
+			"tier": 4,
+			"reward": "Manastorm",
+			"dropLocation": "Nightmare and Hell drop + Map Drop"
+		},
+		"fatecard-fa56": {
+			"name": "The Survivalist",
+			"displayName": "The Survivalist",
+			"type": "Fate Card",
+			"group": "Tier 4 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa56",
+			"stackSize": 3,
+			"tier": 4,
+			"reward": "5x Orb of Alchemy",
+			"dropLocation": "Hell World drop + Map Drop"
+		},
+		"fatecard-fa57": {
+			"name": "Abandoned Wealth",
+			"displayName": "Abandoned Wealth",
+			"type": "Fate Card",
+			"group": "Tier 4 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa57",
+			"stackSize": 2,
+			"tier": 4,
+			"reward": "3x Mythic Orb",
+			"dropLocation": "Nightmare and Hell drop + Map Drop"
+		},
+		"fatecard-fa58": {
+			"name": "The Scout",
+			"displayName": "The Scout",
+			"type": "Fate Card",
+			"group": "Tier 4 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa58",
+			"stackSize": 2,
+			"tier": 4,
+			"reward": "3x Orb of Horizons",
+			"dropLocation": "Nightmare and Hell drop + Map Drop"
+		},
+		"fatecard-fa59": {
+			"name": "Glimmer of Hope",
+			"displayName": "Glimmer of Hope",
+			"type": "Fate Card",
+			"group": "Tier 5 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa59",
+			"stackSize": 5,
+			"tier": 5,
+			"reward": "Goldrim",
+			"dropLocation": "Normal Act 3-5, Nightmare and Hell drop + Map Drop"
+		},
+		"fatecard-fa60": {
+			"name": "The Escape",
+			"displayName": "The Escape",
+			"type": "Fate Card",
+			"group": "Tier 5 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa60",
+			"stackSize": 5,
+			"tier": 5,
+			"reward": "Seven-League Step",
+			"dropLocation": "Normal Act 3-5, Nightmare and Hell drop + Map Drop"
+		},
+		"fatecard-fa61": {
+			"name": "Humility",
+			"displayName": "Humility",
+			"type": "Fate Card",
+			"group": "Tier 5 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa61",
+			"stackSize": 8,
+			"tier": 5,
+			"reward": "Tabula Rasa",
+			"dropLocation": "Normal Act 3-5, Nightmare and Hell drop + Map Drop"
+		},
+		"fatecard-fa62": {
+			"name": "The Saint's Treasure",
+			"displayName": "The Saint's Treasure",
+			"type": "Fate Card",
+			"group": "Tier 5 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa62",
+			"stackSize": 2,
+			"tier": 5,
+			"reward": "3x Exalted Orb",
+			"dropLocation": "Normal Act 3-5, Nightmare and Hell drop + Map Drop"
+		},
+		"fatecard-fa63": {
+			"name": "The Inventor",
+			"displayName": "The Inventor",
+			"type": "Fate Card",
+			"group": "Tier 5 Fate Cards",
+			"rare": "FateCard",
+			"filter": {
+				"soe": 1
+			},
+			"img": "FateCard.png",
+			"code": "fa63",
+			"stackSize": 8,
+			"tier": 5,
+			"reward": "10x World Stone Shard",
+			"dropLocation": "Normal Act 3-5, Nightmare and Hell drop + Map Drop"
+		}
+	}
+}

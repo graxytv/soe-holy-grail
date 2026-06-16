@@ -1,0 +1,2485 @@
+{
+  "version": 1,
+  "generatedFrom": "SoE Companion 1.1.15 filterblade-sounds.ts and public/sounds",
+  "sounds": [
+    {
+      "id": "soe-1",
+      "label": "SoE Companion Sound 1",
+      "group": "SoE Companion",
+      "kind": "builtin",
+      "file": "1.mp3"
+    },
+    {
+      "id": "soe-2",
+      "label": "SoE Companion Sound 2",
+      "group": "SoE Companion",
+      "kind": "builtin",
+      "file": "2.mp3"
+    },
+    {
+      "id": "soe-3",
+      "label": "SoE Companion Sound 3",
+      "group": "SoE Companion",
+      "kind": "builtin",
+      "file": "3.mp3"
+    },
+    {
+      "id": "soe-4",
+      "label": "SoE Companion Sound 4",
+      "group": "SoE Companion",
+      "kind": "builtin",
+      "file": "4.mp3"
+    },
+    {
+      "id": "soe-5",
+      "label": "SoE Companion Sound 5",
+      "group": "SoE Companion",
+      "kind": "builtin",
+      "file": "5.mp3"
+    },
+    {
+      "id": "soe-6",
+      "label": "SoE Companion Sound 6",
+      "group": "SoE Companion",
+      "kind": "builtin",
+      "file": "6.mp3"
+    },
+    {
+      "id": "soe-7",
+      "label": "SoE Companion Sound 7",
+      "group": "SoE Companion",
+      "kind": "builtin",
+      "file": "7.mp3"
+    },
+    {
+      "id": "filterblade:Maven:ah1.ogg",
+      "label": "Maven - Ah 1",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "ah1.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/ah1.ogg"
+    },
+    {
+      "id": "filterblade:Maven:ah2.ogg",
+      "label": "Maven - Ah 2",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "ah2.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/ah2.ogg"
+    },
+    {
+      "id": "filterblade:Maven:allthespecialones.ogg",
+      "label": "Maven - All the special ones",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "allthespecialones.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/allthespecialones.ogg"
+    },
+    {
+      "id": "filterblade:Maven:amazing.ogg",
+      "label": "Maven - Amazing",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "amazing.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/amazing.ogg"
+    },
+    {
+      "id": "filterblade:Maven:atlasdelights.ogg",
+      "label": "Maven - Atlas delights",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "atlasdelights.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/atlasdelights.ogg"
+    },
+    {
+      "id": "filterblade:Maven:beautiful.ogg",
+      "label": "Maven - Beautiful 1",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "beautiful.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/beautiful.ogg"
+    },
+    {
+      "id": "filterblade:Maven:beautiful1.ogg",
+      "label": "Maven - Beautiful 2",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "beautiful1.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/beautiful1.ogg"
+    },
+    {
+      "id": "filterblade:Maven:beautiful2.ogg",
+      "label": "Maven - Beautiful 3",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "beautiful2.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/beautiful2.ogg"
+    },
+    {
+      "id": "filterblade:Maven:captivating.ogg",
+      "label": "Maven - Captivating",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "captivating.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/captivating.ogg"
+    },
+    {
+      "id": "filterblade:Maven:chaos1.ogg",
+      "label": "Maven - Chaos 1",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "chaos1.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/chaos1.ogg"
+    },
+    {
+      "id": "filterblade:Maven:chaos2.ogg",
+      "label": "Maven - Chaos 2",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "chaos2.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/chaos2.ogg"
+    },
+    {
+      "id": "filterblade:Maven:chaos3.ogg",
+      "label": "Maven - Chaos 3",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "chaos3.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/chaos3.ogg"
+    },
+    {
+      "id": "filterblade:Maven:colleciton.ogg",
+      "label": "Maven - Collection",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "colleciton.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/colleciton.ogg"
+    },
+    {
+      "id": "filterblade:Maven:collectanother.ogg",
+      "label": "Maven - Collect another",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "collectanother.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/collectanother.ogg"
+    },
+    {
+      "id": "filterblade:Maven:collectiongrows.ogg",
+      "label": "Maven - Collection grows",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "collectiongrows.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/collectiongrows.ogg"
+    },
+    {
+      "id": "filterblade:Maven:delicious.ogg",
+      "label": "Maven - Delicious",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "delicious.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/delicious.ogg"
+    },
+    {
+      "id": "filterblade:Maven:divine1.ogg",
+      "label": "Maven - Divine 1",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "divine1.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/divine1.ogg"
+    },
+    {
+      "id": "filterblade:Maven:divine2.ogg",
+      "label": "Maven - Divine 2",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "divine2.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/divine2.ogg"
+    },
+    {
+      "id": "filterblade:Maven:divine3.ogg",
+      "label": "Maven - Divine 3",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "divine3.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/divine3.ogg"
+    },
+    {
+      "id": "filterblade:Maven:entertaining.ogg",
+      "label": "Maven - Entertaining",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "entertaining.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/entertaining.ogg"
+    },
+    {
+      "id": "filterblade:Maven:entertainingdirty.ogg",
+      "label": "Maven - Entertaining dirty",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "entertainingdirty.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/entertainingdirty.ogg"
+    },
+    {
+      "id": "filterblade:Maven:entertainmemoan.ogg",
+      "label": "Maven - Entertain me moan",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "entertainmemoan.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/entertainmemoan.ogg"
+    },
+    {
+      "id": "filterblade:Maven:ex.ogg",
+      "label": "Maven - Ex",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "ex.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/ex.ogg"
+    },
+    {
+      "id": "filterblade:Maven:excitement.ogg",
+      "label": "Maven - Excitement",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "excitement.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/excitement.ogg"
+    },
+    {
+      "id": "filterblade:Maven:exoticgifts.ogg",
+      "label": "Maven - Exotic gifts",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "exoticgifts.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/exoticgifts.ogg"
+    },
+    {
+      "id": "filterblade:Maven:exquisite.ogg",
+      "label": "Maven - Exquisite",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "exquisite.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/exquisite.ogg"
+    },
+    {
+      "id": "filterblade:Maven:fascinating.ogg",
+      "label": "Maven - Fascinating",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "fascinating.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/fascinating.ogg"
+    },
+    {
+      "id": "filterblade:Maven:favoriteoutcome.ogg",
+      "label": "Maven - Favorite outcome 1",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "favoriteoutcome.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/favoriteoutcome.ogg"
+    },
+    {
+      "id": "filterblade:Maven:favoriteoutcome1.ogg",
+      "label": "Maven - Favorite outcome 2",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "favoriteoutcome1.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/favoriteoutcome1.ogg"
+    },
+    {
+      "id": "filterblade:Maven:ferocious.ogg",
+      "label": "Maven - Ferocious",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "ferocious.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/ferocious.ogg"
+    },
+    {
+      "id": "filterblade:Maven:flashofpleasure.ogg",
+      "label": "Maven - Flash of pleasure",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "flashofpleasure.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/flashofpleasure.ogg"
+    },
+    {
+      "id": "filterblade:Maven:flashy.ogg",
+      "label": "Maven - Flashy 1",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "flashy.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/flashy.ogg"
+    },
+    {
+      "id": "filterblade:Maven:flashy1.ogg",
+      "label": "Maven - Flashy 2",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "flashy1.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/flashy1.ogg"
+    },
+    {
+      "id": "filterblade:Maven:giftofstrength.ogg",
+      "label": "Maven - Gift of strength",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "giftofstrength.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/giftofstrength.ogg"
+    },
+    {
+      "id": "filterblade:Maven:glorious1.ogg",
+      "label": "Maven - Glorious 1",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "glorious1.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/glorious1.ogg"
+    },
+    {
+      "id": "filterblade:Maven:glorious2.ogg",
+      "label": "Maven - Glorious 2",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "glorious2.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/glorious2.ogg"
+    },
+    {
+      "id": "filterblade:Maven:gloriousspectacle1.ogg",
+      "label": "Maven - Glorious spectacle 1",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "gloriousspectacle1.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/gloriousspectacle1.ogg"
+    },
+    {
+      "id": "filterblade:Maven:gloriousspectacle2.ogg",
+      "label": "Maven - Glorious spectacle 2",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "gloriousspectacle2.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/gloriousspectacle2.ogg"
+    },
+    {
+      "id": "filterblade:Maven:good1.ogg",
+      "label": "Maven - Good 1",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "good1.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/good1.ogg"
+    },
+    {
+      "id": "filterblade:Maven:good2.ogg",
+      "label": "Maven - Good 2",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "good2.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/good2.ogg"
+    },
+    {
+      "id": "filterblade:Maven:good3.ogg",
+      "label": "Maven - Good 3",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "good3.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/good3.ogg"
+    },
+    {
+      "id": "filterblade:Maven:happy1.ogg",
+      "label": "Maven - Happy",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "happy1.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/happy1.ogg"
+    },
+    {
+      "id": "filterblade:Maven:hiding1.ogg",
+      "label": "Maven - Hiding",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "hiding1.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/hiding1.ogg"
+    },
+    {
+      "id": "filterblade:Maven:hilarious.ogg",
+      "label": "Maven - Hilarious",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "hilarious.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/hilarious.ogg"
+    },
+    {
+      "id": "filterblade:Maven:ineedmore.ogg",
+      "label": "Maven - I need more",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "ineedmore.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/ineedmore.ogg"
+    },
+    {
+      "id": "filterblade:Maven:invitation.ogg",
+      "label": "Maven - Invitation",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "invitation.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/invitation.ogg"
+    },
+    {
+      "id": "filterblade:Maven:iwantmore.ogg",
+      "label": "Maven - I want more",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "iwantmore.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/iwantmore.ogg"
+    },
+    {
+      "id": "filterblade:Maven:joy.ogg",
+      "label": "Maven - Joy",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "joy.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/joy.ogg"
+    },
+    {
+      "id": "filterblade:Maven:joygift.ogg",
+      "label": "Maven - Joy gift",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "joygift.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/joygift.ogg"
+    },
+    {
+      "id": "filterblade:Maven:magnificent1.ogg",
+      "label": "Maven - Magnificent 1",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "magnificent1.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/magnificent1.ogg"
+    },
+    {
+      "id": "filterblade:Maven:magnificent2.ogg",
+      "label": "Maven - Magnificent 2",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "magnificent2.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/magnificent2.ogg"
+    },
+    {
+      "id": "filterblade:Maven:massmurder.ogg",
+      "label": "Maven - Mass murder",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "massmurder.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/massmurder.ogg"
+    },
+    {
+      "id": "filterblade:Maven:mine1.ogg",
+      "label": "Maven - Mine",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "mine1.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/mine1.ogg"
+    },
+    {
+      "id": "filterblade:Maven:minemine1.ogg",
+      "label": "Maven - Mine mine",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "minemine1.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/minemine1.ogg"
+    },
+    {
+      "id": "filterblade:Maven:minenow.ogg",
+      "label": "Maven - Mine now",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "minenow.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/minenow.ogg"
+    },
+    {
+      "id": "filterblade:Maven:moan1.ogg",
+      "label": "Maven - Moan 1",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "moan1.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/moan1.ogg"
+    },
+    {
+      "id": "filterblade:Maven:moan2.ogg",
+      "label": "Maven - Moan 2",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "moan2.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/moan2.ogg"
+    },
+    {
+      "id": "filterblade:Maven:moan3.ogg",
+      "label": "Maven - Moan 3",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "moan3.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/moan3.ogg"
+    },
+    {
+      "id": "filterblade:Maven:moan4.ogg",
+      "label": "Maven - Moan 4",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "moan4.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/moan4.ogg"
+    },
+    {
+      "id": "filterblade:Maven:moan5.ogg",
+      "label": "Maven - Moan 5",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "moan5.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/moan5.ogg"
+    },
+    {
+      "id": "filterblade:Maven:moan6.ogg",
+      "label": "Maven - Moan 6",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "moan6.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/moan6.ogg"
+    },
+    {
+      "id": "filterblade:Maven:moan7.ogg",
+      "label": "Maven - Moan 7",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "moan7.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/moan7.ogg"
+    },
+    {
+      "id": "filterblade:Maven:moan8.ogg",
+      "label": "Maven - Moan 8",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "moan8.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/moan8.ogg"
+    },
+    {
+      "id": "filterblade:Maven:moan9.ogg",
+      "label": "Maven - Moan 9",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "moan9.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/moan9.ogg"
+    },
+    {
+      "id": "filterblade:Maven:morepower.ogg",
+      "label": "Maven - More power",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "morepower.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/morepower.ogg"
+    },
+    {
+      "id": "filterblade:Maven:mysteriouspresence.ogg",
+      "label": "Maven - Mysterious presence",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "mysteriouspresence.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/mysteriouspresence.ogg"
+    },
+    {
+      "id": "filterblade:Maven:nevertired.ogg",
+      "label": "Maven - Never tired",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "nevertired.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/nevertired.ogg"
+    },
+    {
+      "id": "filterblade:Maven:newtoy.ogg",
+      "label": "Maven - New toy",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "newtoy.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/newtoy.ogg"
+    },
+    {
+      "id": "filterblade:Maven:notgood.ogg",
+      "label": "Maven - Not good",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "notgood.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/notgood.ogg"
+    },
+    {
+      "id": "filterblade:Maven:oh1.ogg",
+      "label": "Maven - Oh 1",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "oh1.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/oh1.ogg"
+    },
+    {
+      "id": "filterblade:Maven:oh2.ogg",
+      "label": "Maven - Oh 2",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "oh2.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/oh2.ogg"
+    },
+    {
+      "id": "filterblade:Maven:onemore1.ogg",
+      "label": "Maven - One more 1",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "onemore1.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/onemore1.ogg"
+    },
+    {
+      "id": "filterblade:Maven:onemore2.ogg",
+      "label": "Maven - One more 2",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "onemore2.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/onemore2.ogg"
+    },
+    {
+      "id": "filterblade:Maven:partofcollection.ogg",
+      "label": "Maven - Part of collection",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "partofcollection.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/partofcollection.ogg"
+    },
+    {
+      "id": "filterblade:Maven:plaything.ogg",
+      "label": "Maven - Plaything",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "plaything.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/plaything.ogg"
+    },
+    {
+      "id": "filterblade:Maven:powerisfun.ogg",
+      "label": "Maven - Power is fun",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "powerisfun.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/powerisfun.ogg"
+    },
+    {
+      "id": "filterblade:Maven:raresight.ogg",
+      "label": "Maven - Rare sight",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "raresight.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/raresight.ogg"
+    },
+    {
+      "id": "filterblade:Maven:raretreat.ogg",
+      "label": "Maven - Rare treat",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "raretreat.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/raretreat.ogg"
+    },
+    {
+      "id": "filterblade:Maven:rush1.ogg",
+      "label": "Maven - Rush 1",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "rush1.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/rush1.ogg"
+    },
+    {
+      "id": "filterblade:Maven:rush2.ogg",
+      "label": "Maven - Rush 2",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "rush2.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/rush2.ogg"
+    },
+    {
+      "id": "filterblade:Maven:satisfactory.ogg",
+      "label": "Maven - Satisfactory",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "satisfactory.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/satisfactory.ogg"
+    },
+    {
+      "id": "filterblade:Maven:savoureddelight.ogg",
+      "label": "Maven - Savoured delight",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "savoureddelight.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/savoureddelight.ogg"
+    },
+    {
+      "id": "filterblade:Maven:song.ogg",
+      "label": "Maven - Song",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "song.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/song.ogg"
+    },
+    {
+      "id": "filterblade:Maven:special1.ogg",
+      "label": "Maven - Special 1",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "special1.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/special1.ogg"
+    },
+    {
+      "id": "filterblade:Maven:special2.ogg",
+      "label": "Maven - Special 2",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "special2.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/special2.ogg"
+    },
+    {
+      "id": "filterblade:Maven:spectacular1.ogg",
+      "label": "Maven - Spectacular 1",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "spectacular1.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/spectacular1.ogg"
+    },
+    {
+      "id": "filterblade:Maven:spectacular2.ogg",
+      "label": "Maven - Spectacular 2",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "spectacular2.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/spectacular2.ogg"
+    },
+    {
+      "id": "filterblade:Maven:splashandsplatter.ogg",
+      "label": "Maven - Splash and splatter",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "splashandsplatter.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/splashandsplatter.ogg"
+    },
+    {
+      "id": "filterblade:Maven:suchpleasure.ogg",
+      "label": "Maven - Such pleasure",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "suchpleasure.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/suchpleasure.ogg"
+    },
+    {
+      "id": "filterblade:Maven:surprising.ogg",
+      "label": "Maven - Surprising",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "surprising.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/surprising.ogg"
+    },
+    {
+      "id": "filterblade:Maven:sweetsweet1.ogg",
+      "label": "Maven - Sweet sweet 1",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "sweetsweet1.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/sweetsweet1.ogg"
+    },
+    {
+      "id": "filterblade:Maven:sweetsweet2.ogg",
+      "label": "Maven - Sweet sweet 2",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "sweetsweet2.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/sweetsweet2.ogg"
+    },
+    {
+      "id": "filterblade:Maven:therewillbedeath.ogg",
+      "label": "Maven - There will be death",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "therewillbedeath.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/therewillbedeath.ogg"
+    },
+    {
+      "id": "filterblade:Maven:uncommonmight.ogg",
+      "label": "Maven - Uncommon might",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "uncommonmight.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/uncommonmight.ogg"
+    },
+    {
+      "id": "filterblade:Maven:unexpectednotunwelcome.ogg",
+      "label": "Maven - Unexpected not unwelcome",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "unexpectednotunwelcome.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/unexpectednotunwelcome.ogg"
+    },
+    {
+      "id": "filterblade:Maven:vibrant.ogg",
+      "label": "Maven - Vibrant",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "vibrant.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/vibrant.ogg"
+    },
+    {
+      "id": "filterblade:Maven:victoriousplaything.ogg",
+      "label": "Maven - Victorious plaything",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "victoriousplaything.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/victoriousplaything.ogg"
+    },
+    {
+      "id": "filterblade:Maven:victorygift.ogg",
+      "label": "Maven - Victory gift",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "victorygift.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/victorygift.ogg"
+    },
+    {
+      "id": "filterblade:Maven:wintribute.ogg",
+      "label": "Maven - Win tribute",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "wintribute.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/wintribute.ogg"
+    },
+    {
+      "id": "filterblade:Maven:withoutcompare1.ogg",
+      "label": "Maven - Without compare 1",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "withoutcompare1.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/withoutcompare1.ogg"
+    },
+    {
+      "id": "filterblade:Maven:withoutcompare2.ogg",
+      "label": "Maven - Without compare 2",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "withoutcompare2.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/withoutcompare2.ogg"
+    },
+    {
+      "id": "filterblade:Maven:worthit1.ogg",
+      "label": "Maven - Worth it 1",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "worthit1.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/worthit1.ogg"
+    },
+    {
+      "id": "filterblade:Maven:worthit2.ogg",
+      "label": "Maven - Worth it 2",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "worthit2.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/worthit2.ogg"
+    },
+    {
+      "id": "filterblade:Maven:yes1.ogg",
+      "label": "Maven - Yes 1",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "yes1.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/yes1.ogg"
+    },
+    {
+      "id": "filterblade:Maven:yes2.ogg",
+      "label": "Maven - Yes 2",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "yes2.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/yes2.ogg"
+    },
+    {
+      "id": "filterblade:Maven:yes3.ogg",
+      "label": "Maven - Yes 3",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "yes3.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/yes3.ogg"
+    },
+    {
+      "id": "filterblade:Maven:yesmine.ogg",
+      "label": "Maven - Yes mine",
+      "group": "FilterBlade - Maven",
+      "kind": "filterblade",
+      "pack": "Maven",
+      "file": "yesmine.ogg",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Maven/yesmine.ogg"
+    },
+    {
+      "id": "filterblade:Veskara:1maybevaluable.mp3",
+      "label": "Default PoE Sounds - May be valuable",
+      "group": "FilterBlade - Default PoE Sounds",
+      "kind": "filterblade",
+      "pack": "Veskara",
+      "file": "1maybevaluable.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Veskara/1maybevaluable.mp3"
+    },
+    {
+      "id": "filterblade:Veskara:2currency.mp3",
+      "label": "Default PoE Sounds - Currency",
+      "group": "FilterBlade - Default PoE Sounds",
+      "kind": "filterblade",
+      "pack": "Veskara",
+      "file": "2currency.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Veskara/2currency.mp3"
+    },
+    {
+      "id": "filterblade:Veskara:3uniques.mp3",
+      "label": "Default PoE Sounds - Uniques",
+      "group": "FilterBlade - Default PoE Sounds",
+      "kind": "filterblade",
+      "pack": "Veskara",
+      "file": "3uniques.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Veskara/3uniques.mp3"
+    },
+    {
+      "id": "filterblade:Veskara:4maps.mp3",
+      "label": "Default PoE Sounds - Maps",
+      "group": "FilterBlade - Default PoE Sounds",
+      "kind": "filterblade",
+      "pack": "Veskara",
+      "file": "4maps.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Veskara/4maps.mp3"
+    },
+    {
+      "id": "filterblade:Veskara:5highmaps.mp3",
+      "label": "Default PoE Sounds - High maps",
+      "group": "FilterBlade - Default PoE Sounds",
+      "kind": "filterblade",
+      "pack": "Veskara",
+      "file": "5highmaps.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Veskara/5highmaps.mp3"
+    },
+    {
+      "id": "filterblade:Veskara:6veryvaluable.mp3",
+      "label": "Default PoE Sounds - Very valuable",
+      "group": "FilterBlade - Default PoE Sounds",
+      "kind": "filterblade",
+      "pack": "Veskara",
+      "file": "6veryvaluable.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Veskara/6veryvaluable.mp3"
+    },
+    {
+      "id": "filterblade:Veskara:7chancing.mp3",
+      "label": "Default PoE Sounds - Chancing",
+      "group": "FilterBlade - Default PoE Sounds",
+      "kind": "filterblade",
+      "pack": "Veskara",
+      "file": "7chancing.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Veskara/7chancing.mp3"
+    },
+    {
+      "id": "filterblade:Veskara:12leveling.mp3",
+      "label": "Default PoE Sounds - Leveling",
+      "group": "FilterBlade - Default PoE Sounds",
+      "kind": "filterblade",
+      "pack": "Veskara",
+      "file": "12leveling.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Veskara/12leveling.mp3"
+    },
+    {
+      "id": "filterblade:Veskara:placeholder.mp3",
+      "label": "Default PoE Sounds - Placeholder",
+      "group": "FilterBlade - Default PoE Sounds",
+      "kind": "filterblade",
+      "pack": "Veskara",
+      "file": "placeholder.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Veskara/placeholder.mp3"
+    },
+    {
+      "id": "filterblade:Asuzara:1maybevaluable.mp3",
+      "label": "Asuzara - May be valuable",
+      "group": "FilterBlade - Asuzara",
+      "kind": "filterblade",
+      "pack": "Asuzara",
+      "file": "1maybevaluable.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Asuzara/1maybevaluable.mp3"
+    },
+    {
+      "id": "filterblade:Asuzara:2currency.mp3",
+      "label": "Asuzara - Currency",
+      "group": "FilterBlade - Asuzara",
+      "kind": "filterblade",
+      "pack": "Asuzara",
+      "file": "2currency.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Asuzara/2currency.mp3"
+    },
+    {
+      "id": "filterblade:Asuzara:3uniques.mp3",
+      "label": "Asuzara - Uniques",
+      "group": "FilterBlade - Asuzara",
+      "kind": "filterblade",
+      "pack": "Asuzara",
+      "file": "3uniques.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Asuzara/3uniques.mp3"
+    },
+    {
+      "id": "filterblade:Asuzara:4maps.mp3",
+      "label": "Asuzara - Maps",
+      "group": "FilterBlade - Asuzara",
+      "kind": "filterblade",
+      "pack": "Asuzara",
+      "file": "4maps.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Asuzara/4maps.mp3"
+    },
+    {
+      "id": "filterblade:Asuzara:5highmaps.mp3",
+      "label": "Asuzara - High maps",
+      "group": "FilterBlade - Asuzara",
+      "kind": "filterblade",
+      "pack": "Asuzara",
+      "file": "5highmaps.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Asuzara/5highmaps.mp3"
+    },
+    {
+      "id": "filterblade:Asuzara:6veryvaluable.mp3",
+      "label": "Asuzara - Very valuable",
+      "group": "FilterBlade - Asuzara",
+      "kind": "filterblade",
+      "pack": "Asuzara",
+      "file": "6veryvaluable.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Asuzara/6veryvaluable.mp3"
+    },
+    {
+      "id": "filterblade:Asuzara:7chancing.mp3",
+      "label": "Asuzara - Chancing",
+      "group": "FilterBlade - Asuzara",
+      "kind": "filterblade",
+      "pack": "Asuzara",
+      "file": "7chancing.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Asuzara/7chancing.mp3"
+    },
+    {
+      "id": "filterblade:Asuzara:12leveling.mp3",
+      "label": "Asuzara - Leveling",
+      "group": "FilterBlade - Asuzara",
+      "kind": "filterblade",
+      "pack": "Asuzara",
+      "file": "12leveling.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Asuzara/12leveling.mp3"
+    },
+    {
+      "id": "filterblade:Asuzara:placeholder.mp3",
+      "label": "Asuzara - Placeholder",
+      "group": "FilterBlade - Asuzara",
+      "kind": "filterblade",
+      "pack": "Asuzara",
+      "file": "placeholder.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Asuzara/placeholder.mp3"
+    },
+    {
+      "id": "filterblade:BexBloopers:1maybevaluable.mp3",
+      "label": "BexBloopers - May be valuable",
+      "group": "FilterBlade - BexBloopers",
+      "kind": "filterblade",
+      "pack": "BexBloopers",
+      "file": "1maybevaluable.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/BexBloopers/1maybevaluable.mp3"
+    },
+    {
+      "id": "filterblade:BexBloopers:2currency.mp3",
+      "label": "BexBloopers - Currency",
+      "group": "FilterBlade - BexBloopers",
+      "kind": "filterblade",
+      "pack": "BexBloopers",
+      "file": "2currency.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/BexBloopers/2currency.mp3"
+    },
+    {
+      "id": "filterblade:BexBloopers:3uniques.mp3",
+      "label": "BexBloopers - Uniques",
+      "group": "FilterBlade - BexBloopers",
+      "kind": "filterblade",
+      "pack": "BexBloopers",
+      "file": "3uniques.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/BexBloopers/3uniques.mp3"
+    },
+    {
+      "id": "filterblade:BexBloopers:4maps.mp3",
+      "label": "BexBloopers - Maps",
+      "group": "FilterBlade - BexBloopers",
+      "kind": "filterblade",
+      "pack": "BexBloopers",
+      "file": "4maps.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/BexBloopers/4maps.mp3"
+    },
+    {
+      "id": "filterblade:BexBloopers:5highmaps.mp3",
+      "label": "BexBloopers - High maps",
+      "group": "FilterBlade - BexBloopers",
+      "kind": "filterblade",
+      "pack": "BexBloopers",
+      "file": "5highmaps.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/BexBloopers/5highmaps.mp3"
+    },
+    {
+      "id": "filterblade:BexBloopers:6veryvaluable.mp3",
+      "label": "BexBloopers - Very valuable",
+      "group": "FilterBlade - BexBloopers",
+      "kind": "filterblade",
+      "pack": "BexBloopers",
+      "file": "6veryvaluable.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/BexBloopers/6veryvaluable.mp3"
+    },
+    {
+      "id": "filterblade:BexBloopers:7chancing.mp3",
+      "label": "BexBloopers - Chancing",
+      "group": "FilterBlade - BexBloopers",
+      "kind": "filterblade",
+      "pack": "BexBloopers",
+      "file": "7chancing.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/BexBloopers/7chancing.mp3"
+    },
+    {
+      "id": "filterblade:BexBloopers:12leveling.mp3",
+      "label": "BexBloopers - Leveling",
+      "group": "FilterBlade - BexBloopers",
+      "kind": "filterblade",
+      "pack": "BexBloopers",
+      "file": "12leveling.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/BexBloopers/12leveling.mp3"
+    },
+    {
+      "id": "filterblade:BexBloopers:placeholder.mp3",
+      "label": "BexBloopers - Placeholder",
+      "group": "FilterBlade - BexBloopers",
+      "kind": "filterblade",
+      "pack": "BexBloopers",
+      "file": "placeholder.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/BexBloopers/placeholder.mp3"
+    },
+    {
+      "id": "filterblade:Brittleknee:1maybevaluable.mp3",
+      "label": "Brittleknee - May be valuable",
+      "group": "FilterBlade - Brittleknee",
+      "kind": "filterblade",
+      "pack": "Brittleknee",
+      "file": "1maybevaluable.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Brittleknee/1maybevaluable.mp3"
+    },
+    {
+      "id": "filterblade:Brittleknee:2currency.mp3",
+      "label": "Brittleknee - Currency",
+      "group": "FilterBlade - Brittleknee",
+      "kind": "filterblade",
+      "pack": "Brittleknee",
+      "file": "2currency.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Brittleknee/2currency.mp3"
+    },
+    {
+      "id": "filterblade:Brittleknee:3uniques.mp3",
+      "label": "Brittleknee - Uniques",
+      "group": "FilterBlade - Brittleknee",
+      "kind": "filterblade",
+      "pack": "Brittleknee",
+      "file": "3uniques.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Brittleknee/3uniques.mp3"
+    },
+    {
+      "id": "filterblade:Brittleknee:4maps.mp3",
+      "label": "Brittleknee - Maps",
+      "group": "FilterBlade - Brittleknee",
+      "kind": "filterblade",
+      "pack": "Brittleknee",
+      "file": "4maps.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Brittleknee/4maps.mp3"
+    },
+    {
+      "id": "filterblade:Brittleknee:5highmaps.mp3",
+      "label": "Brittleknee - High maps",
+      "group": "FilterBlade - Brittleknee",
+      "kind": "filterblade",
+      "pack": "Brittleknee",
+      "file": "5highmaps.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Brittleknee/5highmaps.mp3"
+    },
+    {
+      "id": "filterblade:Brittleknee:6veryvaluable.mp3",
+      "label": "Brittleknee - Very valuable",
+      "group": "FilterBlade - Brittleknee",
+      "kind": "filterblade",
+      "pack": "Brittleknee",
+      "file": "6veryvaluable.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Brittleknee/6veryvaluable.mp3"
+    },
+    {
+      "id": "filterblade:Brittleknee:7chancing.mp3",
+      "label": "Brittleknee - Chancing",
+      "group": "FilterBlade - Brittleknee",
+      "kind": "filterblade",
+      "pack": "Brittleknee",
+      "file": "7chancing.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Brittleknee/7chancing.mp3"
+    },
+    {
+      "id": "filterblade:Brittleknee:12leveling.mp3",
+      "label": "Brittleknee - Leveling",
+      "group": "FilterBlade - Brittleknee",
+      "kind": "filterblade",
+      "pack": "Brittleknee",
+      "file": "12leveling.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Brittleknee/12leveling.mp3"
+    },
+    {
+      "id": "filterblade:Brittleknee:placeholder.mp3",
+      "label": "Brittleknee - Placeholder",
+      "group": "FilterBlade - Brittleknee",
+      "kind": "filterblade",
+      "pack": "Brittleknee",
+      "file": "placeholder.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Brittleknee/placeholder.mp3"
+    },
+    {
+      "id": "filterblade:Chistor:1maybevaluable.mp3",
+      "label": "Chistor - May be valuable",
+      "group": "FilterBlade - Chistor",
+      "kind": "filterblade",
+      "pack": "Chistor",
+      "file": "1maybevaluable.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Chistor/1maybevaluable.mp3"
+    },
+    {
+      "id": "filterblade:Chistor:2currency.mp3",
+      "label": "Chistor - Currency",
+      "group": "FilterBlade - Chistor",
+      "kind": "filterblade",
+      "pack": "Chistor",
+      "file": "2currency.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Chistor/2currency.mp3"
+    },
+    {
+      "id": "filterblade:Chistor:3uniques.mp3",
+      "label": "Chistor - Uniques",
+      "group": "FilterBlade - Chistor",
+      "kind": "filterblade",
+      "pack": "Chistor",
+      "file": "3uniques.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Chistor/3uniques.mp3"
+    },
+    {
+      "id": "filterblade:Chistor:4maps.mp3",
+      "label": "Chistor - Maps",
+      "group": "FilterBlade - Chistor",
+      "kind": "filterblade",
+      "pack": "Chistor",
+      "file": "4maps.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Chistor/4maps.mp3"
+    },
+    {
+      "id": "filterblade:Chistor:5highmaps.mp3",
+      "label": "Chistor - High maps",
+      "group": "FilterBlade - Chistor",
+      "kind": "filterblade",
+      "pack": "Chistor",
+      "file": "5highmaps.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Chistor/5highmaps.mp3"
+    },
+    {
+      "id": "filterblade:Chistor:6veryvaluable.mp3",
+      "label": "Chistor - Very valuable",
+      "group": "FilterBlade - Chistor",
+      "kind": "filterblade",
+      "pack": "Chistor",
+      "file": "6veryvaluable.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Chistor/6veryvaluable.mp3"
+    },
+    {
+      "id": "filterblade:Chistor:7chancing.mp3",
+      "label": "Chistor - Chancing",
+      "group": "FilterBlade - Chistor",
+      "kind": "filterblade",
+      "pack": "Chistor",
+      "file": "7chancing.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Chistor/7chancing.mp3"
+    },
+    {
+      "id": "filterblade:Chistor:12leveling.mp3",
+      "label": "Chistor - Leveling",
+      "group": "FilterBlade - Chistor",
+      "kind": "filterblade",
+      "pack": "Chistor",
+      "file": "12leveling.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Chistor/12leveling.mp3"
+    },
+    {
+      "id": "filterblade:Chistor:placeholder.mp3",
+      "label": "Chistor - Placeholder",
+      "group": "FilterBlade - Chistor",
+      "kind": "filterblade",
+      "pack": "Chistor",
+      "file": "placeholder.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Chistor/placeholder.mp3"
+    },
+    {
+      "id": "filterblade:GhazzyTV:1maybevaluable.mp3",
+      "label": "GhazzyTV - May be valuable",
+      "group": "FilterBlade - GhazzyTV",
+      "kind": "filterblade",
+      "pack": "GhazzyTV",
+      "file": "1maybevaluable.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/GhazzyTV/1maybevaluable.mp3"
+    },
+    {
+      "id": "filterblade:GhazzyTV:2currency.mp3",
+      "label": "GhazzyTV - Currency",
+      "group": "FilterBlade - GhazzyTV",
+      "kind": "filterblade",
+      "pack": "GhazzyTV",
+      "file": "2currency.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/GhazzyTV/2currency.mp3"
+    },
+    {
+      "id": "filterblade:GhazzyTV:3uniques.mp3",
+      "label": "GhazzyTV - Uniques",
+      "group": "FilterBlade - GhazzyTV",
+      "kind": "filterblade",
+      "pack": "GhazzyTV",
+      "file": "3uniques.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/GhazzyTV/3uniques.mp3"
+    },
+    {
+      "id": "filterblade:GhazzyTV:4maps.mp3",
+      "label": "GhazzyTV - Maps",
+      "group": "FilterBlade - GhazzyTV",
+      "kind": "filterblade",
+      "pack": "GhazzyTV",
+      "file": "4maps.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/GhazzyTV/4maps.mp3"
+    },
+    {
+      "id": "filterblade:GhazzyTV:5highmaps.mp3",
+      "label": "GhazzyTV - High maps",
+      "group": "FilterBlade - GhazzyTV",
+      "kind": "filterblade",
+      "pack": "GhazzyTV",
+      "file": "5highmaps.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/GhazzyTV/5highmaps.mp3"
+    },
+    {
+      "id": "filterblade:GhazzyTV:6veryvaluable.mp3",
+      "label": "GhazzyTV - Very valuable",
+      "group": "FilterBlade - GhazzyTV",
+      "kind": "filterblade",
+      "pack": "GhazzyTV",
+      "file": "6veryvaluable.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/GhazzyTV/6veryvaluable.mp3"
+    },
+    {
+      "id": "filterblade:GhazzyTV:7chancing.mp3",
+      "label": "GhazzyTV - Chancing",
+      "group": "FilterBlade - GhazzyTV",
+      "kind": "filterblade",
+      "pack": "GhazzyTV",
+      "file": "7chancing.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/GhazzyTV/7chancing.mp3"
+    },
+    {
+      "id": "filterblade:GhazzyTV:12leveling.mp3",
+      "label": "GhazzyTV - Leveling",
+      "group": "FilterBlade - GhazzyTV",
+      "kind": "filterblade",
+      "pack": "GhazzyTV",
+      "file": "12leveling.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/GhazzyTV/12leveling.mp3"
+    },
+    {
+      "id": "filterblade:GhazzyTV:placeholder.mp3",
+      "label": "GhazzyTV - Placeholder",
+      "group": "FilterBlade - GhazzyTV",
+      "kind": "filterblade",
+      "pack": "GhazzyTV",
+      "file": "placeholder.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/GhazzyTV/placeholder.mp3"
+    },
+    {
+      "id": "filterblade:Golaya:1maybevaluable.mp3",
+      "label": "Golaya - May be valuable",
+      "group": "FilterBlade - Golaya",
+      "kind": "filterblade",
+      "pack": "Golaya",
+      "file": "1maybevaluable.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Golaya/1maybevaluable.mp3"
+    },
+    {
+      "id": "filterblade:Golaya:2currency.mp3",
+      "label": "Golaya - Currency",
+      "group": "FilterBlade - Golaya",
+      "kind": "filterblade",
+      "pack": "Golaya",
+      "file": "2currency.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Golaya/2currency.mp3"
+    },
+    {
+      "id": "filterblade:Golaya:3uniques.mp3",
+      "label": "Golaya - Uniques",
+      "group": "FilterBlade - Golaya",
+      "kind": "filterblade",
+      "pack": "Golaya",
+      "file": "3uniques.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Golaya/3uniques.mp3"
+    },
+    {
+      "id": "filterblade:Golaya:4maps.mp3",
+      "label": "Golaya - Maps",
+      "group": "FilterBlade - Golaya",
+      "kind": "filterblade",
+      "pack": "Golaya",
+      "file": "4maps.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Golaya/4maps.mp3"
+    },
+    {
+      "id": "filterblade:Golaya:5highmaps.mp3",
+      "label": "Golaya - High maps",
+      "group": "FilterBlade - Golaya",
+      "kind": "filterblade",
+      "pack": "Golaya",
+      "file": "5highmaps.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Golaya/5highmaps.mp3"
+    },
+    {
+      "id": "filterblade:Golaya:6veryvaluable.mp3",
+      "label": "Golaya - Very valuable",
+      "group": "FilterBlade - Golaya",
+      "kind": "filterblade",
+      "pack": "Golaya",
+      "file": "6veryvaluable.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Golaya/6veryvaluable.mp3"
+    },
+    {
+      "id": "filterblade:Golaya:7chancing.mp3",
+      "label": "Golaya - Chancing",
+      "group": "FilterBlade - Golaya",
+      "kind": "filterblade",
+      "pack": "Golaya",
+      "file": "7chancing.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Golaya/7chancing.mp3"
+    },
+    {
+      "id": "filterblade:Golaya:12leveling.mp3",
+      "label": "Golaya - Leveling",
+      "group": "FilterBlade - Golaya",
+      "kind": "filterblade",
+      "pack": "Golaya",
+      "file": "12leveling.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Golaya/12leveling.mp3"
+    },
+    {
+      "id": "filterblade:Golaya:placeholder.mp3",
+      "label": "Golaya - Placeholder",
+      "group": "FilterBlade - Golaya",
+      "kind": "filterblade",
+      "pack": "Golaya",
+      "file": "placeholder.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Golaya/placeholder.mp3"
+    },
+    {
+      "id": "filterblade:Gollum (Zizaran):1maybevaluable.mp3",
+      "label": "Gollum (Zizaran) - May be valuable",
+      "group": "FilterBlade - Gollum (Zizaran)",
+      "kind": "filterblade",
+      "pack": "Gollum (Zizaran)",
+      "file": "1maybevaluable.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Gollum%20%28Zizaran%29/1maybevaluable.mp3"
+    },
+    {
+      "id": "filterblade:Gollum (Zizaran):2currency.mp3",
+      "label": "Gollum (Zizaran) - Currency",
+      "group": "FilterBlade - Gollum (Zizaran)",
+      "kind": "filterblade",
+      "pack": "Gollum (Zizaran)",
+      "file": "2currency.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Gollum%20%28Zizaran%29/2currency.mp3"
+    },
+    {
+      "id": "filterblade:Gollum (Zizaran):3uniques.mp3",
+      "label": "Gollum (Zizaran) - Uniques",
+      "group": "FilterBlade - Gollum (Zizaran)",
+      "kind": "filterblade",
+      "pack": "Gollum (Zizaran)",
+      "file": "3uniques.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Gollum%20%28Zizaran%29/3uniques.mp3"
+    },
+    {
+      "id": "filterblade:Gollum (Zizaran):4maps.mp3",
+      "label": "Gollum (Zizaran) - Maps",
+      "group": "FilterBlade - Gollum (Zizaran)",
+      "kind": "filterblade",
+      "pack": "Gollum (Zizaran)",
+      "file": "4maps.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Gollum%20%28Zizaran%29/4maps.mp3"
+    },
+    {
+      "id": "filterblade:Gollum (Zizaran):5highmaps.mp3",
+      "label": "Gollum (Zizaran) - High maps",
+      "group": "FilterBlade - Gollum (Zizaran)",
+      "kind": "filterblade",
+      "pack": "Gollum (Zizaran)",
+      "file": "5highmaps.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Gollum%20%28Zizaran%29/5highmaps.mp3"
+    },
+    {
+      "id": "filterblade:Gollum (Zizaran):6veryvaluable.mp3",
+      "label": "Gollum (Zizaran) - Very valuable",
+      "group": "FilterBlade - Gollum (Zizaran)",
+      "kind": "filterblade",
+      "pack": "Gollum (Zizaran)",
+      "file": "6veryvaluable.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Gollum%20%28Zizaran%29/6veryvaluable.mp3"
+    },
+    {
+      "id": "filterblade:Gollum (Zizaran):7chancing.mp3",
+      "label": "Gollum (Zizaran) - Chancing",
+      "group": "FilterBlade - Gollum (Zizaran)",
+      "kind": "filterblade",
+      "pack": "Gollum (Zizaran)",
+      "file": "7chancing.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Gollum%20%28Zizaran%29/7chancing.mp3"
+    },
+    {
+      "id": "filterblade:Gollum (Zizaran):12leveling.mp3",
+      "label": "Gollum (Zizaran) - Leveling",
+      "group": "FilterBlade - Gollum (Zizaran)",
+      "kind": "filterblade",
+      "pack": "Gollum (Zizaran)",
+      "file": "12leveling.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Gollum%20%28Zizaran%29/12leveling.mp3"
+    },
+    {
+      "id": "filterblade:Gollum (Zizaran):placeholder.mp3",
+      "label": "Gollum (Zizaran) - Placeholder",
+      "group": "FilterBlade - Gollum (Zizaran)",
+      "kind": "filterblade",
+      "pack": "Gollum (Zizaran)",
+      "file": "placeholder.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Gollum%20%28Zizaran%29/placeholder.mp3"
+    },
+    {
+      "id": "filterblade:Holly:1maybevaluable.mp3",
+      "label": "Holly - May be valuable",
+      "group": "FilterBlade - Holly",
+      "kind": "filterblade",
+      "pack": "Holly",
+      "file": "1maybevaluable.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Holly/1maybevaluable.mp3"
+    },
+    {
+      "id": "filterblade:Holly:2currency.mp3",
+      "label": "Holly - Currency",
+      "group": "FilterBlade - Holly",
+      "kind": "filterblade",
+      "pack": "Holly",
+      "file": "2currency.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Holly/2currency.mp3"
+    },
+    {
+      "id": "filterblade:Holly:3uniques.mp3",
+      "label": "Holly - Uniques",
+      "group": "FilterBlade - Holly",
+      "kind": "filterblade",
+      "pack": "Holly",
+      "file": "3uniques.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Holly/3uniques.mp3"
+    },
+    {
+      "id": "filterblade:Holly:4maps.mp3",
+      "label": "Holly - Maps",
+      "group": "FilterBlade - Holly",
+      "kind": "filterblade",
+      "pack": "Holly",
+      "file": "4maps.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Holly/4maps.mp3"
+    },
+    {
+      "id": "filterblade:Holly:5highmaps.mp3",
+      "label": "Holly - High maps",
+      "group": "FilterBlade - Holly",
+      "kind": "filterblade",
+      "pack": "Holly",
+      "file": "5highmaps.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Holly/5highmaps.mp3"
+    },
+    {
+      "id": "filterblade:Holly:6veryvaluable.mp3",
+      "label": "Holly - Very valuable",
+      "group": "FilterBlade - Holly",
+      "kind": "filterblade",
+      "pack": "Holly",
+      "file": "6veryvaluable.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Holly/6veryvaluable.mp3"
+    },
+    {
+      "id": "filterblade:Holly:7chancing.mp3",
+      "label": "Holly - Chancing",
+      "group": "FilterBlade - Holly",
+      "kind": "filterblade",
+      "pack": "Holly",
+      "file": "7chancing.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Holly/7chancing.mp3"
+    },
+    {
+      "id": "filterblade:Holly:12leveling.mp3",
+      "label": "Holly - Leveling",
+      "group": "FilterBlade - Holly",
+      "kind": "filterblade",
+      "pack": "Holly",
+      "file": "12leveling.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Holly/12leveling.mp3"
+    },
+    {
+      "id": "filterblade:Holly:placeholder.mp3",
+      "label": "Holly - Placeholder",
+      "group": "FilterBlade - Holly",
+      "kind": "filterblade",
+      "pack": "Holly",
+      "file": "placeholder.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Holly/placeholder.mp3"
+    },
+    {
+      "id": "filterblade:Kermit (Zizaran):1maybevaluable.mp3",
+      "label": "Kermit (Zizaran) - May be valuable",
+      "group": "FilterBlade - Kermit (Zizaran)",
+      "kind": "filterblade",
+      "pack": "Kermit (Zizaran)",
+      "file": "1maybevaluable.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Kermit%20%28Zizaran%29/1maybevaluable.mp3"
+    },
+    {
+      "id": "filterblade:Kermit (Zizaran):2currency.mp3",
+      "label": "Kermit (Zizaran) - Currency",
+      "group": "FilterBlade - Kermit (Zizaran)",
+      "kind": "filterblade",
+      "pack": "Kermit (Zizaran)",
+      "file": "2currency.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Kermit%20%28Zizaran%29/2currency.mp3"
+    },
+    {
+      "id": "filterblade:Kermit (Zizaran):3uniques.mp3",
+      "label": "Kermit (Zizaran) - Uniques",
+      "group": "FilterBlade - Kermit (Zizaran)",
+      "kind": "filterblade",
+      "pack": "Kermit (Zizaran)",
+      "file": "3uniques.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Kermit%20%28Zizaran%29/3uniques.mp3"
+    },
+    {
+      "id": "filterblade:Kermit (Zizaran):4maps.mp3",
+      "label": "Kermit (Zizaran) - Maps",
+      "group": "FilterBlade - Kermit (Zizaran)",
+      "kind": "filterblade",
+      "pack": "Kermit (Zizaran)",
+      "file": "4maps.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Kermit%20%28Zizaran%29/4maps.mp3"
+    },
+    {
+      "id": "filterblade:Kermit (Zizaran):5highmaps.mp3",
+      "label": "Kermit (Zizaran) - High maps",
+      "group": "FilterBlade - Kermit (Zizaran)",
+      "kind": "filterblade",
+      "pack": "Kermit (Zizaran)",
+      "file": "5highmaps.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Kermit%20%28Zizaran%29/5highmaps.mp3"
+    },
+    {
+      "id": "filterblade:Kermit (Zizaran):6veryvaluable.mp3",
+      "label": "Kermit (Zizaran) - Very valuable",
+      "group": "FilterBlade - Kermit (Zizaran)",
+      "kind": "filterblade",
+      "pack": "Kermit (Zizaran)",
+      "file": "6veryvaluable.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Kermit%20%28Zizaran%29/6veryvaluable.mp3"
+    },
+    {
+      "id": "filterblade:Kermit (Zizaran):7chancing.mp3",
+      "label": "Kermit (Zizaran) - Chancing",
+      "group": "FilterBlade - Kermit (Zizaran)",
+      "kind": "filterblade",
+      "pack": "Kermit (Zizaran)",
+      "file": "7chancing.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Kermit%20%28Zizaran%29/7chancing.mp3"
+    },
+    {
+      "id": "filterblade:Kermit (Zizaran):12leveling.mp3",
+      "label": "Kermit (Zizaran) - Leveling",
+      "group": "FilterBlade - Kermit (Zizaran)",
+      "kind": "filterblade",
+      "pack": "Kermit (Zizaran)",
+      "file": "12leveling.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Kermit%20%28Zizaran%29/12leveling.mp3"
+    },
+    {
+      "id": "filterblade:Kermit (Zizaran):placeholder.mp3",
+      "label": "Kermit (Zizaran) - Placeholder",
+      "group": "FilterBlade - Kermit (Zizaran)",
+      "kind": "filterblade",
+      "pack": "Kermit (Zizaran)",
+      "file": "placeholder.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Kermit%20%28Zizaran%29/placeholder.mp3"
+    },
+    {
+      "id": "filterblade:Lolcohol:1maybevaluable.mp3",
+      "label": "Lolcohol - May be valuable",
+      "group": "FilterBlade - Lolcohol",
+      "kind": "filterblade",
+      "pack": "Lolcohol",
+      "file": "1maybevaluable.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Lolcohol/1maybevaluable.mp3"
+    },
+    {
+      "id": "filterblade:Lolcohol:2currency.mp3",
+      "label": "Lolcohol - Currency",
+      "group": "FilterBlade - Lolcohol",
+      "kind": "filterblade",
+      "pack": "Lolcohol",
+      "file": "2currency.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Lolcohol/2currency.mp3"
+    },
+    {
+      "id": "filterblade:Lolcohol:3uniques.mp3",
+      "label": "Lolcohol - Uniques",
+      "group": "FilterBlade - Lolcohol",
+      "kind": "filterblade",
+      "pack": "Lolcohol",
+      "file": "3uniques.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Lolcohol/3uniques.mp3"
+    },
+    {
+      "id": "filterblade:Lolcohol:4maps.mp3",
+      "label": "Lolcohol - Maps",
+      "group": "FilterBlade - Lolcohol",
+      "kind": "filterblade",
+      "pack": "Lolcohol",
+      "file": "4maps.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Lolcohol/4maps.mp3"
+    },
+    {
+      "id": "filterblade:Lolcohol:5highmaps.mp3",
+      "label": "Lolcohol - High maps",
+      "group": "FilterBlade - Lolcohol",
+      "kind": "filterblade",
+      "pack": "Lolcohol",
+      "file": "5highmaps.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Lolcohol/5highmaps.mp3"
+    },
+    {
+      "id": "filterblade:Lolcohol:6veryvaluable.mp3",
+      "label": "Lolcohol - Very valuable",
+      "group": "FilterBlade - Lolcohol",
+      "kind": "filterblade",
+      "pack": "Lolcohol",
+      "file": "6veryvaluable.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Lolcohol/6veryvaluable.mp3"
+    },
+    {
+      "id": "filterblade:Lolcohol:7chancing.mp3",
+      "label": "Lolcohol - Chancing",
+      "group": "FilterBlade - Lolcohol",
+      "kind": "filterblade",
+      "pack": "Lolcohol",
+      "file": "7chancing.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Lolcohol/7chancing.mp3"
+    },
+    {
+      "id": "filterblade:Lolcohol:12leveling.mp3",
+      "label": "Lolcohol - Leveling",
+      "group": "FilterBlade - Lolcohol",
+      "kind": "filterblade",
+      "pack": "Lolcohol",
+      "file": "12leveling.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Lolcohol/12leveling.mp3"
+    },
+    {
+      "id": "filterblade:Lolcohol:placeholder.mp3",
+      "label": "Lolcohol - Placeholder",
+      "group": "FilterBlade - Lolcohol",
+      "kind": "filterblade",
+      "pack": "Lolcohol",
+      "file": "placeholder.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Lolcohol/placeholder.mp3"
+    },
+    {
+      "id": "filterblade:Mathil:1maybevaluable.mp3",
+      "label": "Mathil - May be valuable",
+      "group": "FilterBlade - Mathil",
+      "kind": "filterblade",
+      "pack": "Mathil",
+      "file": "1maybevaluable.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Mathil/1maybevaluable.mp3"
+    },
+    {
+      "id": "filterblade:Mathil:2currency.mp3",
+      "label": "Mathil - Currency",
+      "group": "FilterBlade - Mathil",
+      "kind": "filterblade",
+      "pack": "Mathil",
+      "file": "2currency.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Mathil/2currency.mp3"
+    },
+    {
+      "id": "filterblade:Mathil:3uniques.mp3",
+      "label": "Mathil - Uniques",
+      "group": "FilterBlade - Mathil",
+      "kind": "filterblade",
+      "pack": "Mathil",
+      "file": "3uniques.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Mathil/3uniques.mp3"
+    },
+    {
+      "id": "filterblade:Mathil:4maps.mp3",
+      "label": "Mathil - Maps",
+      "group": "FilterBlade - Mathil",
+      "kind": "filterblade",
+      "pack": "Mathil",
+      "file": "4maps.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Mathil/4maps.mp3"
+    },
+    {
+      "id": "filterblade:Mathil:5highmaps.mp3",
+      "label": "Mathil - High maps",
+      "group": "FilterBlade - Mathil",
+      "kind": "filterblade",
+      "pack": "Mathil",
+      "file": "5highmaps.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Mathil/5highmaps.mp3"
+    },
+    {
+      "id": "filterblade:Mathil:6veryvaluable.mp3",
+      "label": "Mathil - Very valuable",
+      "group": "FilterBlade - Mathil",
+      "kind": "filterblade",
+      "pack": "Mathil",
+      "file": "6veryvaluable.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Mathil/6veryvaluable.mp3"
+    },
+    {
+      "id": "filterblade:Mathil:7chancing.mp3",
+      "label": "Mathil - Chancing",
+      "group": "FilterBlade - Mathil",
+      "kind": "filterblade",
+      "pack": "Mathil",
+      "file": "7chancing.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Mathil/7chancing.mp3"
+    },
+    {
+      "id": "filterblade:Mathil:12leveling.mp3",
+      "label": "Mathil - Leveling",
+      "group": "FilterBlade - Mathil",
+      "kind": "filterblade",
+      "pack": "Mathil",
+      "file": "12leveling.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Mathil/12leveling.mp3"
+    },
+    {
+      "id": "filterblade:Mathil:placeholder.mp3",
+      "label": "Mathil - Placeholder",
+      "group": "FilterBlade - Mathil",
+      "kind": "filterblade",
+      "pack": "Mathil",
+      "file": "placeholder.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Mathil/placeholder.mp3"
+    },
+    {
+      "id": "filterblade:Mathil-vulgarity:1maybevaluable.mp3",
+      "label": "Mathil-vulgarity - May be valuable",
+      "group": "FilterBlade - Mathil-vulgarity",
+      "kind": "filterblade",
+      "pack": "Mathil-vulgarity",
+      "file": "1maybevaluable.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Mathil-vulgarity/1maybevaluable.mp3"
+    },
+    {
+      "id": "filterblade:Mathil-vulgarity:2currency.mp3",
+      "label": "Mathil-vulgarity - Currency",
+      "group": "FilterBlade - Mathil-vulgarity",
+      "kind": "filterblade",
+      "pack": "Mathil-vulgarity",
+      "file": "2currency.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Mathil-vulgarity/2currency.mp3"
+    },
+    {
+      "id": "filterblade:Mathil-vulgarity:3uniques.mp3",
+      "label": "Mathil-vulgarity - Uniques",
+      "group": "FilterBlade - Mathil-vulgarity",
+      "kind": "filterblade",
+      "pack": "Mathil-vulgarity",
+      "file": "3uniques.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Mathil-vulgarity/3uniques.mp3"
+    },
+    {
+      "id": "filterblade:Mathil-vulgarity:4maps.mp3",
+      "label": "Mathil-vulgarity - Maps",
+      "group": "FilterBlade - Mathil-vulgarity",
+      "kind": "filterblade",
+      "pack": "Mathil-vulgarity",
+      "file": "4maps.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Mathil-vulgarity/4maps.mp3"
+    },
+    {
+      "id": "filterblade:Mathil-vulgarity:5highmaps.mp3",
+      "label": "Mathil-vulgarity - High maps",
+      "group": "FilterBlade - Mathil-vulgarity",
+      "kind": "filterblade",
+      "pack": "Mathil-vulgarity",
+      "file": "5highmaps.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Mathil-vulgarity/5highmaps.mp3"
+    },
+    {
+      "id": "filterblade:Mathil-vulgarity:6veryvaluable.mp3",
+      "label": "Mathil-vulgarity - Very valuable",
+      "group": "FilterBlade - Mathil-vulgarity",
+      "kind": "filterblade",
+      "pack": "Mathil-vulgarity",
+      "file": "6veryvaluable.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Mathil-vulgarity/6veryvaluable.mp3"
+    },
+    {
+      "id": "filterblade:Mathil-vulgarity:7chancing.mp3",
+      "label": "Mathil-vulgarity - Chancing",
+      "group": "FilterBlade - Mathil-vulgarity",
+      "kind": "filterblade",
+      "pack": "Mathil-vulgarity",
+      "file": "7chancing.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Mathil-vulgarity/7chancing.mp3"
+    },
+    {
+      "id": "filterblade:Mathil-vulgarity:12leveling.mp3",
+      "label": "Mathil-vulgarity - Leveling",
+      "group": "FilterBlade - Mathil-vulgarity",
+      "kind": "filterblade",
+      "pack": "Mathil-vulgarity",
+      "file": "12leveling.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Mathil-vulgarity/12leveling.mp3"
+    },
+    {
+      "id": "filterblade:Mathil-vulgarity:placeholder.mp3",
+      "label": "Mathil-vulgarity - Placeholder",
+      "group": "FilterBlade - Mathil-vulgarity",
+      "kind": "filterblade",
+      "pack": "Mathil-vulgarity",
+      "file": "placeholder.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Mathil-vulgarity/placeholder.mp3"
+    },
+    {
+      "id": "filterblade:SlipperyJim:1maybevaluable.mp3",
+      "label": "SlipperyJim - May be valuable",
+      "group": "FilterBlade - SlipperyJim",
+      "kind": "filterblade",
+      "pack": "SlipperyJim",
+      "file": "1maybevaluable.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/SlipperyJim/1maybevaluable.mp3"
+    },
+    {
+      "id": "filterblade:SlipperyJim:2currency.mp3",
+      "label": "SlipperyJim - Currency",
+      "group": "FilterBlade - SlipperyJim",
+      "kind": "filterblade",
+      "pack": "SlipperyJim",
+      "file": "2currency.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/SlipperyJim/2currency.mp3"
+    },
+    {
+      "id": "filterblade:SlipperyJim:3uniques.mp3",
+      "label": "SlipperyJim - Uniques",
+      "group": "FilterBlade - SlipperyJim",
+      "kind": "filterblade",
+      "pack": "SlipperyJim",
+      "file": "3uniques.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/SlipperyJim/3uniques.mp3"
+    },
+    {
+      "id": "filterblade:SlipperyJim:4maps.mp3",
+      "label": "SlipperyJim - Maps",
+      "group": "FilterBlade - SlipperyJim",
+      "kind": "filterblade",
+      "pack": "SlipperyJim",
+      "file": "4maps.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/SlipperyJim/4maps.mp3"
+    },
+    {
+      "id": "filterblade:SlipperyJim:5highmaps.mp3",
+      "label": "SlipperyJim - High maps",
+      "group": "FilterBlade - SlipperyJim",
+      "kind": "filterblade",
+      "pack": "SlipperyJim",
+      "file": "5highmaps.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/SlipperyJim/5highmaps.mp3"
+    },
+    {
+      "id": "filterblade:SlipperyJim:6veryvaluable.mp3",
+      "label": "SlipperyJim - Very valuable",
+      "group": "FilterBlade - SlipperyJim",
+      "kind": "filterblade",
+      "pack": "SlipperyJim",
+      "file": "6veryvaluable.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/SlipperyJim/6veryvaluable.mp3"
+    },
+    {
+      "id": "filterblade:SlipperyJim:7chancing.mp3",
+      "label": "SlipperyJim - Chancing",
+      "group": "FilterBlade - SlipperyJim",
+      "kind": "filterblade",
+      "pack": "SlipperyJim",
+      "file": "7chancing.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/SlipperyJim/7chancing.mp3"
+    },
+    {
+      "id": "filterblade:SlipperyJim:12leveling.mp3",
+      "label": "SlipperyJim - Leveling",
+      "group": "FilterBlade - SlipperyJim",
+      "kind": "filterblade",
+      "pack": "SlipperyJim",
+      "file": "12leveling.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/SlipperyJim/12leveling.mp3"
+    },
+    {
+      "id": "filterblade:SlipperyJim:placeholder.mp3",
+      "label": "SlipperyJim - Placeholder",
+      "group": "FilterBlade - SlipperyJim",
+      "kind": "filterblade",
+      "pack": "SlipperyJim",
+      "file": "placeholder.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/SlipperyJim/placeholder.mp3"
+    },
+    {
+      "id": "filterblade:Stefan Gold:1maybevaluable.mp3",
+      "label": "Stefan Gold - May be valuable",
+      "group": "FilterBlade - Stefan Gold",
+      "kind": "filterblade",
+      "pack": "Stefan Gold",
+      "file": "1maybevaluable.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Stefan%20Gold/1maybevaluable.mp3"
+    },
+    {
+      "id": "filterblade:Stefan Gold:2currency.mp3",
+      "label": "Stefan Gold - Currency",
+      "group": "FilterBlade - Stefan Gold",
+      "kind": "filterblade",
+      "pack": "Stefan Gold",
+      "file": "2currency.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Stefan%20Gold/2currency.mp3"
+    },
+    {
+      "id": "filterblade:Stefan Gold:3uniques.mp3",
+      "label": "Stefan Gold - Uniques",
+      "group": "FilterBlade - Stefan Gold",
+      "kind": "filterblade",
+      "pack": "Stefan Gold",
+      "file": "3uniques.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Stefan%20Gold/3uniques.mp3"
+    },
+    {
+      "id": "filterblade:Stefan Gold:4maps.mp3",
+      "label": "Stefan Gold - Maps",
+      "group": "FilterBlade - Stefan Gold",
+      "kind": "filterblade",
+      "pack": "Stefan Gold",
+      "file": "4maps.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Stefan%20Gold/4maps.mp3"
+    },
+    {
+      "id": "filterblade:Stefan Gold:5highmaps.mp3",
+      "label": "Stefan Gold - High maps",
+      "group": "FilterBlade - Stefan Gold",
+      "kind": "filterblade",
+      "pack": "Stefan Gold",
+      "file": "5highmaps.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Stefan%20Gold/5highmaps.mp3"
+    },
+    {
+      "id": "filterblade:Stefan Gold:6veryvaluable.mp3",
+      "label": "Stefan Gold - Very valuable",
+      "group": "FilterBlade - Stefan Gold",
+      "kind": "filterblade",
+      "pack": "Stefan Gold",
+      "file": "6veryvaluable.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Stefan%20Gold/6veryvaluable.mp3"
+    },
+    {
+      "id": "filterblade:Stefan Gold:7chancing.mp3",
+      "label": "Stefan Gold - Chancing",
+      "group": "FilterBlade - Stefan Gold",
+      "kind": "filterblade",
+      "pack": "Stefan Gold",
+      "file": "7chancing.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Stefan%20Gold/7chancing.mp3"
+    },
+    {
+      "id": "filterblade:Stefan Gold:12leveling.mp3",
+      "label": "Stefan Gold - Leveling",
+      "group": "FilterBlade - Stefan Gold",
+      "kind": "filterblade",
+      "pack": "Stefan Gold",
+      "file": "12leveling.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Stefan%20Gold/12leveling.mp3"
+    },
+    {
+      "id": "filterblade:Stefan Gold:placeholder.mp3",
+      "label": "Stefan Gold - Placeholder",
+      "group": "FilterBlade - Stefan Gold",
+      "kind": "filterblade",
+      "pack": "Stefan Gold",
+      "file": "placeholder.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Stefan%20Gold/placeholder.mp3"
+    },
+    {
+      "id": "filterblade:Gilbertamie:1maybevaluable.mp3",
+      "label": "Gilbertamie - May be valuable",
+      "group": "FilterBlade - Gilbertamie",
+      "kind": "filterblade",
+      "pack": "Gilbertamie",
+      "file": "1maybevaluable.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Gilbertamie/1maybevaluable.mp3"
+    },
+    {
+      "id": "filterblade:Gilbertamie:2currency.mp3",
+      "label": "Gilbertamie - Currency",
+      "group": "FilterBlade - Gilbertamie",
+      "kind": "filterblade",
+      "pack": "Gilbertamie",
+      "file": "2currency.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Gilbertamie/2currency.mp3"
+    },
+    {
+      "id": "filterblade:Gilbertamie:3uniques.mp3",
+      "label": "Gilbertamie - Uniques",
+      "group": "FilterBlade - Gilbertamie",
+      "kind": "filterblade",
+      "pack": "Gilbertamie",
+      "file": "3uniques.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Gilbertamie/3uniques.mp3"
+    },
+    {
+      "id": "filterblade:Gilbertamie:4maps.mp3",
+      "label": "Gilbertamie - Maps",
+      "group": "FilterBlade - Gilbertamie",
+      "kind": "filterblade",
+      "pack": "Gilbertamie",
+      "file": "4maps.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Gilbertamie/4maps.mp3"
+    },
+    {
+      "id": "filterblade:Gilbertamie:5highmaps.mp3",
+      "label": "Gilbertamie - High maps",
+      "group": "FilterBlade - Gilbertamie",
+      "kind": "filterblade",
+      "pack": "Gilbertamie",
+      "file": "5highmaps.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Gilbertamie/5highmaps.mp3"
+    },
+    {
+      "id": "filterblade:Gilbertamie:6veryvaluable.mp3",
+      "label": "Gilbertamie - Very valuable",
+      "group": "FilterBlade - Gilbertamie",
+      "kind": "filterblade",
+      "pack": "Gilbertamie",
+      "file": "6veryvaluable.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Gilbertamie/6veryvaluable.mp3"
+    },
+    {
+      "id": "filterblade:Gilbertamie:7chancing.mp3",
+      "label": "Gilbertamie - Chancing",
+      "group": "FilterBlade - Gilbertamie",
+      "kind": "filterblade",
+      "pack": "Gilbertamie",
+      "file": "7chancing.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Gilbertamie/7chancing.mp3"
+    },
+    {
+      "id": "filterblade:Gilbertamie:12leveling.mp3",
+      "label": "Gilbertamie - Leveling",
+      "group": "FilterBlade - Gilbertamie",
+      "kind": "filterblade",
+      "pack": "Gilbertamie",
+      "file": "12leveling.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Gilbertamie/12leveling.mp3"
+    },
+    {
+      "id": "filterblade:Gilbertamie:placeholder.mp3",
+      "label": "Gilbertamie - Placeholder",
+      "group": "FilterBlade - Gilbertamie",
+      "kind": "filterblade",
+      "pack": "Gilbertamie",
+      "file": "placeholder.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Gilbertamie/placeholder.mp3"
+    },
+    {
+      "id": "filterblade:Zizaran:1maybevaluable.mp3",
+      "label": "Zizaran - May be valuable",
+      "group": "FilterBlade - Zizaran",
+      "kind": "filterblade",
+      "pack": "Zizaran",
+      "file": "1maybevaluable.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Zizaran/1maybevaluable.mp3"
+    },
+    {
+      "id": "filterblade:Zizaran:2currency.mp3",
+      "label": "Zizaran - Currency",
+      "group": "FilterBlade - Zizaran",
+      "kind": "filterblade",
+      "pack": "Zizaran",
+      "file": "2currency.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Zizaran/2currency.mp3"
+    },
+    {
+      "id": "filterblade:Zizaran:3uniques.mp3",
+      "label": "Zizaran - Uniques",
+      "group": "FilterBlade - Zizaran",
+      "kind": "filterblade",
+      "pack": "Zizaran",
+      "file": "3uniques.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Zizaran/3uniques.mp3"
+    },
+    {
+      "id": "filterblade:Zizaran:4maps.mp3",
+      "label": "Zizaran - Maps",
+      "group": "FilterBlade - Zizaran",
+      "kind": "filterblade",
+      "pack": "Zizaran",
+      "file": "4maps.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Zizaran/4maps.mp3"
+    },
+    {
+      "id": "filterblade:Zizaran:5highmaps.mp3",
+      "label": "Zizaran - High maps",
+      "group": "FilterBlade - Zizaran",
+      "kind": "filterblade",
+      "pack": "Zizaran",
+      "file": "5highmaps.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Zizaran/5highmaps.mp3"
+    },
+    {
+      "id": "filterblade:Zizaran:6veryvaluable.mp3",
+      "label": "Zizaran - Very valuable",
+      "group": "FilterBlade - Zizaran",
+      "kind": "filterblade",
+      "pack": "Zizaran",
+      "file": "6veryvaluable.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Zizaran/6veryvaluable.mp3"
+    },
+    {
+      "id": "filterblade:Zizaran:7chancing.mp3",
+      "label": "Zizaran - Chancing",
+      "group": "FilterBlade - Zizaran",
+      "kind": "filterblade",
+      "pack": "Zizaran",
+      "file": "7chancing.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Zizaran/7chancing.mp3"
+    },
+    {
+      "id": "filterblade:Zizaran:12leveling.mp3",
+      "label": "Zizaran - Leveling",
+      "group": "FilterBlade - Zizaran",
+      "kind": "filterblade",
+      "pack": "Zizaran",
+      "file": "12leveling.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Zizaran/12leveling.mp3"
+    },
+    {
+      "id": "filterblade:Zizaran:placeholder.mp3",
+      "label": "Zizaran - Placeholder",
+      "group": "FilterBlade - Zizaran",
+      "kind": "filterblade",
+      "pack": "Zizaran",
+      "file": "placeholder.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/Zizaran/placeholder.mp3"
+    },
+    {
+      "id": "filterblade:ItsYoji:1maybevaluable.mp3",
+      "label": "ItsYoji - May be valuable",
+      "group": "FilterBlade - ItsYoji",
+      "kind": "filterblade",
+      "pack": "ItsYoji",
+      "file": "1maybevaluable.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/ItsYoji/1maybevaluable.mp3"
+    },
+    {
+      "id": "filterblade:ItsYoji:2currency.mp3",
+      "label": "ItsYoji - Currency",
+      "group": "FilterBlade - ItsYoji",
+      "kind": "filterblade",
+      "pack": "ItsYoji",
+      "file": "2currency.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/ItsYoji/2currency.mp3"
+    },
+    {
+      "id": "filterblade:ItsYoji:3uniques.mp3",
+      "label": "ItsYoji - Uniques",
+      "group": "FilterBlade - ItsYoji",
+      "kind": "filterblade",
+      "pack": "ItsYoji",
+      "file": "3uniques.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/ItsYoji/3uniques.mp3"
+    },
+    {
+      "id": "filterblade:ItsYoji:4maps.mp3",
+      "label": "ItsYoji - Maps",
+      "group": "FilterBlade - ItsYoji",
+      "kind": "filterblade",
+      "pack": "ItsYoji",
+      "file": "4maps.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/ItsYoji/4maps.mp3"
+    },
+    {
+      "id": "filterblade:ItsYoji:5highmaps.mp3",
+      "label": "ItsYoji - High maps",
+      "group": "FilterBlade - ItsYoji",
+      "kind": "filterblade",
+      "pack": "ItsYoji",
+      "file": "5highmaps.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/ItsYoji/5highmaps.mp3"
+    },
+    {
+      "id": "filterblade:ItsYoji:6veryvaluable.mp3",
+      "label": "ItsYoji - Very valuable",
+      "group": "FilterBlade - ItsYoji",
+      "kind": "filterblade",
+      "pack": "ItsYoji",
+      "file": "6veryvaluable.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/ItsYoji/6veryvaluable.mp3"
+    },
+    {
+      "id": "filterblade:ItsYoji:7chancing.mp3",
+      "label": "ItsYoji - Chancing",
+      "group": "FilterBlade - ItsYoji",
+      "kind": "filterblade",
+      "pack": "ItsYoji",
+      "file": "7chancing.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/ItsYoji/7chancing.mp3"
+    },
+    {
+      "id": "filterblade:ItsYoji:12leveling.mp3",
+      "label": "ItsYoji - Leveling",
+      "group": "FilterBlade - ItsYoji",
+      "kind": "filterblade",
+      "pack": "ItsYoji",
+      "file": "12leveling.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/ItsYoji/12leveling.mp3"
+    },
+    {
+      "id": "filterblade:ItsYoji:placeholder.mp3",
+      "label": "ItsYoji - Placeholder",
+      "group": "FilterBlade - ItsYoji",
+      "kind": "filterblade",
+      "pack": "ItsYoji",
+      "file": "placeholder.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/ItsYoji/placeholder.mp3"
+    },
+    {
+      "id": "filterblade:ItsYoji:Slurp.mp3",
+      "label": "ItsYoji - Slurp",
+      "group": "FilterBlade - ItsYoji",
+      "kind": "filterblade",
+      "pack": "ItsYoji",
+      "file": "Slurp.mp3",
+      "url": "https://www.filterblade.xyz/assets/communitySounds/ItsYoji/Slurp.mp3"
+    }
+  ]
+}
