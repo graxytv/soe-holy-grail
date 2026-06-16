@@ -1,8 +1,6 @@
 # SoE Holy Grail
 
-Sanctuary of Exile holy grail tracker created by Graxy_TV.
-
-SoE Holy Grail is a desktop tracker for Sanctuary of Exile players who want automatic grail progress without keeping every item forever. It scans your shared stash and selected character save, marks new grail completions, and keeps those completions permanently after the first discovery.
+SoE Holy Grail is a desktop grail tracker for Sanctuary of Exile players who want a lightweight automatic grail tracker. It scans your shared stash and selected character save, marks new grail completions, and keeps those completions permanently after the first discovery.
 
 ## Screenshots
 
@@ -20,13 +18,12 @@ SoE Holy Grail is a desktop tracker for Sanctuary of Exile players who want auto
 
 ## Features
 
-- Sanctuary of Exile-only item catalog.
 - Tracks unique items, set items, runes, and Fate Cards.
 - Fate Cards complete after one full required stack is found.
 - Automatic scans for `pd2_shared.stash`, `pd2_hc_shared.stash`, and the selected `.d2s` character.
 - Persistent grail history, so items stay completed even if you drop or trade them later.
 - Settings reset button for starting a fresh grail without changing app configuration.
-- Character tab with Diablo II class portraits.
+- Character tab where you can select the character you're actively playing so items in their inventory get tracked!
 - Recent Finds panel for the latest 20 grail completions.
 - Optional always-on-top progress circle overlay with new-find popup.
 - Configurable new-grail sound using bundled SoE Companion sounds and FilterBlade sound options.
@@ -68,22 +65,3 @@ User progress is stored outside the app folder at:
 ```
 
 The app keeps grail completions after first discovery. Auto-scans add newly completed entries but do not remove old completions when items leave your stash or inventory.
-
-## Releases And Updates
-
-The in-app updater checks GitHub releases at `graxytv/soe-holy-grail`, using the app version in `package.json`.
-
-Release flow:
-
-1. Update `version` in `package.json`.
-2. Copy the current source into `SoE Holy Grail Runtime\resources\app`.
-3. Run:
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\package-release.ps1
-```
-
-4. Create a GitHub release tagged like `v0.1.1`.
-5. Upload the generated `dist\SoE-Holy-Grail-win32-x64-v0.1.1.zip` asset.
-
-Players can check and install updates from Settings. When a newer release with a matching Windows zip exists, an Update button appears beside the Settings tab.
