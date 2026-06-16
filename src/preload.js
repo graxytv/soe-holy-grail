@@ -4,6 +4,7 @@ contextBridge.exposeInMainWorld("soeGrail", {
   getInitialData: () => ipcRenderer.invoke("grail:getInitialData"),
   toggleItem: (itemId, found) => ipcRenderer.invoke("grail:toggleItem", itemId, found),
   scanNow: () => ipcRenderer.invoke("grail:scanNow"),
+  syncPlayer: () => ipcRenderer.invoke("grail:syncPlayer"),
   resetGrailData: () => ipcRenderer.invoke("grail:resetGrailData"),
   chooseStashFile: () => ipcRenderer.invoke("grail:chooseStashFile"),
   clearStashFile: () => ipcRenderer.invoke("grail:clearStashFile"),
@@ -13,6 +14,7 @@ contextBridge.exposeInMainWorld("soeGrail", {
   clearSaveFolder: () => ipcRenderer.invoke("grail:clearSaveFolder"),
   setOverlayConfig: (patch) => ipcRenderer.invoke("grail:setOverlayConfig", patch),
   setSoundConfig: (patch) => ipcRenderer.invoke("grail:setSoundConfig", patch),
+  setPlayerSyncConfig: (patch) => ipcRenderer.invoke("grail:setPlayerSyncConfig", patch),
   checkForUpdates: () => ipcRenderer.invoke("grail:checkForUpdates"),
   installUpdate: () => ipcRenderer.invoke("grail:installUpdate"),
   onState: (callback) => {

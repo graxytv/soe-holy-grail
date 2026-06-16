@@ -184,7 +184,7 @@ h2 {
 
 .button-row {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 8px;
   margin-top: 12px;
 }
@@ -378,6 +378,10 @@ h2 {
 }
 
 .sound-setting-row {
+  align-items: start;
+}
+
+.player-sync-setting-row {
   align-items: start;
 }
 

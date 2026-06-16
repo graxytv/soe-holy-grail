@@ -1,7 +1,7 @@
 const { app, BrowserWindow, dialog, ipcMain, screen } = require("electron");
 const fs = require("fs");
 const path = require("path");
-const { startAutoScan, scanSaveFiles, listCharacters, defaultSaveFolder, defaultStashPath } = require("./scanner");
+const { startAutoScan, scanSaveFiles, buildLookup, scanFile, listCharacters, defaultSaveFolder, defaultStashPath } = require("./scanner");
 const { checkForUpdate, cleanVersion, installUpdate } = require("./updater");
 
 const ROOT_DIR = path.resolve(__dirname, "..");
@@ -12,12 +12,13 @@ const PACKAGE_PATH = path.join(ROOT_DIR, "package.json");
 const OVERLAY_TOAST_HEIGHT = 38;
 const OVERLAY_MIN_WIDTH = 220;
 const DEFAULT_SOUND_CONFIG = { soundId: "", volume: 0.8 };
+const DEFAULT_PLAYER_SYNC_CONFIG = { enabled: false, intervalSeconds: 10 };
 const PACKAGE_INFO = readJson(PACKAGE_PATH, {});
 const UPDATE_FEED = {
   owner: PACKAGE_INFO.update?.owner || "graxytv",
   repo: PACKAGE_INFO.update?.repo || "soe-holy-grail"
 };
-const CURRENT_VERSION = cleanVersion(app.getVersion() || PACKAGE_INFO.version || "0.1.0");
+const CURRENT_VERSION = cleanVersion(app.getVersion() || PACKAGE_INFO.version || "0.1.2");
 
 app.commandLine.appendSwitch("autoplay-policy", "no-user-gesture-required");
 
@@ -27,6 +28,8 @@ let appState = null;
 let stopScan = null;
 let applyingOverlayBounds = false;
 let overlayBoundsTimer = null;
+let playerSyncTimer = null;
+let playerSyncBusy = false;
 let soundOptionsCache = null;
 let updateState = {
   state: "idle",
@@ -124,6 +127,14 @@ function normalizeSoundConfig(value) {
   };
 }
 
+function normalizePlayerSyncConfig(value) {
+  const playerSync = value && typeof value === "object" ? value : {};
+  return {
+    enabled: Boolean(playerSync.enabled),
+    intervalSeconds: clampNumber(playerSync.intervalSeconds, 3, 60, DEFAULT_PLAYER_SYNC_CONFIG.intervalSeconds)
+  };
+}
+
 function catalogItems() {
   const catalog = readJson(CATALOG_PATH, { items: {} });
   return Object.entries(catalog.items || {})
@@ -171,6 +182,10 @@ function buildInitialState() {
     soundId: rawConfig.grailSoundId,
     volume: rawConfig.grailSoundVolume
   });
+  const playerSync = normalizePlayerSyncConfig(rawConfig.playerSync || {
+    enabled: rawConfig.playerSyncEnabled,
+    intervalSeconds: rawConfig.playerSyncIntervalSeconds
+  });
   const characters = listCharacters({ stashPath: migratedStashPath, saveFolder });
   const validItemIds = new Set(items.map((item) => item.id));
   const found = saved.found && typeof saved.found === "object"
@@ -191,7 +206,8 @@ function buildInitialState() {
       defaultSaveFolder: defaultSaveFolder(migratedStashPath),
       defaultStashPath: defaultStashPath(),
       overlay,
-      sound
+      sound,
+      playerSync
     }
   };
 }
@@ -345,17 +361,16 @@ function refreshCharacters() {
 }
 
 async function runScan(reason = "manual") {
-  broadcastSync({ state: "syncing", message: "Scanning save files...", reason });
+  broadcastSync({ state: "syncing", message: "Syncing stash files...", reason });
   try {
     const result = await scanSaveFiles(appState.items, {
       stashPath: appState.config.stashPath,
-      characterPath: appState.config.characterPath,
       saveFolder: appState.config.saveFolder
     });
-    const added = syncAutoFound(result.found, "save-scan");
+    const added = syncAutoFound(result.found, "stash-scan");
     broadcastSync({
       state: "synced",
-      message: added.length > 0 ? `Found ${added.length} new grail item${added.length === 1 ? "" : "s"}.` : "No new grail items found.",
+      message: added.length > 0 ? `Found ${added.length} new grail item${added.length === 1 ? "" : "s"} from stash.` : "Stash sync complete.",
       files: result.files,
       found: result.found.length,
       added: added.length,
@@ -365,6 +380,52 @@ async function runScan(reason = "manual") {
   } catch (error) {
     broadcastSync({ state: "error", message: error.message || String(error), reason });
     throw error;
+  }
+}
+
+async function runPlayerScan(reason = "player-manual") {
+  if (playerSyncBusy) {
+    return { files: [], found: [], added: [], errors: [], busy: true };
+  }
+
+  const characterPath = String(appState.config.characterPath || "").trim();
+  if (!characterPath || !fs.existsSync(characterPath)) {
+    const message = "No active character selected for player sync.";
+    broadcastSync({ state: "error", message, reason });
+    return { files: [], found: [], added: [], errors: [{ file: characterPath, error: message }] };
+  }
+
+  playerSyncBusy = true;
+  broadcastSync({ state: "syncing", message: "Syncing active player...", reason });
+  try {
+    const lookup = buildLookup(appState.items);
+    const result = scanFile(characterPath, lookup);
+    const found = new Set(result.found);
+    for (const [itemId, goal] of lookup.fateCardGoals) {
+      if ((result.fateCardCounts.get(itemId) || 0) >= goal.stackSize) found.add(itemId);
+    }
+    const foundIds = [...found];
+    const added = syncAutoFound(foundIds, "player-scan");
+    broadcastSync({
+      state: "synced",
+      message: added.length > 0 ? `Found ${added.length} new grail item${added.length === 1 ? "" : "s"} from player.` : "Player sync complete.",
+      files: [characterPath],
+      found: foundIds.length,
+      added: added.length,
+      reason
+    });
+    return {
+      files: [characterPath],
+      found: foundIds,
+      fateCardCounts: Object.fromEntries(result.fateCardCounts),
+      errors: [],
+      added
+    };
+  } catch (error) {
+    broadcastSync({ state: "error", message: error.message || String(error), reason });
+    throw error;
+  } finally {
+    playerSyncBusy = false;
   }
 }
 
@@ -477,11 +538,25 @@ function restartAutoScan() {
   }
   stopScan = startAutoScan(appState.items, {
     stashPath: appState.config.stashPath,
-    characterPath: appState.config.characterPath,
     saveFolder: appState.config.saveFolder,
     onStatus: broadcastSync,
-    onFound: (ids) => syncAutoFound(ids, "save-scan")
+    onFound: (ids) => syncAutoFound(ids, "stash-scan")
   });
+}
+
+function restartPlayerSyncTimer() {
+  if (playerSyncTimer) {
+    clearInterval(playerSyncTimer);
+    playerSyncTimer = null;
+  }
+
+  const playerSync = normalizePlayerSyncConfig(appState.config.playerSync);
+  appState.config.playerSync = playerSync;
+  if (!playerSync.enabled || !appState.config.characterPath) return;
+
+  playerSyncTimer = setInterval(() => {
+    runPlayerScan("player-interval").catch(() => {});
+  }, playerSync.intervalSeconds * 1000);
 }
 
 function defaultOverlayBounds(size) {
@@ -626,6 +701,7 @@ app.whenReady().then(() => {
   createWindow();
   applyOverlayConfig();
   restartAutoScan();
+  restartPlayerSyncTimer();
   setTimeout(() => {
     runUpdateCheck("startup").catch(() => {});
   }, 1800);
@@ -644,6 +720,7 @@ app.whenReady().then(() => {
     return publicState();
   });
   ipcMain.handle("grail:scanNow", () => runScan("manual"));
+  ipcMain.handle("grail:syncPlayer", () => runPlayerScan("player-manual"));
   ipcMain.handle("grail:resetGrailData", async () => {
     const result = await dialog.showMessageBox(mainWindow, {
       type: "warning",
@@ -678,6 +755,7 @@ app.whenReady().then(() => {
       persistConfig();
       refreshCharacters();
       restartAutoScan();
+      restartPlayerSyncTimer();
       broadcastState();
       runScan("stash-selected").catch(() => {});
     }
@@ -689,6 +767,7 @@ app.whenReady().then(() => {
     persistConfig();
     refreshCharacters();
     restartAutoScan();
+    restartPlayerSyncTimer();
     broadcastState();
     return publicState();
   });
@@ -706,8 +785,9 @@ app.whenReady().then(() => {
     }
     persistConfig();
     restartAutoScan();
+    restartPlayerSyncTimer();
     broadcastState();
-    runScan("character-selected").catch(() => {});
+    if (appState.config.characterPath) runPlayerScan("character-selected").catch(() => {});
     return publicState();
   });
   ipcMain.handle("grail:chooseSaveFolder", async () => {
@@ -722,6 +802,7 @@ app.whenReady().then(() => {
       persistConfig();
       refreshCharacters();
       restartAutoScan();
+      restartPlayerSyncTimer();
       broadcastState();
       runScan("save-folder-selected").catch(() => {});
     }
@@ -733,6 +814,7 @@ app.whenReady().then(() => {
     persistConfig();
     refreshCharacters();
     restartAutoScan();
+    restartPlayerSyncTimer();
     broadcastState();
     return publicState();
   });
@@ -757,6 +839,17 @@ app.whenReady().then(() => {
     broadcastState();
     return publicState();
   });
+  ipcMain.handle("grail:setPlayerSyncConfig", (_event, patch) => {
+    const nextPlayerSync = patch && typeof patch === "object" ? patch : {};
+    appState.config.playerSync = normalizePlayerSyncConfig({
+      ...appState.config.playerSync,
+      ...nextPlayerSync
+    });
+    persistConfig();
+    restartPlayerSyncTimer();
+    broadcastState();
+    return publicState();
+  });
   ipcMain.handle("grail:checkForUpdates", () => runUpdateCheck("manual"));
   ipcMain.handle("grail:installUpdate", () => runUpdateInstall());
 
@@ -767,6 +860,7 @@ app.whenReady().then(() => {
 
 app.on("window-all-closed", () => {
   clearTimeout(overlayBoundsTimer);
+  if (playerSyncTimer) clearInterval(playerSyncTimer);
   if (stopScan) stopScan();
   if (process.platform !== "darwin") app.quit();
 });

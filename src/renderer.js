@@ -4,11 +4,12 @@ const state = {
   characters: [],
   found: {},
   recent: [],
-  update: { state: "idle", available: false, currentVersion: "0.1.1", latestVersion: "", message: "Update status unavailable." },
+  update: { state: "idle", available: false, currentVersion: "0.1.2", latestVersion: "", message: "Update status unavailable." },
   config: {
     stashPath: "",
     saveFolder: "",
     characterPath: "",
+    playerSync: { enabled: false, intervalSeconds: 10 },
     overlay: { enabled: false, size: 104, clickThrough: false },
     sound: { soundId: "", volume: 0.8 }
   },
@@ -42,6 +43,7 @@ const el = {
   characterSaveFolder: document.getElementById("characterSaveFolder"),
   characterList: document.getElementById("characterList"),
   scanNow: document.getElementById("scanNow"),
+  syncPlayer: document.getElementById("syncPlayer"),
   chooseStash: document.getElementById("chooseStash"),
   clearStash: document.getElementById("clearStash"),
   settingsChooseStash: document.getElementById("settingsChooseStash"),
@@ -51,6 +53,10 @@ const el = {
   clearCharacter: document.getElementById("clearCharacter"),
   settingsChooseSaveFolder: document.getElementById("settingsChooseSaveFolder"),
   settingsClearSaveFolder: document.getElementById("settingsClearSaveFolder"),
+  settingsPlayerSyncEnabled: document.getElementById("settingsPlayerSyncEnabled"),
+  settingsPlayerSyncInterval: document.getElementById("settingsPlayerSyncInterval"),
+  settingsPlayerSyncIntervalValue: document.getElementById("settingsPlayerSyncIntervalValue"),
+  settingsPlayerSyncStatus: document.getElementById("settingsPlayerSyncStatus"),
   settingsOverlayEnabled: document.getElementById("settingsOverlayEnabled"),
   settingsOverlayClickThrough: document.getElementById("settingsOverlayClickThrough"),
   settingsOverlaySize: document.getElementById("settingsOverlaySize"),
@@ -88,8 +94,13 @@ function mergeState(next) {
     stashPath: "",
     saveFolder: "",
     characterPath: "",
+    playerSync: { enabled: false, intervalSeconds: 10 },
     overlay: { enabled: false, size: 104, clickThrough: false },
     sound: { soundId: "", volume: 0.8 }
+  };
+  state.config.playerSync = {
+    enabled: Boolean(state.config.playerSync?.enabled),
+    intervalSeconds: Math.min(60, Math.max(3, Number(state.config.playerSync?.intervalSeconds) || 10))
   };
   state.config.overlay = {
     enabled: Boolean(state.config.overlay?.enabled),
@@ -299,6 +310,22 @@ function renderFolder() {
   el.activeCharacterPath.textContent = character
     ? `Active character: ${character.name} (${character.className})`
     : "Active character: none";
+  el.syncPlayer.disabled = !character;
+}
+
+function renderPlayerSyncSettings() {
+  const playerSync = state.config.playerSync || { enabled: false, intervalSeconds: 10 };
+  const interval = Math.min(60, Math.max(3, Number(playerSync.intervalSeconds) || 10));
+  const hasCharacter = Boolean(activeCharacter());
+  el.settingsPlayerSyncEnabled.checked = Boolean(playerSync.enabled);
+  el.settingsPlayerSyncInterval.value = interval;
+  el.settingsPlayerSyncInterval.disabled = !playerSync.enabled;
+  el.settingsPlayerSyncIntervalValue.textContent = `${interval}s`;
+  el.settingsPlayerSyncStatus.textContent = playerSync.enabled
+    ? hasCharacter
+      ? `Auto-syncing active player every ${interval} seconds.`
+      : `Auto-sync enabled; select an active character.`
+    : "Manual player sync only.";
 }
 
 function renderOverlaySettings() {
@@ -355,7 +382,7 @@ function renderUpdateSettings() {
   el.updateNavButton.classList.toggle("hidden", !available || busy);
   el.updateNavButton.textContent = update.latestVersion ? `Update v${update.latestVersion}` : "Update";
   el.settingsUpdateStatus.textContent = `${update.message || "Ready to check for updates."}${progress}`;
-  el.settingsCurrentVersion.textContent = `Current: v${update.currentVersion || "0.1.1"}`;
+  el.settingsCurrentVersion.textContent = `Current: v${update.currentVersion || "0.1.2"}`;
   el.settingsLatestVersion.textContent = `Latest: ${latest}`;
   el.settingsUpdateAsset.textContent = update.assetName ? `Asset: ${update.assetName}` : "Asset: none";
   el.settingsUpdateCheck.disabled = busy;
@@ -380,6 +407,7 @@ function render() {
   renderItems();
   renderCharacters();
   renderFolder();
+  renderPlayerSyncSettings();
   renderOverlaySettings();
   renderSoundSettings();
   renderUpdateSettings();
@@ -444,6 +472,10 @@ el.scanNow.addEventListener("click", () => {
   window.soeGrail.scanNow().catch((error) => setSync({ state: "error", message: error.message || String(error) }));
 });
 
+el.syncPlayer.addEventListener("click", () => {
+  window.soeGrail.syncPlayer().catch((error) => setSync({ state: "error", message: error.message || String(error) }));
+});
+
 async function chooseStashFile() {
   const next = await window.soeGrail.chooseStashFile();
   mergeState(next);
@@ -465,6 +497,7 @@ async function clearSaveFolder() {
 }
 
 let overlaySizeTimer = null;
+let playerSyncIntervalTimer = null;
 
 async function setOverlayConfig(patch) {
   const next = await window.soeGrail.setOverlayConfig({
@@ -472,6 +505,21 @@ async function setOverlayConfig(patch) {
     ...patch
   });
   mergeState(next);
+}
+
+async function setPlayerSyncConfig(patch) {
+  const next = await window.soeGrail.setPlayerSyncConfig({
+    ...(state.config.playerSync || {}),
+    ...patch
+  });
+  mergeState(next);
+}
+
+function schedulePlayerSyncInterval(intervalSeconds) {
+  clearTimeout(playerSyncIntervalTimer);
+  playerSyncIntervalTimer = setTimeout(() => {
+    setPlayerSyncConfig({ intervalSeconds }).catch((error) => setSync({ state: "error", message: error.message || String(error) }));
+  }, 120);
 }
 
 function scheduleOverlaySize(size) {
@@ -505,6 +553,19 @@ el.clearCharacter.addEventListener("click", async () => {
 });
 el.settingsChooseSaveFolder.addEventListener("click", chooseSaveFolder);
 el.settingsClearSaveFolder.addEventListener("click", clearSaveFolder);
+el.settingsPlayerSyncEnabled.addEventListener("change", () => {
+  setPlayerSyncConfig({ enabled: el.settingsPlayerSyncEnabled.checked }).catch((error) => setSync({ state: "error", message: error.message || String(error) }));
+});
+el.settingsPlayerSyncInterval.addEventListener("input", () => {
+  const interval = Math.min(60, Math.max(3, Math.round(Number(el.settingsPlayerSyncInterval.value) || 10)));
+  el.settingsPlayerSyncIntervalValue.textContent = `${interval}s`;
+  el.settingsPlayerSyncStatus.textContent = el.settingsPlayerSyncEnabled.checked
+    ? activeCharacter()
+      ? `Auto-syncing active player every ${interval} seconds.`
+      : `Auto-sync enabled; select an active character.`
+    : "Manual player sync only.";
+  schedulePlayerSyncInterval(interval);
+});
 el.settingsOverlayEnabled.addEventListener("change", () => {
   setOverlayConfig({ enabled: el.settingsOverlayEnabled.checked }).catch((error) => setSync({ state: "error", message: error.message || String(error) }));
 });

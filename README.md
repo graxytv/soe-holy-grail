@@ -21,6 +21,7 @@ SoE Holy Grail is a desktop grail tracker for Sanctuary of Exile players who wan
 - Tracks unique items, set items, runes, and Fate Cards.
 - Fate Cards complete after one full required stack is found.
 - Automatic scans for `pd2_shared.stash`, `pd2_hc_shared.stash`, and the selected `.d2s` character.
+- Manual Player Sync plus optional timed active-character sync with configurable interval.
 - Persistent grail history, so items stay completed even if you drop or trade them later.
 - Settings reset button for starting a fresh grail without changing app configuration.
 - Character tab where you can select the character you're actively playing so items in their inventory get tracked!

@@ -24,7 +24,8 @@
           </div>
           <div id="syncMeta" class="sync-meta">No scan has completed yet.</div>
           <div class="button-row">
-            <button id="scanNow" type="button">Scan Now</button>
+            <button id="scanNow" type="button">Stash Sync</button>
+            <button id="syncPlayer" type="button">Player Sync</button>
             <button id="chooseStash" type="button">Stash File</button>
           </div>
           <button id="clearStash" class="link-button" type="button">Use default stash</button>
@@ -134,6 +135,20 @@
                 <button id="settingsClearSaveFolder" type="button">Default</button>
               </div>
             </div>
+            <div class="setting-row player-sync-setting-row">
+              <div>
+                <strong>Player sync</strong>
+                <p id="settingsPlayerSyncStatus">Manual player sync only.</p>
+                <label class="toggle-setting">
+                  <input id="settingsPlayerSyncEnabled" type="checkbox" />
+                  <span>Auto-sync active player</span>
+                </label>
+              </div>
+              <div class="range-setting">
+                <label for="settingsPlayerSyncInterval">Interval <span id="settingsPlayerSyncIntervalValue">10s</span></label>
+                <input id="settingsPlayerSyncInterval" type="range" min="3" max="60" step="1" value="10" />
+              </div>
+            </div>
             <div class="setting-row overlay-setting-row">
               <div>
                 <strong>Progress overlay</strong>
@@ -175,7 +190,7 @@
                 <strong>App updates</strong>
                 <p id="settingsUpdateStatus">Release feed: graxytv/soe-holy-grail</p>
                 <div class="update-version-list">
-                  <span id="settingsCurrentVersion">Current: v0.1.1</span>
+                  <span id="settingsCurrentVersion">Current: v0.1.2</span>
                   <span id="settingsLatestVersion">Latest: Not checked</span>
                   <span id="settingsUpdateAsset">Asset: none</span>
                 </div>

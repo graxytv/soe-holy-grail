@@ -398,9 +398,13 @@ function collectSaveFiles(rootDir) {
 
 function listSaveFiles(options = {}) {
   const stashPath = typeof options === "string" ? options : options.stashPath || options.extraFolder || "";
+  const saveFolder = typeof options === "object" ? String(options.saveFolder || "").trim() : "";
   const seen = new Set();
   const files = [];
-  for (const dir of defaultSaveFolders(stashPath)) {
+  const scanRoots = saveFolder && !stashPath
+    ? [saveFolder, ...defaultSaveFolders(stashPath)]
+    : defaultSaveFolders(stashPath);
+  for (const dir of scanRoots) {
     for (const filePath of collectSaveFiles(dir)) {
       const normalized = filePath.toLowerCase();
       if (!seen.has(normalized)) {
@@ -414,7 +418,10 @@ function listSaveFiles(options = {}) {
 
 async function scanSaveFiles(items, options = {}) {
   const lookup = buildLookup(items);
-  const files = listSaveFiles({ stashPath: options.stashPath || options.extraFolder || "" });
+  const files = listSaveFiles({
+    stashPath: options.stashPath || options.extraFolder || "",
+    saveFolder: options.saveFolder || ""
+  });
   const characterPath = String(options.characterPath || "").trim();
   if (characterPath && fs.existsSync(characterPath) && isCharacterSaveFile(characterPath)) {
     const normalized = characterPath.toLowerCase();
