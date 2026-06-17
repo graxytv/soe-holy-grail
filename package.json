@@ -1,6 +1,6 @@
 {
   "name": "soe-holy-grail",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Sanctuary of Exile holy grail tracker",
   "main": "src/main.js",
   "author": "Graxy_TV",

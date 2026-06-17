@@ -18,7 +18,7 @@ const UPDATE_FEED = {
   owner: PACKAGE_INFO.update?.owner || "graxytv",
   repo: PACKAGE_INFO.update?.repo || "soe-holy-grail"
 };
-const CURRENT_VERSION = cleanVersion(app.getVersion() || PACKAGE_INFO.version || "0.1.2");
+const CURRENT_VERSION = cleanVersion(app.getVersion() || PACKAGE_INFO.version || "0.1.3");
 
 app.commandLine.appendSwitch("autoplay-policy", "no-user-gesture-required");
 

@@ -4,7 +4,7 @@ const state = {
   characters: [],
   found: {},
   recent: [],
-  update: { state: "idle", available: false, currentVersion: "0.1.2", latestVersion: "", message: "Update status unavailable." },
+  update: { state: "idle", available: false, currentVersion: "0.1.3", latestVersion: "", message: "Update status unavailable." },
   config: {
     stashPath: "",
     saveFolder: "",
@@ -382,7 +382,7 @@ function renderUpdateSettings() {
   el.updateNavButton.classList.toggle("hidden", !available || busy);
   el.updateNavButton.textContent = update.latestVersion ? `Update v${update.latestVersion}` : "Update";
   el.settingsUpdateStatus.textContent = `${update.message || "Ready to check for updates."}${progress}`;
-  el.settingsCurrentVersion.textContent = `Current: v${update.currentVersion || "0.1.2"}`;
+  el.settingsCurrentVersion.textContent = `Current: v${update.currentVersion || "0.1.3"}`;
   el.settingsLatestVersion.textContent = `Latest: ${latest}`;
   el.settingsUpdateAsset.textContent = update.assetName ? `Asset: ${update.assetName}` : "Asset: none";
   el.settingsUpdateCheck.disabled = busy;

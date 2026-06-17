@@ -223,10 +223,9 @@ function buildLookup(items) {
 }
 
 function lookupAdvancedItem(map, advancedId, code) {
-  const exact = map.get(makeKey(advancedId, code));
-  const shifted = map.get(makeKey(advancedId + 1, code));
-  if (exact && shifted && exact !== shifted) return shifted;
-  return exact || shifted || null;
+  return map.get(makeKey(advancedId, code))
+    || map.get(makeKey(advancedId + 1, code))
+    || null;
 }
 
 function looksLikeItemRecord(bytes, offset, code) {
