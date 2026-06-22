@@ -4,11 +4,12 @@ const state = {
   characters: [],
   found: {},
   recent: [],
-  update: { state: "idle", available: false, currentVersion: "0.1.3", latestVersion: "", message: "Update status unavailable." },
+  update: { state: "idle", available: false, currentVersion: "0.1.4", latestVersion: "", message: "Update status unavailable." },
   config: {
     stashPath: "",
     saveFolder: "",
     characterPath: "",
+    manualMode: false,
     playerSync: { enabled: false, intervalSeconds: 10 },
     overlay: { enabled: false, size: 104, clickThrough: false },
     sound: { soundId: "", volume: 0.8 }
@@ -53,6 +54,8 @@ const el = {
   clearCharacter: document.getElementById("clearCharacter"),
   settingsChooseSaveFolder: document.getElementById("settingsChooseSaveFolder"),
   settingsClearSaveFolder: document.getElementById("settingsClearSaveFolder"),
+  settingsManualModeEnabled: document.getElementById("settingsManualModeEnabled"),
+  settingsManualModeStatus: document.getElementById("settingsManualModeStatus"),
   settingsPlayerSyncEnabled: document.getElementById("settingsPlayerSyncEnabled"),
   settingsPlayerSyncInterval: document.getElementById("settingsPlayerSyncInterval"),
   settingsPlayerSyncIntervalValue: document.getElementById("settingsPlayerSyncIntervalValue"),
@@ -94,10 +97,12 @@ function mergeState(next) {
     stashPath: "",
     saveFolder: "",
     characterPath: "",
+    manualMode: false,
     playerSync: { enabled: false, intervalSeconds: 10 },
     overlay: { enabled: false, size: 104, clickThrough: false },
     sound: { soundId: "", volume: 0.8 }
   };
+  state.config.manualMode = Boolean(state.config.manualMode);
   state.config.playerSync = {
     enabled: Boolean(state.config.playerSync?.enabled),
     intervalSeconds: Math.min(60, Math.max(3, Number(state.config.playerSync?.intervalSeconds) || 10))
@@ -313,19 +318,37 @@ function renderFolder() {
   el.syncPlayer.disabled = !character;
 }
 
+function renderManualModeSettings() {
+  const enabled = Boolean(state.config.manualMode);
+  el.settingsManualModeEnabled.checked = enabled;
+  el.settingsManualModeStatus.textContent = enabled
+    ? "Automatic save and interval scans are paused."
+    : "Automatic scans enabled.";
+}
+
+function playerSyncStatusText({ manualMode, enabled, hasCharacter, interval }) {
+  if (manualMode) return "Manual Mode pauses automatic player sync.";
+  if (!enabled) return "Manual player sync only.";
+  return hasCharacter
+    ? `Auto-syncing active player every ${interval} seconds.`
+    : "Auto-sync enabled; select an active character.";
+}
+
 function renderPlayerSyncSettings() {
   const playerSync = state.config.playerSync || { enabled: false, intervalSeconds: 10 };
   const interval = Math.min(60, Math.max(3, Number(playerSync.intervalSeconds) || 10));
   const hasCharacter = Boolean(activeCharacter());
+  const manualMode = Boolean(state.config.manualMode);
   el.settingsPlayerSyncEnabled.checked = Boolean(playerSync.enabled);
   el.settingsPlayerSyncInterval.value = interval;
-  el.settingsPlayerSyncInterval.disabled = !playerSync.enabled;
+  el.settingsPlayerSyncInterval.disabled = manualMode || !playerSync.enabled;
   el.settingsPlayerSyncIntervalValue.textContent = `${interval}s`;
-  el.settingsPlayerSyncStatus.textContent = playerSync.enabled
-    ? hasCharacter
-      ? `Auto-syncing active player every ${interval} seconds.`
-      : `Auto-sync enabled; select an active character.`
-    : "Manual player sync only.";
+  el.settingsPlayerSyncStatus.textContent = playerSyncStatusText({
+    manualMode,
+    enabled: playerSync.enabled,
+    hasCharacter,
+    interval
+  });
 }
 
 function renderOverlaySettings() {
@@ -382,7 +405,7 @@ function renderUpdateSettings() {
   el.updateNavButton.classList.toggle("hidden", !available || busy);
   el.updateNavButton.textContent = update.latestVersion ? `Update v${update.latestVersion}` : "Update";
   el.settingsUpdateStatus.textContent = `${update.message || "Ready to check for updates."}${progress}`;
-  el.settingsCurrentVersion.textContent = `Current: v${update.currentVersion || "0.1.3"}`;
+  el.settingsCurrentVersion.textContent = `Current: v${update.currentVersion || "0.1.4"}`;
   el.settingsLatestVersion.textContent = `Latest: ${latest}`;
   el.settingsUpdateAsset.textContent = update.assetName ? `Asset: ${update.assetName}` : "Asset: none";
   el.settingsUpdateCheck.disabled = busy;
@@ -407,6 +430,7 @@ function render() {
   renderItems();
   renderCharacters();
   renderFolder();
+  renderManualModeSettings();
   renderPlayerSyncSettings();
   renderOverlaySettings();
   renderSoundSettings();
@@ -515,6 +539,11 @@ async function setPlayerSyncConfig(patch) {
   mergeState(next);
 }
 
+async function setManualMode(enabled) {
+  const next = await window.soeGrail.setManualMode(enabled);
+  mergeState(next);
+}
+
 function schedulePlayerSyncInterval(intervalSeconds) {
   clearTimeout(playerSyncIntervalTimer);
   playerSyncIntervalTimer = setTimeout(() => {
@@ -553,17 +582,21 @@ el.clearCharacter.addEventListener("click", async () => {
 });
 el.settingsChooseSaveFolder.addEventListener("click", chooseSaveFolder);
 el.settingsClearSaveFolder.addEventListener("click", clearSaveFolder);
+el.settingsManualModeEnabled.addEventListener("change", () => {
+  setManualMode(el.settingsManualModeEnabled.checked).catch((error) => setSync({ state: "error", message: error.message || String(error) }));
+});
 el.settingsPlayerSyncEnabled.addEventListener("change", () => {
   setPlayerSyncConfig({ enabled: el.settingsPlayerSyncEnabled.checked }).catch((error) => setSync({ state: "error", message: error.message || String(error) }));
 });
 el.settingsPlayerSyncInterval.addEventListener("input", () => {
   const interval = Math.min(60, Math.max(3, Math.round(Number(el.settingsPlayerSyncInterval.value) || 10)));
   el.settingsPlayerSyncIntervalValue.textContent = `${interval}s`;
-  el.settingsPlayerSyncStatus.textContent = el.settingsPlayerSyncEnabled.checked
-    ? activeCharacter()
-      ? `Auto-syncing active player every ${interval} seconds.`
-      : `Auto-sync enabled; select an active character.`
-    : "Manual player sync only.";
+  el.settingsPlayerSyncStatus.textContent = playerSyncStatusText({
+    manualMode: Boolean(state.config.manualMode),
+    enabled: el.settingsPlayerSyncEnabled.checked,
+    hasCharacter: Boolean(activeCharacter()),
+    interval
+  });
   schedulePlayerSyncInterval(interval);
 });
 el.settingsOverlayEnabled.addEventListener("change", () => {

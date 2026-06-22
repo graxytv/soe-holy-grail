@@ -15,6 +15,7 @@ contextBridge.exposeInMainWorld("soeGrail", {
   setOverlayConfig: (patch) => ipcRenderer.invoke("grail:setOverlayConfig", patch),
   setSoundConfig: (patch) => ipcRenderer.invoke("grail:setSoundConfig", patch),
   setPlayerSyncConfig: (patch) => ipcRenderer.invoke("grail:setPlayerSyncConfig", patch),
+  setManualMode: (enabled) => ipcRenderer.invoke("grail:setManualMode", enabled),
   checkForUpdates: () => ipcRenderer.invoke("grail:checkForUpdates"),
   installUpdate: () => ipcRenderer.invoke("grail:installUpdate"),
   onState: (callback) => {

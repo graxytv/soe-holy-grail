@@ -13,12 +13,13 @@ const OVERLAY_TOAST_HEIGHT = 38;
 const OVERLAY_MIN_WIDTH = 220;
 const DEFAULT_SOUND_CONFIG = { soundId: "", volume: 0.8 };
 const DEFAULT_PLAYER_SYNC_CONFIG = { enabled: false, intervalSeconds: 10 };
+const DEFAULT_MANUAL_MODE = false;
 const PACKAGE_INFO = readJson(PACKAGE_PATH, {});
 const UPDATE_FEED = {
   owner: PACKAGE_INFO.update?.owner || "graxytv",
   repo: PACKAGE_INFO.update?.repo || "soe-holy-grail"
 };
-const CURRENT_VERSION = cleanVersion(app.getVersion() || PACKAGE_INFO.version || "0.1.3");
+const CURRENT_VERSION = cleanVersion(app.getVersion() || PACKAGE_INFO.version || "0.1.4");
 
 app.commandLine.appendSwitch("autoplay-policy", "no-user-gesture-required");
 
@@ -186,6 +187,7 @@ function buildInitialState() {
     enabled: rawConfig.playerSyncEnabled,
     intervalSeconds: rawConfig.playerSyncIntervalSeconds
   });
+  const manualMode = typeof rawConfig.manualMode === "boolean" ? rawConfig.manualMode : DEFAULT_MANUAL_MODE;
   const characters = listCharacters({ stashPath: migratedStashPath, saveFolder });
   const validItemIds = new Set(items.map((item) => item.id));
   const found = saved.found && typeof saved.found === "object"
@@ -207,7 +209,8 @@ function buildInitialState() {
       defaultStashPath: defaultStashPath(),
       overlay,
       sound,
-      playerSync
+      playerSync,
+      manualMode
     }
   };
 }
@@ -304,6 +307,20 @@ function broadcastSync(payload) {
   if (overlayWindow && !overlayWindow.isDestroyed()) {
     overlayWindow.webContents.send("grail:sync", payload);
   }
+}
+
+function manualModeEnabled() {
+  return Boolean(appState?.config?.manualMode);
+}
+
+function runAutomaticStashScan(reason) {
+  if (manualModeEnabled()) return;
+  runScan(reason).catch(() => {});
+}
+
+function runAutomaticPlayerScan(reason) {
+  if (manualModeEnabled()) return;
+  runPlayerScan(reason).catch(() => {});
 }
 
 function setUpdateState(patch) {
@@ -536,6 +553,7 @@ function restartAutoScan() {
     stopScan();
     stopScan = null;
   }
+  if (manualModeEnabled()) return;
   stopScan = startAutoScan(appState.items, {
     stashPath: appState.config.stashPath,
     saveFolder: appState.config.saveFolder,
@@ -552,10 +570,11 @@ function restartPlayerSyncTimer() {
 
   const playerSync = normalizePlayerSyncConfig(appState.config.playerSync);
   appState.config.playerSync = playerSync;
+  if (manualModeEnabled()) return;
   if (!playerSync.enabled || !appState.config.characterPath) return;
 
   playerSyncTimer = setInterval(() => {
-    runPlayerScan("player-interval").catch(() => {});
+    runAutomaticPlayerScan("player-interval");
   }, playerSync.intervalSeconds * 1000);
 }
 
@@ -757,7 +776,7 @@ app.whenReady().then(() => {
       restartAutoScan();
       restartPlayerSyncTimer();
       broadcastState();
-      runScan("stash-selected").catch(() => {});
+      runAutomaticStashScan("stash-selected");
     }
     return publicState();
   });
@@ -787,7 +806,7 @@ app.whenReady().then(() => {
     restartAutoScan();
     restartPlayerSyncTimer();
     broadcastState();
-    if (appState.config.characterPath) runPlayerScan("character-selected").catch(() => {});
+    if (appState.config.characterPath) runAutomaticPlayerScan("character-selected");
     return publicState();
   });
   ipcMain.handle("grail:chooseSaveFolder", async () => {
@@ -804,7 +823,7 @@ app.whenReady().then(() => {
       restartAutoScan();
       restartPlayerSyncTimer();
       broadcastState();
-      runScan("save-folder-selected").catch(() => {});
+      runAutomaticStashScan("save-folder-selected");
     }
     return publicState();
   });
@@ -816,6 +835,21 @@ app.whenReady().then(() => {
     restartAutoScan();
     restartPlayerSyncTimer();
     broadcastState();
+    return publicState();
+  });
+  ipcMain.handle("grail:setManualMode", (_event, enabled) => {
+    appState.config.manualMode = Boolean(enabled);
+    persistConfig();
+    restartAutoScan();
+    restartPlayerSyncTimer();
+    broadcastState();
+    broadcastSync({
+      state: "idle",
+      message: appState.config.manualMode
+        ? "Manual Mode active. Automatic scans are paused."
+        : "Manual Mode off. Automatic scans are active.",
+      reason: "manual-mode"
+    });
     return publicState();
   });
   ipcMain.handle("grail:setOverlayConfig", (_event, patch) => {
